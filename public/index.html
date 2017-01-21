@@ -7,7 +7,6 @@
   <meta name="author" content="">
   <!--title-->
   <title>CENSOL | Any language, any time</title>
-
   <!--CSS-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -39,7 +38,7 @@
     <div class="navbar navbar-static-top" role="banner">
       <div class="container">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-sm-4 col-sm-offset-4">
             <div class="navbar-brand">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -48,15 +47,24 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="index.html">
-                <h1><img class="img-responsive" src="images/home/logo blanco.png" alt="logo"></h1>
+                <img class="img-responsive" src="images/home/logo blanco.png" alt="logo">
               </a>
             </div>
           </div>
-          <div class="col-sm-9">
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
             <nav class="collapse navbar-collapse navbar-right">
               <ul class="nav navbar-nav">
                 <li class="active menu"><a href="index.html">Inicio</a></li>
-                <li class="menu"><a href="nosotros.html">Nosotros</a></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Nosotros<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="nosotros.html">¿Quienes somos?</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Faq's</a></li>
+                  </ul>
+                </li>
                 <li class="dropdown"><a href="ingles.html" class="dropdown-toggle" data-toggle="dropdown">Ingles <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="Ingles/ingles-ninos.html">Escuela de ingles para niños</a></li>
@@ -84,7 +92,6 @@
                     <li><a href="traduccion.html">INGLES / ESPAÑOL</a></li>
                   </ul>
                 </li>
-
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Legalización <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="Legalizacion/apostilla.html">APOSTILLA</a></li>
@@ -98,12 +105,6 @@
                     <li><a href="Intercambio/otros-paises.html">OTROS PAISES</a></li>
                   </ul>
                 </li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">GALERIA <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <!-- <li><a href="fotos.html">FOTOS</a></li>
-                    <li><a href="videos.html">VIDEOS</a></li> -->
-                  </ul>
-                </li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">COMERCIALIZACION <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="Comercializacion/franquicia.html">FRANQUICIA</a></li>
@@ -111,8 +112,6 @@
                     <li><a href="Comercializacion/eventos.html">EVENTOS</a></li>
                   </ul>
                 </li>
-                <li class="menu"><a href="contacto.html">Contacto</a></li>
-                <li class="menu"><a href="#">FAQ'S</a></li>
               </ul>
             </nav>
             <div class="topbar-icons">

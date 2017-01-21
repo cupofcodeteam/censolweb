@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #navigation .navbar-static-top {
-	background-color: rgba(0, 0, 0, 0.7);
+	/*background-color: rgba(0, 0, 0, 0.7);*/
 	position: absolute;
 	width: 100%;
 	top: 0;
@@ -289,7 +289,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #navigation .navbar-static-top .navbar-right {
-	margin-right: 90px;
 	margin-left: center;
 }
 
@@ -4203,3 +4202,8 @@ textarea.form-control {
 
 
 /*================================================== ::END :: =============================================*/
+
+/* custom css */
+#navigation .navbar-static-top .navbar-right{
+  margin-top: 5%;
+}
