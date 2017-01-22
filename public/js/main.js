@@ -1,3 +1,12 @@
+(
+  function() {
+    document.getElementById("home-top").style.height = $(window).height()*0.80+"px";
+}());
+
+window.onresize = function(event) {
+    document.getElementById("home-top").style.height = $(window).height()*0.80+"px";
+};
+
 jQuery(function ($) {
 
     'use strict';
@@ -20,11 +29,11 @@ jQuery(function ($) {
     # Timer
     # Google Map Customization
     -------------------------------------------------*/
-	
+
 	 // ----------------------------------------------
-    // # Dropdown Menu Animation 
+    // # Dropdown Menu Animation
     // ----------------------------------------------
-	
+
 	(function () {
 		$('.dropdown').on('show.bs.dropdown', function(e){
 			$(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
@@ -37,9 +46,9 @@ jQuery(function ($) {
 	}());
 
 	// ----------------------------------------------
-    // # Navigation fixed  
-    // ----------------------------------------------	
-	
+    // # Navigation fixed
+    // ----------------------------------------------
+
 	(function () {
 		$(window).on('scroll', function(){
 			if( $(window).scrollTop()>650 ){
@@ -59,9 +68,9 @@ jQuery(function ($) {
 			}
 		});
 	}());
-	
-		
-	
+
+
+
 	// ----------------------------------------------
     // # Search
     // ----------------------------------------------
@@ -71,24 +80,24 @@ jQuery(function ($) {
         $('.fa-search').on('click', function() {
             $('.search').fadeIn(500, function() {
               $(this).toggleClass('search-toggle');
-            });     
+            });
         });
 
         $('.search-close').on('click', function() {
             $('.search').fadeOut(500, function() {
                 $(this).removeClass('search-toggle');
-            }); 
+            });
         });
 
     }());
-	
+
 	// ----------------------------------------------
     // # Parallax Scrolling
     // ----------------------------------------------
-    
+
     (function () {
-		
-        function parallaxInit() {       
+
+        function parallaxInit() {
            $("#promotion").parallax("50%", 0.3);
 			$("#twitter").parallax("50%", 0.3);
 			$("#promotion-two").parallax("50%", 0.3);
@@ -97,13 +106,13 @@ jQuery(function ($) {
 			$("#onepage #shop").parallax("50%", 0.3);
 			$("#landing #video-promotion").parallax("50%", 0.3);
 			$("#landing #feature-in").parallax("50%", 0.3);
-        }   
+        }
         parallaxInit();
 
     }());
-	
-	
-		
+
+
+
 	 // ----------------------------------------------
     // # Pretty Photo
     // ----------------------------------------------
@@ -115,21 +124,21 @@ jQuery(function ($) {
         });
 
     }());
-	
-	
+
+
 	// ----------------------------------------------
     // # Team filter
     // ----------------------------------------------
-	
+
 	(function () {
-		
+
        var $portfolio_selectors = $('.member-filter >ul>li>a');
 		var $portfolio = $('.all-members');
 		$portfolio.isotope({
 			itemSelector : '.member',
 			layoutMode : 'fitRows'
 		});
-		
+
 		$portfolio_selectors.on('click', function(){
 			$portfolio_selectors.removeClass('active');
 			$(this).addClass('active');
@@ -139,20 +148,20 @@ jQuery(function ($) {
 		});
 
     }());
-	
+
 	// ----------------------------------------------
     // # Portfolio filter
     // ----------------------------------------------
-	
+
 	(function () {
-		
+
       var $portfolio_selectors = $('.project-filter >ul>li>a');
 		var $portfolio = $('.all-products');
 		$portfolio.isotope({
 			itemSelector : '.filterable-product',
 			layoutMode : 'fitRows'
 		});
-		
+
 		$portfolio_selectors.on('click', function(){
 			$portfolio_selectors.removeClass('active');
 			$(this).addClass('active');
@@ -162,8 +171,8 @@ jQuery(function ($) {
 		});
 
     }());
-	
-	
+
+
 	// ----------------------------------------------
     // # Fun Fact Timer
     // ----------------------------------------------
@@ -183,9 +192,9 @@ jQuery(function ($) {
 				$(this).unbind('inview');
 			}
 		});
-	
+
 	}());
-	
+
 	// ----------------------------------------------
     // # SmoothScroll
     // ----------------------------------------------
@@ -195,21 +204,21 @@ jQuery(function ($) {
         smoothScroll.init();
 
     }());
-	
+
 	// ----------------------------------------------
     // # Clients Carousel Timing
     // ----------------------------------------------
 	(function () {
-	
+
 		$('#client-carousel').carousel({
 		  interval: 4000
 		})
-    }());	
-	
+    }());
+
     // ----------------------------------------------
     // # Google Map Customization
     // ----------------------------------------------
-	
+
 	(function(){
 
 		var map;
@@ -228,8 +237,8 @@ jQuery(function ($) {
 			clickable: false
 		});
 
-		
-		var styles = [ 
+
+		var styles = [
 
 		{
 			"featureType": "road",
@@ -270,10 +279,9 @@ jQuery(function ($) {
 		map.addStyle({
 			styledMapName:"Styled Map",
 			styles: styles,
-			mapTypeId: "map_style"  
+			mapTypeId: "map_style"
 		});
 
 		map.setStyle("map_style");
-	}());		
-		
+	}());
 });

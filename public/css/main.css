@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	content: "";
 	left: 50%;
-	top: -45px;
+	top: 45px;
 	margin-left: -15px;
 	width: 35px;
 	height: 25px;
@@ -855,6 +855,19 @@ h1, h2, h3, h4, h5, h6 {
 	width:100%;
 }
 
+#projects .project-content{
+	width:100%;
+	transition: all .3s ease-out;
+}
+#projects .project-content:hover {
+	width:100%;
+	/*-moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	-o-transform: scale(2);
+	-ms-transform: scale(2);*/
+	transform: scale(1.1);
+}
+
 .project {
 	overflow:hidden;
 }
@@ -863,13 +876,13 @@ h1, h2, h3, h4, h5, h6 {
 	margin:20px;
 }
 
-.project:hover .overlay:before {
+/*.project:hover .overlay:before {
 	right:0;
 }
 
 .project:hover .overlay:after {
 	left:0;
-}
+}*/
 
 .project-content .project:hover .overlay,
 .project-content .project:hover .overlay a,
@@ -4204,6 +4217,111 @@ textarea.form-control {
 /*================================================== ::END :: =============================================*/
 
 /* custom css */
-#navigation .navbar-static-top .navbar-right{
+#navigation .navbar-fixed-top .navbar-right{
   margin-top: 5%;
+}
+
+.top-nav-collapse{
+	background-color: #000;
+}
+
+.top-nav-collapse .navbar-brand{
+	display: none;
+}
+
+.top-nav-collapse .navbar-right{
+  margin-top: 0 !important;
+}
+
+.navbar-fixed-top .topbar-icons{
+	display: none;
+}
+
+#home-top{
+	background-image: url(../images/home/bg/slider-bg.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+
+#home-top .title {
+	margin-top: 22%;
+  color: white;
+}
+
+#home-top .title h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 46px;
+	line-height: 27px;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+
+#home-top .image-top{
+	width: 85%;
+	margin-top: 31%;
+}
+
+#projects {
+	padding-top: 1% !important;
+}
+
+/*temporal*/
+#projects > div > div:nth-child(3) > div:nth-child(5) > div > div > img{
+	height: 239px;
+}
+
+#projects .caption{
+	position: absolute;
+	opacity: 0;
+	-webkit-transition:all 0.45s ease-in-out;
+	-moz-transition:all 0.45s ease-in-out;
+	-o-transition:all 0.45s ease-in-out;
+	-ms-transition:all 0.45s ease-in-out;
+	transition:all 0.45s ease-in-out;
+	height: 100%;
+	width: 100%;
+}
+
+#projects .blur{
+	background-color: rgba(0,0,0,0.65);
+	height: 100%;
+	width: 100%;
+	z-index: 5;
+	position: absolute;
+}
+
+#projects .caption-text h3,#projects .caption-text h4{
+	/*text-transform: uppercase;*/
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:200;
+}
+
+#projects .caption-text{
+	z-index: 10;
+	color: #fff;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+  top: 5%;
+}
+
+#projects .caption-text-soft{
+
+  top: 20%;
+}
+
+#projects .project-content:hover .caption{
+	opacity: 1 !important;
+}
+
+#projects .project-content img{
+	float:left;
+}
+
+#projects .project-content a{
+	font-size: 40px;
 }
