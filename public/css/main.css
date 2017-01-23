@@ -348,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 .bottom-socials ul li a:hover,
 #navigation .navbar-right li i:hover,
 #navigation .topbar-icons span i:hover {
-	color:#ffe400;
+	color: rgb(85, 85, 85);
 }
 
 /*Dropdown CSS*/
@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-fixed-top .navbar-right .dropdown-menu {
-	background-color:rgba(0, 0, 0, 0.7);
+	background-color:rgba(255, 255, 255, 0.88);
 }
 
 .dropdown-submenu {
@@ -1057,7 +1057,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #promotion.parallax-section .overlay-bg {
-	background-color:rgba(176, 97, 1, 38);
+	    background-color: #FFF9C5;
 }
 
 #promotion .btn.btn-primary {
@@ -1307,11 +1307,11 @@ h1, h2, h3, h4, h5, h6 {
 	left:0;
 	width:100%;
 	height:100%;
-	background-color:rgba(60, 184, 120, 0.90);
+	background-color: #FFD447;
 }
 
 .footer-bottom {
-	background-color:#000;
+	background-color: #808075;
 	color:#fff;
 }
 
@@ -4222,7 +4222,7 @@ textarea.form-control {
 }
 
 .top-nav-collapse{
-	background-color: #000;
+	background-color: rgba(255, 133, 23, 0.94);
 }
 
 .top-nav-collapse .navbar-brand{
