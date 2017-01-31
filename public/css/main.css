@@ -40,20 +40,50 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 /* luisana esta usando CSS aqui despues acomodamos este desastre */
+
+
+#jovenes-adultos.page-breadcrumb {
+	background-image: url("../test/Joven.jpg");
+	min-height:320px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+}
 .img-circle{
 	    border-radius: 50%
 }
 
+.welcome.text-center > h1{
+	font-weight: 500;
+}
+
+section#informacion-1 {
+	font-size: 1.3em;
+    padding-top: 16px;
+}
+
+#informacion-1 > div > div:nth-child(2) > div:nth-child(1) > p{
+	font-size: medium;
+}
+#informacion-1 > div > div:nth-child(2) > div:nth-child(2) > p{
+	font-size: medium;
+}
+
+.col-md-8{
+	    padding-top: 74px;
+}
 .welcome.text-center {
-    padding-bottom: 49px;
+	border-radius: 3px;
+    background: rgba(245, 245, 245, 0.24);
+    border-top: #FFCE30 4px solid;
+    padding-bottom: 20px;
     padding-top: 22px;
 }
 
 .jumbotron {
 	padding: 30px 15px;
- margin-bottom: 4px;
- background: url(../test/contact-kid.jpg) center;
- background-size: cover;
+ margin-bottom: 0px;
+ background: #FFF9C5;
 }
 body {
 	font-family: 'Raleway', sans-serif;
@@ -3352,8 +3382,12 @@ textarea.form-control {
 	background-color:#fff;
 }
 
+
+
 #blog-breadcrumb.page-breadcrumb {
-	background-image:url(../images/home/bg/brd_bg_blog.jpg);
+	background-image: url(../test/contact-kid.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 #blog1 .page-breadcrumb h1 {
