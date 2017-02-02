@@ -4218,7 +4218,15 @@ textarea.form-control {
 
 /* custom css */
 #navigation .navbar-fixed-top .navbar-right{
-  margin-top: 5%;
+  float: none !important;
+	text-align: center;
+	margin-top: 5%;
+}
+
+#navigation .navbar-nav{
+	display: inline-block !important;
+	float: none !important;
+	vertical-align: top;
 }
 
 .top-nav-collapse{
