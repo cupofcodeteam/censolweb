@@ -4368,3 +4368,126 @@ textarea.form-control {
 .btn-primary{
 	    color: #555;
 }
+
+#projects .wrapper{
+	-webkit-perspective: 1700px;
+	-moz-perspective: 1700px;
+	perspective: 1700px;
+	-webkit-perspective-origin: 0 50%;
+	-moz-perspective-origin: 0 50%;
+	perspective-origin: 0 50%;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #333;
+  border-radius: 15px;
+}
+
+#projects .item-1 figcaption{
+  background: #fb8e32;
+}
+
+#projects .item-2 figcaption{
+	background: #b72c24;
+}
+
+#projects .item-3 figcaption{
+	background: #043096;
+}
+
+#projects .item-4 figcaption{
+	background: #008e2e;
+}
+
+#projects .item-5 figcaption{
+	background: #c21a39;
+}
+
+#projects .item-6 figcaption{
+	background-color: #00509e;
+}
+
+#projects .wrapper-row {
+  margin-bottom: 40px;
+}
+
+
+#projects .wrapper figure {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+#projects .wrapper figure > div {
+	overflow: hidden;
+}
+
+#projects .wrapper figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+#projects .wrapper figure:hover img,
+#projects .wrapper figure.cs-hover img {
+	-webkit-transform: translateX(25%);
+	-moz-transform: translateX(25%);
+	-ms-transform: translateX(25%);
+	transform: translateX(25%);
+}
+
+#projects .wrapper figcaption {
+	height: 100%;
+	width: 50%;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+#projects .wrapper figure:hover figcaption,
+#projects .wrapper figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+#projects .wrapper figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+#projects .wrapper figcaption h3{
+	color: #fff;
+}
+
+#projects .wrapper figcaption p{
+	color: #fff;
+	text-align: justify;
+}
+
+#projects .wrapper .btn.btn-primary {
+	color: #fff;
+	margin: 0;
+	display: block;
+}
