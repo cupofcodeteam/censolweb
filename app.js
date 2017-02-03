@@ -9,6 +9,8 @@ var routes = require('./routes/routes');
 
 var app = express();
 
+var Helper = require("./helpers/helper.js");
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
