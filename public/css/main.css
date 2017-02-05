@@ -40,6 +40,9 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
+
+
+
 body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
@@ -4379,7 +4382,6 @@ textarea.form-control {
 	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #333;
   border-radius: 15px;
 }
 
@@ -4456,8 +4458,6 @@ textarea.form-control {
 	top: 0;
 	left: 0;
 	padding: 20px;
-	border-top-left-radius: 15px;
-	border-bottom-left-radius: 15px;
 }
 
 #projects .wrapper figure:hover figcaption,
@@ -4490,4 +4490,222 @@ textarea.form-control {
 	color: #fff;
 	margin: 0;
 	display: block;
+}
+
+
+#personalizado .page-breadcrumb {
+	background-image: url("/images/ingles/Personalizado.jpeg");
+	min-height:320px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+
+#tecnicos .page-breadcrumb {
+	background-image: url("../images/ingles/tecnico.jpg");
+	min-height:320px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+
+.img-circle{
+	    border-radius: 50%
+}
+
+
+
+
+.welcome.text-center {
+	border-radius: 3px;
+    background: rgba(245, 245, 245, 0.24);
+    border-top: #FFCE30 4px solid;
+    padding-bottom: 20px;
+    padding-top: 22px;
+}
+
+.jumbotron {
+	padding: 30px 15px;
+ margin-bottom: 0px;
+ background: #FFF9C5;
+}
+
+/* seccion ingles para ni;os*/
+
+#ninos .page-breadcrumb {
+	background-image: url("/images/ingles/contact-kid.jpg");
+	min-height:320px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+#ninos .welcome.text-center {
+	background: rgba(245, 245, 245, 0.48);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#ninos .informacion-1{
+	font-size: 1.6rem;
+	padding-top: 50px;
+	text-align: justify;
+		padding-bottom: 30px;
+}
+
+/* seccion ingles para Jovenes y adultos*/
+
+#jovenes-adultos .page-breadcrumb {
+	background-image: url("/images/ingles/Joven.jpg");
+	min-height:320px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+
+#jovenes-adultos .welcome.text-center {
+	background: rgba(245, 245, 245, 0.48);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#jovenes-adultos .informacion-1{
+	font-size: 1.6rem;
+	padding-top: 50px;
+	text-align: justify;
+	padding-bottom: 30px;
+}
+#jovenes-adultos > section.informacion-1 > div > div:nth-child(2) > div:nth-child(2) > p{
+	font-size: 1.3rem;
+}
+/* seccion ingles para personalizado*/
+
+#personalizado .welcome.text-center {
+    background: rgba(245, 245, 245, 0.48);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#personalizado .informacion-1{
+	font-size: 1.6rem;
+	padding-top: 60px;
+	text-align: justify;
+	padding-bottom: 30px;
+}
+/* seccion ingles para tecnicos*/
+
+#tecnicos .welcome.text-center {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tecnicos .informacion-1 {
+	background: rgba(245, 245, 245, 0.39);
+    font-size: 1.6rem;
+    padding-top: 50px;
+    text-align: justify;
+}
+
+#tecnicos .informacion-3 {
+	font-size: 1.6rem;
+  padding-top: 82px;
+	  text-align: justify;
+}
+
+#tecnicos .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+	border-radius: 5px;
+}
+
+#tecnicos > section:nth-child(5) > div > div > div.col-md-8 > h2{
+	color: #FF8517 !important;
+    font-weight: 600 !important;
+}
+#tecnicos > section:nth-child(4) > div > div > div.col-md-8 > h2{
+	color: #FF8517 !important;
+    font-weight: 600 !important;
+}
+
+#tecnicos > section:nth-child(6) > div > div > div.col-md-8 > h2{
+	color: #FF8517 !important;
+    font-weight: 600 !important;
+}
+
+#tecnicos > section:nth-child(7) > div > div > div.col-md-8 > h2{
+	color: #FF8517 !important;
+  font-weight: 600 !important;
+}
+/* seccion ingles para corportativo*/
+#corporativo .welcome.text-center {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#corporativo .informacion-1 {
+	background: rgba(245, 245, 245, 0.39);
+    font-size: 1.6rem;
+    padding-top: 50px;
+    text-align: justify;
+}
+
+#corporativo .informacion-3 {
+	font-size: 1.6rem;
+  padding-top: 82px;
+	  text-align: justify;
+}
+#corporativo > section:nth-child(4) > div > div > div.col-md-8 > h2{
+	color: #FF8517 !important;
+  font-weight: 600 !important;
+}
+
+#corporativo > section:nth-child(5) > div > div > div.col-md-8 > h2{
+	color: #FF8517 !important;
+  font-weight: 600 !important;
+}
+
+#corporativo > section:nth-child(6) > div > div > div.col-md-8 > h2{
+	color: #FF8517 !important;
+  font-weight: 600 !important;
+}
+
+#corporativo > section:nth-child(7) > div > div > div.col-md-8 > h2{
+	color: #FF8517 !important;
+  font-weight: 600 !important;
+}
+
+#corporativo > section:nth-child(8) > div > div > div.col-md-8 > h2{
+	color: #FF8517 !important;
+  font-weight: 600 !important;
+}
+#corporativo .page-breadcrumb {
+	background-image: url("/images/ingles/corporativo.jpg");
+	min-height:320px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+/* seccion ingles para ingles en linea*/
+#en-linea .welcome.text-center {
+	background: rgba(245, 245, 245, 0.48);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#en-linea .informacion-1{
+	font-size: 1.6rem;
+	padding-top: 50px;
+	text-align: justify;
+		padding-bottom: 30px;
+}
+
+#en-linea .page-breadcrumb {
+	background-image: url("/images/ingles/online-1.jpg");
+	min-height:320px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
 }
