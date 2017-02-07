@@ -1,11 +1,16 @@
 (
   function() {
     document.getElementById("home-top").style.height = $(window).height()*0.80+"px";
+    document.getElementById("intercambio-country").style.height = $(window).height()*0.90+"px";
+    document.getElementById("intercambio-Vnzla").style.height = $(window).height()*0.90+"px";
 }());
 
 window.onresize = function(event) {
     document.getElementById("home-top").style.height = $(window).height()*0.80+"px";
+    document.getElementById("intercambio-country").style.height = $(window).height()*0.90+"px";
+    document.getElementById("intercambio-Vnzla").style.height = $(window).height()*0.90+"px";
 };
+
 
 jQuery(function ($) {
 
