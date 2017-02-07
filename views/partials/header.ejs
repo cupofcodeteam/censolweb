@@ -27,10 +27,24 @@
                 Nosotros<span class="caret"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="/nosotros/quienes-somos">¿Quienes somos?</a></li>
-                <li><a href="/nosotros/galeria">Galeria</a></li>
-                <li><a href="/nosotros/contacto">Contacto</a></li>
-                <li><a href="/nosotros/faqs">Faq's</a></li>
+                <div class="drop-item">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <div class="drop-content">
+                        <h3> Nosotros</h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <ul class="drop-link">
+                        <li><a href="/nosotros/quienes-somos">¿Quienes somos?</a></li>
+                        <li><a href="/nosotros/galeria">Galeria</a></li>
+                        <li><a href="/nosotros/contacto">Contacto</a></li>
+                        <li><a href="/nosotros/faqs">Faq's</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </ul>
             </li>
             <li class="<% if (page_name === 'instituto') { %>active <% } %> dropdown">
@@ -38,7 +52,51 @@
                 Academia<span class="caret">
               </a>
               <ul class="dropdown-menu">
-                <li class="dropdown-submenu"><a href="/instituto/ingles">Ingles</a>
+                <div class="drop-item">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="drop-section">
+                        <ul>
+                          <li><a class="title" href="/instituto/ingles">Ingles</a></li>
+                          <li><a href="/instituto/ingles/ingles-ninos">Escuela de ingles para niños</a></li>
+                          <li><a href="/instituto/ingles/jovenes-y-adultos">Jovenes Y Adultos</a></li>
+                          <li><a href="/instituto/ingles/personalizado">Personalizado</a></li>
+                          <li><a href="/instituto/ingles/tecnicos">Tecnicos Especializados</a></li>
+                          <li><a href="/instituto/ingles/corporativo">Ingles Corporativo</a></li>
+                          <li><a href="/instituto/ingles/en-linea">Ingles En Linea</a></li>
+                        </ul>
+                        <ul>
+                          <li><a class="title" href="/instituto/espanol">Español</a> </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="drop-section">
+                        <ul>
+                          <li><h3>Otros</h3> </li>
+                          <li><a href="/instituto/otros-idiomas/portugues">PORTUGUÉS</a></li>
+                          <li><a href="/instituto/otros-idiomas/frances">FRANCÉS</a></li>
+                          <li><a href="/instituto/otros-idiomas/italiano">ITALIANO</a></li>
+                          <li><a href="/instituto/otros-idiomas/aleman">ALEMÁN</a></li>
+                          <li><a href="/instituto/otros-idiomas/mandarin">MANDARÍN</a></li>
+                          <li><a href="/instituto/otros-idiomas/japones">JAPONÉS</a></li>
+                          <li><a href="/instituto/otros-idiomas/arabe">ÁRABE</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="drop-section">
+                        <ul>
+                          <li><h3>Intercambio</h3> </li>
+                          <li><a href="/instituto/intercambio/venezuela">EN VENEZUELA</a></li>
+                          <li><a href="/instituto/intercambio/otros-paises">OTROS PAISES</a></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <!-- <li class="dropdown-submenu"><a href="/instituto/ingles">Ingles</a>
                   <ul class="dropdown-menu">
                     <li><a href="/instituto/ingles/ingles-ninos">Escuela de ingles para niños</a></li>
                     <li><a href="/instituto/ingles/jovenes-y-adultos">Jovenes Y Adultos</a></li>
@@ -65,34 +123,42 @@
                     <li><a href="/instituto/intercambio/venezuela">EN VENEZUELA</a></li>
                     <li><a href="/instituto/intercambio/otros-paises">OTROS PAISES</a></li>
                   </ul>
-                </li>
+                </li> -->
               </ul>
             </li>
 
             <li class="<% if (page_name === 'traduccion') { %>active <% } %> dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Traducción<span class="caret"></span>
+              <a href="/traduccion">
+                Traducción
               </a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="/traduccion">INGLES / ESPAÑOL</a></li>
-              </ul>
             </li>
             <li class="<% if (page_name === 'legal') { %>active <% } %> dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 Legalización <span class="caret"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="/legal/apostilla">APOSTILLA</a></li>
-                <li><a href="/legal/gestoria">GESTORÍA PARA LEGALIZACION DE DOCUMENTOS</a></li>
+                <div class="drop-item">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <div class="drop-content">
+                        <h3> Legalización</h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <ul class="drop-link">
+                        <li><a href="/legal/apostilla">APOSTILLA</a></li>
+                        <li><a href="/legal/gestoria">LEGALIZACION DE DOCUMENTOS</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </ul>
             </li>
             <li class="<% if (page_name === 'edicion') { %>active <% } %> dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Edición <span class="caret"></span>
+              <a href="/edicion/redaccion">
+                Edición
               </a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="/edicion/redaccion">REDACCION, CORRECCION, EDICION Y PUBLICACION DE TEXTOS</a></li>
-              </ul>
             </li>
 
             <li class="dropdown">
@@ -100,9 +166,24 @@
                 Comercialización <span class="caret"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="/comercial/franquicia">FRANQUICIA</a></li>
-                <li><a href="/comercial/intercambio">INTERCAMBIO COMERCIAL</a></li>
-                <li><a href="/comercial/eventos">EVENTOS</a></li>
+                <div class="row">
+                  <div class="drop-item">
+                    <div class="col-md-8">
+                      <div class="drop-content">
+                        <h3> Comercialización</h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <ul class="drop-link">
+                        <li><a href="/comercial/franquicia">FRANQUICIA</a></li>
+                        <li><a href="/comercial/intercambio">INTERCAMBIO COMERCIAL</a></li>
+                        <li><a href="/comercial/eventos">EVENTOS</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
               </ul>
             </li>
           </ul>
