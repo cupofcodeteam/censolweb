@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
 #navigation .navbar-right .dropdown-menu li a:hover,
 #navigation .navbar-right .dropdown-menu li a:active {
   background-color: rgba(255, 133, 23, 0.94);
-	color:#FFF !important;
+	color:#FFF;
 }
 
 .dropdown-large {
@@ -4245,11 +4245,11 @@ textarea.form-control {
 }
 
 #navigation  .navbar-right 	.dropdown-menu li a{
-	color:#555 !important;
+	color:#555;
 }
 
 #navigation  .navbar-right 	.dropdown-menu li a:hover{
-	color:#FFF !important;
+	color:#FFF;
 }
 .top-nav-collapse .navbar-brand{
 	display: none;
@@ -4816,4 +4816,57 @@ color: #FFF9C5;
     text-shadow: 3px 4px 6px rgba(51, 51, 51, 0.67);
     color: #FF8517;
     font-weight: 800;
+}
+
+#navigation li.dropdown.open{
+	position: static;
+}
+
+#navigation li.dropdown.open .dropdown-menu {
+  display: table;
+  width: 80%;
+  height: 200px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navigation .drop-item .drop-content {
+  margin: 35px;
+	margin-right: 0;
+}
+
+#navigation .drop-item .drop-content > p{
+	margin: 0 0 10px;
+}
+#navigation .drop-item .drop-link{
+	margin: 35px 35px 35px 0px;
+}
+
+#navigation .drop-item .drop-link>li{
+	padding-bottom:5px !important;
+}
+
+#navigation .drop-item a:hover{
+	background: none !important;
+	color: #ff8c24 !important;
+}
+
+#navigation .drop-section {
+    margin: 30px;
+    height: 190px;
+}
+
+#navigation .drop-section .title{
+		text-transform: none;
+		font-size: 18px !important;
+		font-family: 'Raleway', sans-serif;
+		font-weight: normal;
+		padding-left: 0px !important;
+}
+
+#navigation > div > div > div:nth-child(2) > div > nav > ul > li.dropdown.open > ul > div > div > div:nth-child(1) > div,
+#navigation > div > div > div:nth-child(2) > div > nav > ul > li.dropdown.open > ul > div > div > div:nth-child(2) > div{
+	border-right: solid rgba(51, 51, 51, 0.55) 2px;
 }
