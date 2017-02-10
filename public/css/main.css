@@ -1353,7 +1353,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .page-breadcrumb {
 	background-image: url("../images/home/bg/brd_bg-prod.jpg");
-	min-height:320px;
+	min-height: 450px;
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -4494,19 +4494,19 @@ textarea.form-control {
 
 
 #personalizado .page-breadcrumb {
-	background-image: url("/images/ingles/Personalizado.jpeg");
-	min-height:320px;
+	background-image: url("/images/ingles/Jovenes.jpg");
+	min-height: 450px;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position: center;
+	background-position: center ;
 }
 
 #tecnicos .page-breadcrumb {
 	background-image: url("../images/ingles/tecnico.jpg");
-	min-height:320px;
+min-height: 450px;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position: center;
+	background-position: center top;
 }
 
 .img-circle{
@@ -4534,10 +4534,10 @@ textarea.form-control {
 
 #ninos .page-breadcrumb {
 	background-image: url("/images/ingles/contact-kid.jpg");
-	min-height:320px;
+min-height: 450px;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position: center;
+	background-position: top;
 }
 #ninos .welcome.text-center {
 	background: rgba(245, 245, 245, 0.48);
@@ -4556,11 +4556,11 @@ textarea.form-control {
 /* seccion ingles para Jovenes y adultos*/
 
 #jovenes-adultos .page-breadcrumb {
-	background-image: url("/images/ingles/Joven.jpg");
-	min-height:320px;
+	background-image: url("/images/ingles/aja.png");
+	min-height: 450px;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position: center;
+	background-position: top;
 }
 
 #jovenes-adultos .welcome.text-center {
@@ -4682,7 +4682,7 @@ textarea.form-control {
 }
 #corporativo .page-breadcrumb {
 	background-image: url("/images/ingles/corporativo.jpg");
-	min-height:320px;
+min-height: 450px;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position: center;
@@ -4704,7 +4704,7 @@ textarea.form-control {
 
 #en-linea .page-breadcrumb {
 	background-image: url("/images/ingles/online-1.jpg");
-	min-height:320px;
+min-height: 450px;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position: center;
@@ -4725,7 +4725,7 @@ textarea.form-control {
 }
 #espanol .page-breadcrumb {
 	background-image: url("/images/spanish/español.jpg");
-	min-height:320px;
+	min-height: 450px;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position: center;
