@@ -1,16 +1,3 @@
-(
-  function() {
-    document.getElementById("home-top").style.height = $(window).height()*0.80+"px";
-    document.getElementById("intercambio-country").style.height = $(window).height()*0.90+"px";
-    document.getElementById("intercambio-Vnzla").style.height = $(window).height()*0.90+"px";
-}());
-
-window.onresize = function(event) {
-    document.getElementById("home-top").style.height = $(window).height()*0.80+"px";
-    document.getElementById("intercambio-country").style.height = $(window).height()*0.90+"px";
-    document.getElementById("intercambio-Vnzla").style.height = $(window).height()*0.90+"px";
-};
-
 
 jQuery(function ($) {
 
@@ -39,40 +26,10 @@ jQuery(function ($) {
     // # Dropdown Menu Animation
     // ----------------------------------------------
 
-	(function () {
-		$('.dropdown').on('show.bs.dropdown', function(e){
-			$(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
-		});
-
-		$('.dropdown').on('hide.bs.dropdown', function(e){
-			$(this).find('.dropdown-menu').first().stop(true, true).slideUp(300);
-		});
-
-	}());
-
 	// ----------------------------------------------
     // # Navigation fixed
     // ----------------------------------------------
 
-	(function () {
-		$(window).on('scroll', function(){
-			if( $(window).scrollTop()>650 ){
-				$('#index2 #navigation .navbar-static-top').addClass('navbar-fixed-top');
-			} else {
-				$('#index2 #navigation .navbar-static-top').removeClass('navbar-fixed-top');
-			};
-			if( $(window).scrollTop()>0 ){
-				$('#onepage #navigation .navbar-static-top').addClass('navbar-fixed-top');
-			} else {
-				$('#onepage #navigation .navbar-static-top').removeClass('navbar-fixed-top');
-			};
-			if( $(window).scrollTop()>0 ){
-				$('#landing #navigation .navbar-static-top').addClass('navbar-fixed-top');
-			} else {
-				$('#landing #navigation .navbar-static-top').removeClass('navbar-fixed-top');
-			}
-		});
-	}());
 
 	// ----------------------------------------------
     // # Parallax Scrolling
@@ -103,4 +60,20 @@ jQuery(function ($) {
 		  interval: 4000
 		})
     }());
+
+    $("home-top").ready(function(){
+      $("#home-top").css('height',$(window).height()*0.80);
+      $(window).resize(function() {
+          $("#home-top").css('height',$(window).height()*0.80);
+      });
+    });
+
+    $("intercambio-country").ready(function(){
+      $("#intercambio-country").css('height',$(window).height()*0.90);
+    });
+
+    $("intercambio-Vnzla").ready(function(){
+      $("#intercambio-Vnzla").css('height',$(window).height()*0.90);
+    });
+
 });
