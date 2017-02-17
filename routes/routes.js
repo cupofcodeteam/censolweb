@@ -22,72 +22,72 @@ router.get('/nosotros/faqs', function(req, res, next) {
   res.render('pages/nosotros/faqs', { title: 'CENSOL | FAQS', page_name : 'nosotros' });
 });
 
-router.get('/instituto/ingles', function(req, res, next) {
-  res.render('pages/instituto/ingles/ingles', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/ingles', function(req, res, next) {
+  res.render('pages/idiomas/ingles/ingles', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/ingles/ingles-ninos', function(req, res, next) {
-  res.render('pages/instituto/ingles/ingles-ninos', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/ingles/ingles-ninos', function(req, res, next) {
+  res.render('pages/idiomas/ingles/ingles-ninos', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/ingles/jovenes-y-adultos', function(req, res, next) {
-  res.render('pages/instituto/ingles/jovenes-y-adultos', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/ingles/jovenes-y-adultos', function(req, res, next) {
+  res.render('pages/idiomas/ingles/jovenes-y-adultos', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/ingles/personalizado', function(req, res, next) {
-  res.render('pages/instituto/ingles/personalizado', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/ingles/personalizado', function(req, res, next) {
+  res.render('pages/idiomas/ingles/personalizado', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/ingles/tecnicos', function(req, res, next) {
-  res.render('pages/instituto/ingles/tecnicos', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/ingles/tecnicos', function(req, res, next) {
+  res.render('pages/idiomas/ingles/tecnicos', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/ingles/corporativo', function(req, res, next) {
-  res.render('pages/instituto/ingles/corporativo', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/ingles/corporativo', function(req, res, next) {
+  res.render('pages/idiomas/ingles/corporativo', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/ingles/en-linea', function(req, res, next) {
-  res.render('pages/instituto/ingles/en-linea', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/ingles/en-linea', function(req, res, next) {
+  res.render('pages/idiomas/ingles/en-linea', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/otros-idiomas/aleman', function(req, res, next) {
-  res.render('pages/instituto/otros-idiomas/aleman', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/otros-idiomas/aleman', function(req, res, next) {
+  res.render('pages/idiomas/otros-idiomas/aleman', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/otros-idiomas/arabe', function(req, res, next) {
-  res.render('pages/instituto/otros-idiomas/arabe', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/otros-idiomas/arabe', function(req, res, next) {
+  res.render('pages/idiomas/otros-idiomas/arabe', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/otros-idiomas/frances', function(req, res, next) {
-  res.render('pages/instituto/otros-idiomas/frances', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/otros-idiomas/frances', function(req, res, next) {
+  res.render('pages/idiomas/otros-idiomas/frances', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/otros-idiomas/italiano', function(req, res, next) {
-  res.render('pages/instituto/otros-idiomas/italiano', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/otros-idiomas/italiano', function(req, res, next) {
+  res.render('pages/idiomas/otros-idiomas/italiano', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/otros-idiomas/japones', function(req, res, next) {
-  res.render('pages/instituto/otros-idiomas/japones', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/otros-idiomas/japones', function(req, res, next) {
+  res.render('pages/idiomas/otros-idiomas/japones', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/otros-idiomas/mandarin', function(req, res, next) {
-  res.render('pages/instituto/otros-idiomas/mandarin', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/otros-idiomas/mandarin', function(req, res, next) {
+  res.render('pages/idiomas/otros-idiomas/mandarin', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/otros-idiomas/portugues', function(req, res, next) {
-  res.render('pages/instituto/otros-idiomas/portugues', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/otros-idiomas/portugues', function(req, res, next) {
+  res.render('pages/idiomas/otros-idiomas/portugues', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/intercambio/venezuela', function(req, res, next) {
-  res.render('pages/instituto/intercambio/venezuela', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/intercambio/venezuela', function(req, res, next) {
+  res.render('pages/idiomas/intercambio/venezuela', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/intercambio/otros-paises', function(req, res, next) {
-  res.render('pages/instituto/intercambio/otros-paises', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/intercambio/otros-paises', function(req, res, next) {
+  res.render('pages/idiomas/intercambio/otros-paises', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
-router.get('/instituto/espanol', function(req, res, next) {
-  res.render('pages/instituto/espanol', { title: 'CENSOL | Instituto', page_name : 'instituto' });
+router.get('/idiomas/espanol', function(req, res, next) {
+  res.render('pages/idiomas/espanol', { title: 'CENSOL | idiomas', page_name : 'idiomas' });
 });
 
 router.get('/traduccion', function(req, res, next) {
