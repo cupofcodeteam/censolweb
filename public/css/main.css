@@ -4953,8 +4953,20 @@ padding-bottom: 155px;
 	padding-bottom: 60px;
 }
 
-#team .team-left, #team .team-right{
-	padding-top:30px;
+#team .image{
+	margin-top: 50px;
+}
+#team .description p{
+	padding-top: 10px;
+}
+#team .description p:before {
+    content: "";
+    border-bottom: 2px solid #f5821a;
+    width: 10%;
+    height: 2px;
+    position: absolute;
+    left: 45%;
+    margin-top: -10px;
 }
 
 #gallery{
