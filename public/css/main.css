@@ -1271,6 +1271,7 @@ h1, h2, h3, h4, h5, h6 {
 	min-height: 450px;
 	background-repeat:no-repeat;
 	background-size:cover;
+  border-bottom: #FFCE30 4px solid;
 }
 
 .page-breadcrumb h1{
@@ -4467,7 +4468,6 @@ min-height: 450px;
 .welcome.text-center {
 	border-radius: 3px;
     background: rgba(245, 245, 245, 0.24);
-    border-top: #FFCE30 4px solid;
     padding-bottom: 20px;
     padding-top: 22px;
 }
@@ -4880,4 +4880,79 @@ padding-bottom: 155px;
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
+}
+
+#about .about-left{
+	height: 550px;
+	background-color: #736f6f;
+}
+
+#about .about-right{
+	height: 550px;
+	background-size: cover;
+	background-image: url(../images/quienes-somos/quienes-somos.jpg);
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#about .content-right{
+	background-color: rgba(255, 255, 255, 0.91);
+	width: 90%;
+	height: 100%;
+	margin-left: -10%;
+}
+
+#about .wrapper{
+	padding: 0;
+}
+
+#about .content-left {
+    margin-top: 15%;
+    display: inline-block;
+    padding: 0 150px 0 60px;
+    color: #fff;
+}
+
+#about span {
+    color: #f5821a;
+}
+
+#about .content-left p:after {
+    content: "";
+    width: 170px;
+    border-bottom: 2px solid #f5821a;
+    position: absolute;
+    left: 50px;
+    margin-top: 40px;
+}
+
+#about .content-right{
+	overflow: scroll;
+}
+
+#about .content-right p{
+	text-align: justify;
+}
+
+#about .content-right h3{
+	color: #f5821a;
+}
+
+#about ul.feature-left,#about ul.feature-right {
+    padding: 15px;
+}
+
+#team .welcome.text-center {
+    background: rgba(245, 245, 245, 0.48);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#team {
+	padding-bottom: 60px;
+}
+
+#team .team-left, #team .team-right{
+	padding-top:30px;
 }
