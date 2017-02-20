@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-fixed-top .navbar-right .dropdown-menu {
-	background-color: rgba(243, 243, 243, 0.83);
+	background-color: rgba(243, 243, 243, 0.95);
 }
 
 .dropdown-submenu {
@@ -1267,7 +1267,7 @@ h1, h2, h3, h4, h5, h6 {
 ===========================*/
 
 .page-breadcrumb {
-	background-image: url("../images/home/bg/brd_bg-prod.jpg");
+	background-image: url("/images/idiomas/section-bg.jpg");
 	min-height: 450px;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -2098,7 +2098,8 @@ h1, h2, h3, h4, h5, h6 {
 ========About US CSS======
 =========================*/
 #about-us-page .page-breadcrumb {
-	background-image:url("../images/home/bg/brd_bg3.jpg")
+	background-image:url("/images/contact/section-bg.jpg");
+  background-position-y: -150px;
 }
 .about-top h2 {
 	margin-top: 0;
@@ -2541,7 +2542,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #contact-page .page-breadcrumb,
 #contact-page-two .page-breadcrumb {
-	background-image: url("../images/home/bg/brd_bg_contact.jpg");
+	    background-image: url(../images/quienes-somos/section-bg.jpg);
 }
 
 #gmap {
@@ -4110,9 +4111,6 @@ textarea.form-control {
 /*===================================
 ====== Portfolio Details CSS ========
 =====================================*/
-#projects-details .section-title h2:before {
-	background-image: url(../images/home/icons/shop-title-icon2.png);
-}
 
 #projects-details h2 {
 	margin-top:0;
@@ -5084,6 +5082,7 @@ padding-bottom: 155px;
 	width: 100%;
 	height: 100%;
 	transform: scale(0.7);
+	margin-top: 40px;
 }
 
 #contact-page-two .item-1 .item-image{
@@ -5114,4 +5113,26 @@ padding-bottom: 155px;
     padding-top: 40px !important;
     padding-bottom: 40px;
     background-color: #ffce30;
+}
+
+#image-wrapper {
+    height: 400px;
+    overflow: hidden;
+}
+
+#image-wrapper .image-1 img,#image-wrapper .image-2 img{
+  height: 400px;
+	width: 100%;
+}
+#image-wrapper .image-1,#image-wrapper .image-2{
+	transition: all 0.7s ease-in-out;
+}
+
+#image-wrapper:hover .image-1,#image-wrapper:hover .image-2{
+	transform: translateY(-400px);
+}
+
+#japones .image-2 img{
+	border: 2px solid #333;
+	height: 398px;
 }
