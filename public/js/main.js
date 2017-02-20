@@ -76,4 +76,24 @@ jQuery(function ($) {
       $("#intercambio-Vnzla").css('height',$(window).height()*0.90);
     });
 
+
+    var modal = $("#img-modal");
+
+    var img = $(".image");
+    var modalImg = $("#img01");
+    var captionText = $("#caption");
+
+    img.click(function(){
+      console.log("hola");
+      modal.css('display','block');
+      modalImg.attr('src',this.src);
+      captionText.html(this.alt);
+    });
+
+    var span = $(".close");
+
+    span.click(function() {
+      modal.css('display','none');
+    });
+
 });
