@@ -5185,10 +5185,6 @@ padding-bottom: 155px;
 	margin-top: 30px;
 }
 
-#apostilla {
-	margin-bottom: 65px;
-}
-
-#gestoria {
+#apostilla,#gestoria,#edicion{
 	margin-bottom: 65px;
 }
