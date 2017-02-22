@@ -5136,3 +5136,59 @@ padding-bottom: 155px;
 	border: 2px solid #333;
 	height: 398px;
 }
+
+#about-wrapper .about-right{
+	height: 550px;
+	background-size: cover;
+	background-image: url(../images/quienes-somos/quienes-somos.jpg);
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#about-wrapper .about-left{
+	height: 550px;
+	background-color: #736f6f;
+}
+
+#about-wrapper .content-right{
+	background-color: rgba(255, 255, 255, 0.91);
+	width: 90%;
+	height: 100%;
+	margin-left: -10%;
+}
+
+#about-wrapper .wrapper{
+	padding: 0;
+}
+
+#about-wrapper .content-left {
+    margin-top: 8%;
+    display: inline-block;
+    padding: 0 150px 0 60px;
+    color: #fff;
+}
+
+#about-wrapper span {
+    color: #f5821a;
+}
+
+#about-wrapper .content-left .content-head:after {
+    content: "";
+    width: 170px;
+    border-bottom: 2px solid #f5821a;
+    position: absolute;
+    left: 50px;
+    margin-top: 40px;
+}
+
+#about-wrapper .content-left ul{
+	margin-top: 30px;
+}
+
+#apostilla {
+	margin-bottom: 65px;
+}
+
+#gestoria {
+	margin-bottom: 65px;
+}
