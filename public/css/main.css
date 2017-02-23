@@ -187,12 +187,12 @@ h1, h2, h3, h4, h5, h6 {
 	-o-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 	z-index:1;
+  border: 2px solid #ff8517;
 }
 
 .btn.btn-primary:hover{
 	background-color: transparent !important;
 	color: #ff8517 !important;
-	border: 2px solid #ff8517;
 	border-radius: 2px;
 }
 .overlay {
@@ -5187,4 +5187,30 @@ padding-bottom: 155px;
 
 #apostilla,#gestoria,#edicion{
 	margin-bottom: 65px;
+}
+
+.welcome.text-center {
+    background: rgba(245, 245, 245, 0.48);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+		color: #ff8517;
+}
+
+.row.padding-bottom{
+	padding-top: 40px;
+}
+
+#traduccion ul{
+  list-style: disc;
+	padding-left: 30px;
+}
+
+#traduccion p,#traduccion ul{
+	margin-bottom: 20px;
+}
+
+.section-btn{
+	background-color: #ff8517 !important;
+	color: #fff !important;
 }
