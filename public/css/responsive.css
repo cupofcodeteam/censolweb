@@ -25,19 +25,7 @@
 	.post .post-content {
 		padding:20px;
 	}
-	.blog1 .post h2.entry-title {
-		font-size:24px;
-		margin-bottom:15px;
-	}
-	.blog1 .regu-news .post .post-content {
-		padding:45px;
-	}
-	.blog1 .sidebar .widget ul li, .blog1 .sidebar .widget ul li a {
-		font-size:12px;
-	}
-	.blog1 .sidebar .widget .entry-title {
-		font-size:18px;
-	}
+	
 	.products ul li {
 		width:17%;
 	}
