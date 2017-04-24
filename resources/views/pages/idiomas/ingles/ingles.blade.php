@@ -1,0 +1,93 @@
+@extends('partials.layout')
+
+@section('title','CENSOL | Idiomas')
+
+@section('content')
+
+  <div id="portfolio-page">
+    <div class="text-center page-breadcrumb">
+      <div class="container">
+        <h1>Programa <span>Inglés</span></h1>
+        <p class="breadcrumb-text"></p>
+      </div>
+    </div><!--/.page-breadcrumb-->
+
+    <div id="projects-details" class="padding-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2>Nuestros niveles según el MCERL Marco común europeo de referencia para las lenguas.</h2>
+            <p>El Marco Común Europeo de Referencia para las Lenguas: Aprendizaje, Enseñanza, Evaluación (MCER, o CEFR en inglés) es un estándar europeo, utilizado también en otros países, que sirve para medir el nivel de comprensión y expresión oral y escrita en una determinada lengua. El proyecto es el resultado de un trabajo iniciado en 1991 por iniciativa del gobierno federal suizo que estuvo inspirado en trabajos previos realizados por particulares e instituciones desde 1971. El documento final fue elaborado por el Consejo de Europa y presentado en 2001 durante la celebración del Año Europeo de las Lenguas. </p>
+            <ul>
+              <h2>Niveles de referencia comunes</h2>
+              <li><i class="fa fa-angle-double-right"></i> INTRO </li>
+              <li><i class="fa fa-angle-double-right"></i> INTERCHANGE 1. </li>
+              <li><i class="fa fa-angle-double-right"></i> INTERCHANGE 2.</li>
+              <li><i class="fa fa-angle-double-right"></i> INTERCHANGE 3.  </li>
+              <li><i class="fa fa-angle-double-right"></i> PASSAGES 1.  </li>
+              <li><i class="fa fa-angle-double-right"></i> PASSAGES 2.  </li>
+            </ul>
+            <p>El Marco común europeo de referencia establece una escala de seis niveles comunes de referencia para la organización del aprendizaje de lenguas y homologación de los distintos títulos emitidos por las entidades certificadas. La división se agrupa en tres bloques que responden a una división más clásica de nivel básico, intermedio y avanzado, aunque no se corresponden exactamente con los niveles clásicos por estar situados por encima o por debajo de ellos. </p>
+          </div>
+          <div class="col-sm-6">
+            <img class="img-responsive" src="/images/home/idiomas/i44.jpg" alt="" />
+          </div>
+        </div>
+        <div class="row other-products padding-top padding-bottom text-center">
+          <div class="section-title">
+            <h2>otros <span>programas</span></h2>
+          </div>
+          <div class="col-sm-3">
+            <div class="project-content">
+              <div class="project small-content">
+                <img class="img-responsive" src="/images/home/idiomas/i1.jpg" alt="" />
+                <div class="overlay">
+                  <a href="aleman.html"><i class="fa fa-arrow-circle-o-right"></i></a>
+                  <h3>ALEMÁN</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="project-content">
+              <div class="project small-content">
+                <img class="img-responsive" src="/images/home/idiomas/i2.jpg" alt="" />
+                <div class="overlay">
+                  <a href="arabe.html"><i class="fa fa-arrow-circle-o-right"></i></a>
+                  <h3>ÁRABE</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="project-content">
+              <div class="project small-content">
+                <img class="img-responsive" src="/images/home/idiomas/i3.jpg" alt="" />
+                <div class="overlay">
+                  <a href="frances.html"><i class="fa fa-arrow-circle-o-right"></i></a>
+                  <h3>FRANCÉS</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="project-content">
+              <div class="project small-content">
+                <img class="img-responsive" src="/images/home/idiomas/i7.jpg" alt="" />
+                <div class="overlay">
+                  <a href="mandarin.html"><i class="fa fa-arrow-circle-o-right"></i></a>
+                  <h3>MANDARÍN</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--/Project-details-->
+  </div>
+
+
+@endsection

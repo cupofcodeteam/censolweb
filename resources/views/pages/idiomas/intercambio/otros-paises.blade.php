@@ -1,0 +1,20 @@
+@extends('partials.layout')
+
+@section('title','CENSOL | Idiomas')
+
+@section('content')
+
+
+  <div id="intercambio-country">
+    <div class="container">
+      <div class="text-intercambio text-center">
+        <h1>Intercambio Internacional</h1>
+        <p>Pronto a aperturar soluciones linguisticas en el area de la enseñanza del <strong> Ingles </strong> con paquetes turisticos que le permitirán disfrutar su estadía en <strong>Trinidad y Tobago</strong> mientras aprende y practica su fluidez del idioma ingles. Usted podrá contar con los mejores precios y con nuestros certificados por nivel. </p>
+        <p><a class="btn btn-primary btn-lg" href="/nosotros/contacto" role="button"> Contactános</a></p>
+      </div>
+    </div>
+  </div>
+
+
+
+  @endsection

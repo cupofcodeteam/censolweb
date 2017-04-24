@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
 ========Twitter CSS=======
 ==========================*/
 #twitter {
-	background-image: url("../images/home/bg/twitter-bg.jpg");
+	background-image: url("/images/home/bg/twitter-bg.jpg");
 	font-size:20px;
 	font-weight:300;
 	color:#fff;
@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 ========Footer CSS=========
 ===========================*/
 .footer-top {
-	background-image: url("../images/home/bg/footer-top-bg.jpg");
+	background-image: url("/images/home/bg/footer-top-bg.jpg");
 	color:#fff;
 	position:relative;
 }
@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 =========================*/
 
 #contact-page-two .page-breadcrumb {
-	    background-image: url(../images/quienes-somos/section-bg.jpg);
+	    background-image: url(/images/quienes-somos/section-bg.jpg);
 }
 
 #gmap {
@@ -709,7 +709,7 @@ textarea.form-control {
 
 
 #home-top{
-	background-image: url(../images/home/bg/slider-bg.jpg);
+	background-image: url(/images/home/bg/slider-bg.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -758,7 +758,7 @@ textarea.form-control {
     position: absolute;
     width: 300px;
     height: 300px;
-    background-image: url(../images/home/about/aboutbg.jpg);
+    background-image: url(/images/home/about/aboutbg.jpg);
     background-size: cover;
     bottom: -73px;
     left: -15px;
@@ -909,7 +909,7 @@ textarea.form-control {
 }
 
 #tecnicos .page-breadcrumb {
-	background-image: url("../images/ingles/tecnico.jpg");
+	background-image: url("/images/ingles/tecnico.jpg");
 min-height: 450px;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -1108,7 +1108,7 @@ min-height: 450px;
 }
 
 #intercambio-Vnzla{
-		background-image: url(../images/intercambio/Venezuela.jpg);
+		background-image: url(/images/intercambio/Venezuela.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1152,7 +1152,7 @@ color: #FFF9C5;
 
 
 #intercambio-country {
-	background-image: url(../images/intercambio/otros-paises-1.jpg);
+	background-image: url(/images/intercambio/otros-paises-1.jpg);
 	background-position: center  ;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1219,23 +1219,23 @@ padding-bottom: 155px;
 }
 
 #service .item-1:after{
-	background-image: url(../images/home/servicios/services1.png);
+	background-image: url(/images/home/servicios/services1.png);
 }
 
 #service .item-2:after{
-	background-image: url(../images/home/servicios/services2.png);
+	background-image: url(/images/home/servicios/services2.png);
 }
 
 #service .item-3:after{
-	background-image: url(../images/home/servicios/services3.png);
+	background-image: url(/images/home/servicios/services3.png);
 }
 
 #service .item-4:after{
-	background-image: url(../images/home/servicios/services4.png);
+	background-image: url(/images/home/servicios/services4.png);
 }
 
 #service .item-5:after{
-	background-image: url(../images/home/servicios/services5.png);
+	background-image: url(/images/home/servicios/services5.png);
 }
 
 #service .content {
@@ -1318,7 +1318,7 @@ padding-bottom: 155px;
 #about .about-right{
 	height: 550px;
 	background-size: cover;
-	background-image: url(../images/quienes-somos/quienes-somos.jpg);
+	background-image: url(/images/quienes-somos/quienes-somos.jpg);
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
@@ -1386,7 +1386,7 @@ padding-bottom: 155px;
     background-size: cover;
     background-position: center bottom;
     margin-top: 45px;
-	
+
 }
 #team .description p{
 	padding-top: 10px;
@@ -1574,7 +1574,7 @@ padding-bottom: 155px;
 #about-wrapper .about-right{
 	height: 550px;
 	background-size: cover;
-	background-image: url(../images/quienes-somos/quienes-somos.jpg);
+	background-image: url(/images/quienes-somos/quienes-somos.jpg);
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
