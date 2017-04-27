@@ -126,3 +126,7 @@ Route::get('/comercial/franquicia', function () {
 Route::get('/comercial/intercambio', function () {
     return view('pages.comercial.intercambio',['active_menu' => 'comercial']);
 });
+
+Route::get('/pagoenlinea', function () {
+    return view('pages.pagoenlinea');
+});
