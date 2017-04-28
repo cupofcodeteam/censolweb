@@ -1711,13 +1711,19 @@ color: #f68118;
 }
 
 #pagoenlinea .item {
+    width: 23%;
     height: 480px;
     border-radius: 10px;
     padding: 15px;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 7px 7px 22px -1px rgba(0,0,0,0.75);
-		/*background-image: url(/images/idiomas/section-bg.jpg);*/
+    /* background-image: url(/images/idiomas/section-bg.jpg); */
+    margin-right: 2%;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+		transition: all .5s ease-in-out;
 }
 
 .item > h2{
@@ -1813,4 +1819,15 @@ p.type:before {
 .slide-control i {
     top: 42% !important;
     font-size: 4rem !important;
+}
+
+.slide-row{
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.slide-control.inactive a {
+    color: gray !important;
 }

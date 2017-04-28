@@ -16,9 +16,8 @@
       <div class="en-content">
         <div class="slide-container">
           <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="item">
+            <ul class="slide-row">
+                <li class="item">
                   <h2> Programa Grupal</h2>
                   <p class="type" style="text-align:center"> Crédito</p>
                   <div class="methods">
@@ -50,10 +49,8 @@
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="item">
+                </li>
+                <li class="item">
                   <h2> Programa Personalizado</h2>
                   <p class="type" style="text-align:center"> Crédito</p>
                   <div class="methods">
@@ -73,10 +70,8 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-              <div class="col-md-3">
-                <div class="item">
+              </li>
+                <li class="item">
                   <h2> Personalizado para personal médico y paramédico</h2>
                   <p class="type" style="text-align:center"> Crédito</p>
                   <div class="methods">
@@ -96,10 +91,8 @@
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="item">
+                </li>
+                <li class="item">
                   <h2> Personalizado para tripulantes de cabina</h2>
                   <p class="type" style="text-align:center"> Crédito</p>
                   <div class="methods">
@@ -119,10 +112,8 @@
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="item" style="display:none">
+                </li>
+                <li class="item">
                   <h2> Personalizado para gerentes </h2>
                   <p class="type" style="text-align:center"> Crédito</p>
                   <div class="methods">
@@ -142,9 +133,8 @@
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
+                </li>
+            </ul>
           </div>
           <div class="slide-control slide-control-left">
             <a href="#">
@@ -160,4 +150,40 @@
       </div>
   </div><!--/#main-blog-->
 
+@endsection
+
+@section('scripts')
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.item').each(function(index) {
+        if (index>3) $(this).css('opacity','0');
+      });
+      $('.slide-control-left').addClass('inactive');
+    });
+
+
+    $('.slide-control-right').click(function(e) {
+      e.preventDefault();
+      $('.slide-control-right').addClass('inactive');
+      $('.slide-control-left').removeClass('inactive');
+      $('.item').each(function(index) {
+        if (index == 0) $(this).css('opacity','0');
+        if (index == 4) $(this).css('opacity','1');
+
+          $(this).css('transform','translateX(-100%)');
+      });
+    });
+
+    $('.slide-control-left').click(function(e) {
+      e.preventDefault();
+      $('.slide-control-left').addClass('inactive');
+      $('.slide-control-right').removeClass('inactive');
+      $('.item').each(function(index) {
+        if (index == 0) $(this).css('opacity','1');
+        if (index == 4) $(this).css('opacity','0');
+
+          $(this).css('transform','translateX(0)');
+      });
+    });
+  </script>
 @endsection
