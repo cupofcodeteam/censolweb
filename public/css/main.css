@@ -1709,3 +1709,108 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 .breadcrumb a {
 color: #f68118;
 }
+
+#pagoenlinea .item {
+    height: 480px;
+    border-radius: 10px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 7px 7px 22px -1px rgba(0,0,0,0.75);
+		/*background-image: url(/images/idiomas/section-bg.jpg);*/
+}
+
+.item > h2{
+	text-align: center;
+}
+
+.method{
+	text-align: center;
+    position: relative;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: solid rgba(255, 133, 23, 0.34) 3px;
+		overflow: hidden;
+}
+
+.method > p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    margin-top: -2px;
+		transition: all .5s ease-in-out;
+}
+
+.methods {
+    margin-top: 25px;
+}
+
+.payment{
+	width: 100%;
+	height: 100%;
+	transform: translateX(-100%);
+	position: absolute;
+	top: 0;
+	padding: 15px;
+	transition: all .5s ease-in-out;
+}
+
+.btn-pay{
+	height: 100%;
+}
+
+.method:hover p{
+	transition: all .5s ease-in-out;
+	transform: translateX(100%);
+}
+
+.method:hover .payment{
+	transition: all .5s ease-in-out;
+	transform: translateX(0);
+}
+
+p.type{
+	position: relative;
+}
+p.type:before {
+    content: "";
+    width: 35%;
+    border: solid 1px #ff8c24;
+    position: absolute;
+    left: 33%;
+    bottom:-5px;
+}
+
+.slide-container{
+	position: relative;
+	padding: 0 30px 0 30px;
+}
+.slide-control {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 7%;
+		text-align: center;
+}
+
+.slide-control.slide-control-left {
+    left: 30px;
+}
+
+.slide-control.slide-control-right {
+    right: 30px;
+}
+
+.slide-control a {
+    color: #000;
+    width: 100px;
+    height: 100%;
+    display: block;
+}
+
+.slide-control i {
+    top: 42% !important;
+    font-size: 4rem !important;
+}

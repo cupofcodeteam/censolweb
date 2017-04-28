@@ -128,5 +128,5 @@ Route::get('/comercial/intercambio', function () {
 });
 
 Route::get('/pagoenlinea', function () {
-    return view('pages.pagoenlinea');
+    return view('pages.pagoenlinea',['active_menu' => 'none']);
 });
