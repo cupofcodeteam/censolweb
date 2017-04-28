@@ -1719,6 +1719,7 @@ color: #f68118;
     box-shadow: 7px 7px 22px -1px rgba(0,0,0,0.75);
     /* background-image: url(/images/idiomas/section-bg.jpg); */
 		transition: all .5s ease-in-out;
+		margin-top: 20px;
 }
 
 .slide-row .item{
@@ -1839,6 +1840,7 @@ p.type:before {
 
 .slide-control.inactive a {
     color: gray !important;
+    cursor: default !important;
 }
 
 #pagoenlinea .content{

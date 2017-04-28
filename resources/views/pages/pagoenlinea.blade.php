@@ -13,7 +13,7 @@
     <h1> PAGO EN LINEA - MERCADOPAGO </h1>
   </div>
   <h1 class="text-center"> Programa de Inglés </h1>
-  <div class="content">
+  <div class="content visible-lg-block">
     <div class="slide-container">
       <div class="container">
         <ul class="slide-row">
@@ -90,7 +90,7 @@
             </div>
           </li>
           <li class="item">
-            <h2> Personalizado para personal médico y paramédico</h2>
+            <h2> Personalizado para personal médico</h2>
             <p class="type" style="text-align:center"> Crédito</p>
             <div class="methods">
               <div class="method method-2">
@@ -181,6 +181,173 @@
         <a href="#">
           <i class="glyphicon glyphicon-chevron-right" aria-hidden="true"></i>
         </a>
+      </div>
+    </div>
+  </div>
+  <div class="container hidden-lg">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="item">
+          <h2> Programa Grupal</h2>
+          <p class="type" style="text-align:center"> Crédito</p>
+          <div class="methods">
+            <div class="method method-1">
+              <p> Inscripción<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="float: right;"></span></p>
+              <div class="payment">
+                <a mp-mode="dftl" href="https://www.mercadopago.com/mlv/checkout/start?pref_id=251124909-0033840b-3b98-4c45-b687-a9f228169f87" name="MP-payButton" class='blue-ar-l-rn-none'>Pagar</a>
+                <script type="text/javascript">
+                (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+                </script>
+              </div>
+            </div>
+            <div class="method method-2">
+              <p> Cuota<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="float: right;"></span></p>
+              <div class="payment">
+                <a mp-mode="dftl" href="https://www.mercadopago.com/mlv/checkout/start?pref_id=251124909-28b0901a-4f78-47e6-b6fe-cbd8361c2d4b" name="MP-payButton" class='blue-ar-l-rn-none'>Pagar</a>
+                <script type="text/javascript">
+                (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+                </script>
+              </div>
+            </div>
+            <div class="method method-3">
+              <p> Inicial<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="float: right;"></span></p>
+              <div class="payment">
+                <a mp-mode="dftl" href="https://www.mercadopago.com/mlv/checkout/start?pref_id=251124909-2a1ffac6-7210-405b-a4d3-aa64970dd0aa" name="MP-payButton" class='blue-ar-l-rn-none'>Pagar</a>
+                <script type="text/javascript">
+                (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+                </script>
+              </div>
+            </div>
+          </div>
+          <p class="type" style="text-align:center"> Contado</p>
+          <div class="methods">
+            <div class="method method-1">
+              <p> Pago Único<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="float: right;"></span></p>
+              <div class="payment">
+                <a mp-mode="dftl" href="https://www.mercadopago.com/mlv/checkout/start?pref_id=251124909-119fe89e-ecab-49ca-bbc2-a9b815afeb4a" name="MP-payButton" class='blue-ar-l-rn-none'>Pagar</a>
+                <script type="text/javascript">
+                (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="item">
+          <h2> Programa Personalizado</h2>
+          <p class="type" style="text-align:center"> Crédito</p>
+          <div class="methods">
+            <div class="method method-2">
+              <p> Cuota<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="float: right;"></span></p>
+              <div class="payment">
+                <a mp-mode="dftl" href="https://www.mercadopago.com/mlv/checkout/start?pref_id=251124909-7a1320bf-c808-427c-a8b5-1919e98dbd68" name="MP-payButton" class='blue-ar-l-rn-none'>Pagar</a>
+                <script type="text/javascript">
+                (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+                </script>
+              </div>
+            </div>
+            <p class="type" style="text-align:center"> Contado</p>
+            <div class="methods">
+              <div class="method method-1">
+                <p> Pago Único<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="float: right;"></span></p>
+                <div class="payment">
+                  <a mp-mode="dftl" href="https://www.mercadopago.com/mlv/checkout/start?pref_id=251124909-34e3bf3b-55d6-4b45-ae49-342a3229cbfd" name="MP-payButton" class='blue-ar-l-rn-none'>Pagar</a>
+                  <script type="text/javascript">
+                  (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="item">
+          <h2> Personalizado para personal médico</h2>
+          <p class="type" style="text-align:center"> Crédito</p>
+          <div class="methods">
+            <div class="method method-2">
+              <p> Cuota<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="float: right;"></span></p>
+              <div class="payment">
+                <a mp-mode="dftl" href="https://www.mercadopago.com/mlv/checkout/start?pref_id=251124909-7a1320bf-c808-427c-a8b5-1919e98dbd68" name="MP-payButton" class='blue-ar-l-rn-none'>Pagar</a>
+                <script type="text/javascript">
+                (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+                </script>
+              </div>
+            </div>
+          </div>
+          <p class="type" style="text-align:center"> Contado</p>
+          <div class="methods">
+            <div class="method method-1">
+              <p> Pago Único<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="float: right;"></span></p>
+              <div class="payment">
+                <a mp-mode="dftl" href="https://www.mercadopago.com/mlv/checkout/start?pref_id=251124909-34e3bf3b-55d6-4b45-ae49-342a3229cbfd" name="MP-payButton" class='blue-ar-l-rn-none'>Pagar</a>
+                <script type="text/javascript">
+                (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="item">
+          <h2> Personalizado para tripulantes de cabina</h2>
+          <p class="type" style="text-align:center"> Crédito</p>
+          <div class="methods">
+            <div class="method method-2">
+              <p> Cuota<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="float: right;"></span></p>
+              <div class="payment">
+                <a mp-mode="dftl" href="https://www.mercadopago.com/mlv/checkout/start?pref_id=251124909-7a1320bf-c808-427c-a8b5-1919e98dbd68" name="MP-payButton" class='blue-ar-l-rn-none'>Pagar</a>
+                <script type="text/javascript">
+                (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+                </script>
+              </div>
+            </div>
+          </div>
+          <p class="type" style="text-align:center"> Contado</p>
+          <div class="methods">
+            <div class="method method-1">
+              <p> Pago Único<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="float: right;"></span></p>
+              <div class="payment">
+                <a mp-mode="dftl" href="https://www.mercadopago.com/mlv/checkout/start?pref_id=251124909-34e3bf3b-55d6-4b45-ae49-342a3229cbfd" name="MP-payButton" class='blue-ar-l-rn-none'>Pagar</a>
+                <script type="text/javascript">
+                (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="item">
+          <h2> Personalizado para gerentes </h2>
+          <p class="type" style="text-align:center"> Crédito</p>
+          <div class="methods">
+            <div class="method method-2">
+              <p> Cuota<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="float: right;"></span></p>
+              <div class="payment">
+                <a mp-mode="dftl" href="https://www.mercadopago.com/mlv/checkout/start?pref_id=251124909-7a1320bf-c808-427c-a8b5-1919e98dbd68" name="MP-payButton" class='blue-ar-l-rn-none'>Pagar</a>
+                <script type="text/javascript">
+                (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+                </script>
+              </div>
+            </div>
+          </div>
+          <p class="type" style="text-align:center"> Contado</p>
+          <div class="methods">
+            <div class="method method-1">
+              <p> Pago Único<span class="glyphicon glyphicon-menu-right" aria-hidden="true" style="float: right;"></span></p>
+              <div class="payment">
+                <a mp-mode="dftl" href="https://www.mercadopago.com/mlv/checkout/start?pref_id=251124909-34e3bf3b-55d6-4b45-ae49-342a3229cbfd" name="MP-payButton" class='blue-ar-l-rn-none'>Pagar</a>
+                <script type="text/javascript">
+                (function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
