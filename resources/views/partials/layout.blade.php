@@ -71,7 +71,7 @@
                   <a href="/">Inicio</a>
                 </li>
                 <li class="{{$active_menu == 'nosotros' ? 'active' : ''}} dropdown">
-                  <a  class="dropdown-toggle" data-toggle="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     Nosotros<span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu" role="menu">
@@ -96,7 +96,7 @@
                   </ul>
                 </li>
                 <li class="{{$active_menu == 'idiomas' ? 'active' : ''}} dropdown">
-                  <a  class="dropdown-toggle" data-toggle="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     Idiomas<span class="caret">
                   </a>
                   <ul class="dropdown-menu">
@@ -161,7 +161,7 @@
                   </a>
                 </li>
                 <li class="{{$active_menu == 'legal' ? 'active' : ''}} dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown">
+                  <a  href="#" class="dropdown-toggle" data-toggle="dropdown">
                     Legalización <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu" role="menu">
@@ -190,7 +190,7 @@
                 </li>
 
                 <li class="dropdown">
-                  <a  class="{{$active_menu == 'comercial' ? 'active' : ''}} dropdown-toggle" data-toggle="dropdown">
+                  <a  href="#"  class="{{$active_menu == 'comercial' ? 'active' : ''}} dropdown-toggle" data-toggle="dropdown">
                     Comercialización <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu" role="menu">

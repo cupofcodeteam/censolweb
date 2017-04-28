@@ -1,9 +1,8 @@
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	color: #454545;
 	background-color: #fff;
@@ -1846,4 +1845,204 @@ p.type:before {
 #pagoenlinea .content{
 	margin-top: 20px;
 	margin-bottom: 40px;
+}
+
+.mitad{
+	padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 45px
+}
+
+.Middle{
+	padding-bottom: 49px;
+}
+
+section#servicio2 {
+    padding-top: 2%;
+}
+
+#projects .project-content img {
+	width:100%;
+}
+
+#projects .project-content{
+	width:100%;
+	transition: all .3s ease-out;
+}
+#projects .project-content:hover {
+	width:100%;
+	/*-moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	-o-transform: scale(2);
+	-ms-transform: scale(2);*/
+	transform: scale(1.1);
+}
+
+
+#projects .wrapper{
+	-webkit-perspective: 1700px;
+	-moz-perspective: 1700px;
+	perspective: 1700px;
+	-webkit-perspective-origin: 0 50%;
+	-moz-perspective-origin: 0 50%;
+	perspective-origin: 0 50%;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+  border-radius: 15px;
+}
+
+#projects .item-1 figcaption{
+  background: #fb8e32;
+}
+
+#projects .item-2 figcaption{
+	background: #b72c24;
+}
+
+#projects .item-3 figcaption{
+	background: #043096;
+}
+
+#projects .item-4 figcaption{
+	background: #008e2e;
+}
+
+#projects .item-5 figcaption{
+	background: #c21a39;
+}
+
+#projects .item-6 figcaption{
+	background-color: #00509e;
+}
+
+#projects .wrapper-row {
+  margin-bottom: 40px;
+}
+
+
+#projects .wrapper figure {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+#projects .wrapper figure > div {
+	overflow: hidden;
+}
+
+#projects .wrapper figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+#projects .wrapper figure:hover img,
+#projects .wrapper figure.cs-hover img {
+	-webkit-transform: translateX(25%);
+	-moz-transform: translateX(25%);
+	-ms-transform: translateX(25%);
+	transform: translateX(25%);
+}
+
+#projects .wrapper figcaption {
+	height: 100%;
+	width: 50%;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+}
+
+#projects .wrapper figure:hover figcaption,
+#projects .wrapper figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+#projects .wrapper figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+#projects .wrapper figcaption h3{
+	color: #fff;
+}
+
+#projects .wrapper figcaption p{
+	color: #fff;
+	text-align: justify;
+}
+
+#projects .wrapper .btn.btn-primary {
+	color: #fff;
+	margin: 0;
+	display: block;
+}
+
+
+div#S1 {
+    background: rgb(245, 245, 245);
+    padding: 3%;
+
+}
+
+div#S2 {
+    background: rgba(255, 255, 0, 0.41);
+		padding: 3%;
+
+}
+
+div#S3 {
+    background: rgba(255, 140, 30, 0.42);
+		padding: 3%;
+
+}
+
+div#S4 {
+    background: rgba(128, 128, 117, 0.24);
+		padding: 3%;
+
+}
+
+.izquierda {
+
+    background-image: url(/images/home/work.jpg);
+    padding: 7%;
+}
+
+.derecha {
+    background: rgba(51, 122, 183, 0.4);
+    padding: 7%;
+}
+
+.section-title h2:after {
+    position: absolute;
+    content: "";
+    width: 68px;
+    height: 1px;
+    background-color: #d06101;
+    left: 50%;
+    bottom: -14px;
+    margin-left: -34px;
 }
