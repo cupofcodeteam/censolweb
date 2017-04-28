@@ -1711,7 +1711,6 @@ color: #f68118;
 }
 
 #pagoenlinea .item {
-    width: 23%;
     height: 480px;
     border-radius: 10px;
     padding: 15px;
@@ -1719,13 +1718,17 @@ color: #f68118;
     background-size: cover;
     box-shadow: 7px 7px 22px -1px rgba(0,0,0,0.75);
     /* background-image: url(/images/idiomas/section-bg.jpg); */
-    margin-right: 2%;
-    display: inline-block;
-    white-space: normal;
-    vertical-align: top;
 		transition: all .5s ease-in-out;
 }
 
+.slide-row .item{
+    width: 23%;
+		margin-left: 1%;
+    margin-right: 1%;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+}
 .item > h2{
 	text-align: center;
 }
@@ -1751,6 +1754,7 @@ color: #f68118;
 
 .methods {
     margin-top: 25px;
+		margin-bottom: 20px;
 }
 
 .payment{
@@ -1763,6 +1767,10 @@ color: #f68118;
 	transition: all .5s ease-in-out;
 }
 
+.payment a{
+	margin: 0;
+    margin-top: -10px;
+}
 .btn-pay{
 	height: 100%;
 }
@@ -1835,4 +1843,5 @@ p.type:before {
 
 #pagoenlinea .content{
 	margin-top: 20px;
+	margin-bottom: 40px;
 }
