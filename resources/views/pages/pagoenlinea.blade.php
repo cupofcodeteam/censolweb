@@ -12,8 +12,8 @@
     <div class="welcome  text-center">
       <h1> PAGO EN LINEA - MERCADOPAGO </h1>
     </div>
-      <h1> Inglés </h1>
-      <div class="en-content">
+      <h1 class="text-center"> Programa de Inglés </h1>
+      <div class="content">
         <div class="slide-container">
           <div class="container">
             <ul class="slide-row">
@@ -161,11 +161,22 @@
       $('.slide-control-left').addClass('inactive');
     });
 
+    var scale = 0.2;
+
+    setInterval(function () {
+      if ($('.slide-control-left').hasClass('inactive')){
+        $('.slide-control-right a i').css('transform','scale('+(1+scale)+')');
+      }else{
+        $('.slide-control-left a i').css('transform','scale('+(1+scale)+')');
+      }
+      scale = -scale;
+    },1000);
 
     $('.slide-control-right').click(function(e) {
       e.preventDefault();
       $('.slide-control-right').addClass('inactive');
       $('.slide-control-left').removeClass('inactive');
+      $('.slide-control-right a i').css('transform','scale(1)');
       $('.item').each(function(index) {
         if (index == 0) $(this).css('opacity','0');
         if (index == 4) $(this).css('opacity','1');
@@ -178,6 +189,7 @@
       e.preventDefault();
       $('.slide-control-left').addClass('inactive');
       $('.slide-control-right').removeClass('inactive');
+      $('.slide-control-left a i').css('transform','scale(1)');
       $('.item').each(function(index) {
         if (index == 0) $(this).css('opacity','1');
         if (index == 4) $(this).css('opacity','0');

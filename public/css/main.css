@@ -1819,6 +1819,7 @@ p.type:before {
 .slide-control i {
     top: 42% !important;
     font-size: 4rem !important;
+		transition: all .9s ease-in-out
 }
 
 .slide-row{
@@ -1830,4 +1831,8 @@ p.type:before {
 
 .slide-control.inactive a {
     color: gray !important;
+}
+
+#pagoenlinea .content{
+	margin-top: 20px;
 }
