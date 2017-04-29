@@ -349,7 +349,11 @@ $(document).ready(function() {
   },700);
 });
 
-
-
+  $('#projects .carousel-indicators li').click(function() {
+    console.log('hola');
+    $('#projects .carousel-indicators li').each(function() {
+      $(this).css('transform','scale(1)');
+    });
+  })
 </script>
 @endsection
