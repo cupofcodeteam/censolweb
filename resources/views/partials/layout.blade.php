@@ -36,7 +36,7 @@
 
 </head><!--/head-->
 <body class="informacion-1" style="overflow: hidden; overflow-x: hidden;">
-  <div class="loading-modal" style="display:none;"></div>
+  <div class="loading-modal"></div>
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
