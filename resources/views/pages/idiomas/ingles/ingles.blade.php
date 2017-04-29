@@ -30,7 +30,7 @@
             <p>El Marco común europeo de referencia establece una escala de seis niveles comunes de referencia para la organización del aprendizaje de lenguas y homologación de los distintos títulos emitidos por las entidades certificadas. La división se agrupa en tres bloques que responden a una división más clásica de nivel básico, intermedio y avanzado, aunque no se corresponden exactamente con los niveles clásicos por estar situados por encima o por debajo de ellos. </p>
           </div>
           <div class="col-sm-6">
-            <img class="img-responsive" src="/images/home/idiomas/i44.jpg" alt="" />
+            <img class="img-responsive appear-right" src="/images/home/idiomas/i44.jpg" alt="" />
           </div>
         </div>
         <div class="row other-products padding-top padding-bottom text-center">
@@ -38,7 +38,7 @@
             <h2>otros <span>programas</span></h2>
           </div>
           <div class="col-sm-3">
-            <div class="project-content">
+            <div class="project-content appear-random">
               <div class="project small-content">
                 <img class="img-responsive" src="/images/home/idiomas/i1.jpg" alt="" />
                 <div class="overlay">
@@ -50,7 +50,7 @@
           </div>
 
           <div class="col-sm-3">
-            <div class="project-content">
+            <div class="project-content appear-random">
               <div class="project small-content">
                 <img class="img-responsive" src="/images/home/idiomas/i2.jpg" alt="" />
                 <div class="overlay">
@@ -62,7 +62,7 @@
           </div>
 
           <div class="col-sm-3">
-            <div class="project-content">
+            <div class="project-content appear-random">
               <div class="project small-content">
                 <img class="img-responsive" src="/images/home/idiomas/i3.jpg" alt="" />
                 <div class="overlay">
@@ -74,7 +74,7 @@
           </div>
 
           <div class="col-sm-3">
-            <div class="project-content">
+            <div class="project-content appear-random">
               <div class="project small-content">
                 <img class="img-responsive" src="/images/home/idiomas/i7.jpg" alt="" />
                 <div class="overlay">

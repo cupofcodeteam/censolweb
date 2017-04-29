@@ -25,25 +25,25 @@
 
         </div>
         <div class="col-md-4 ">
-          <img class="" src="/images/ingles/AM.png" alt="" width="140" height="140">
+          <img class="appear-right" src="/images/ingles/AM.png" alt="" width="140" height="140">
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center appear-left">
           <img class="" src="/images/ingles/reloj-circular.png" alt="" width="140" height="140">
           <h2>Horario</h2>
           <p> A convenir con el estudiante </p>
         </div>
 
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center appear-zoom">
           <img class="" src="/images/ingles/certificado.png" alt="" width="140" height="140">
           <h2>Metodologia</h2>
           <p>Nuestra Metodologia de estudio esta certificados por la Universidad de Cambridge</p>
 
         </div>
 
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center appear-right">
           <img class="img-circle" src="/images/ingles/calendario.png" alt="" width="140" height="140">
           <h2>Duración</h2>
           <p>2 meses (8 semanas)</p>

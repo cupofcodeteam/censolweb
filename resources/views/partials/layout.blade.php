@@ -306,7 +306,7 @@
          $(el).css("transform","translateX(0)");
          $(el).css('opacity','1');
        },
-       bounds: -200
+       bounds: -100
      });
 
      appear({
@@ -317,7 +317,7 @@
          $(el).css("transform","translateX(0)");
          $(el).css('opacity','1');
        },
-       bounds: -200
+       bounds: -100
      });
 
      appear({
@@ -328,7 +328,7 @@
          $(el).css('opacity','1');
          $(el).css("transform","scale(1)");
        },
-       bounds: -200
+       bounds: -100
      });
 
      appear({
@@ -339,7 +339,7 @@
          $(el).css('opacity','1');
          $(el).css("animation","tilt-l 1500ms");
        },
-       bounds: -200
+       bounds: -100
      });
 
      appear({
@@ -350,7 +350,7 @@
          $(el).css('opacity','1');
          $(el).css("animation","tilt-r 1500ms");
        },
-       bounds: -200
+       bounds: -100
      });
 
    </script>

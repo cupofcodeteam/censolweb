@@ -22,12 +22,12 @@
           Material a utilizar Serie <strong>“INTERCHANGE” Y “PASSAGES”</strong>, de la Editorial de la UNIVERSIDAD DE CAMBRIDGE, de Jack C. Richards, cuarta edición, New York, 2013. </p>
         </div>
         <div class="col-md-6">
-          <img class="" src="/images/ingles/Joven.jpg" alt="" width="500" height=auto>
+          <img class="appear-right" src="/images/ingles/Joven.jpg" alt="" width="500" height=auto>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-3 text-center">
+        <div class="col-md-3 text-center appear-left">
           <img class="" src="/images/ingles/AM.png" alt="" width="140" height="140">
           <h2>Horario Diurno</h2>
           <p>Martes a jueves: 7.30am a 9:00am <br>
@@ -36,7 +36,7 @@
 
           </div>
 
-          <div class="col-md-3 text-center">
+          <div class="col-md-3 text-center appear-random">
             <img class="" src="/images/ingles/PM.png" alt="" width="140" height="140">
             <h2>Horario Nocturno</h2>
             <p>Lunes y miércoles:5:00pm a 8:00pm<br>
@@ -45,7 +45,7 @@
 
             </div>
 
-            <div class="col-md-3 text-center">
+            <div class="col-md-3 text-center appear-random">
               <img class="" src="/images/ingles/Saturday.png" alt="" width="140" height="140">
               <h2>Horario Sabatinos</h2>
               <p>VIP Sabados: 8.30am a 12pm <br>
@@ -53,7 +53,7 @@
 
               </div>
 
-              <div class="col-md-3 text-center">
+              <div class="col-md-3 text-center appear-right">
                 <img class="img-circle" src="/images/ingles/calendario.png" alt="" width="140" height="140">
                 <h2>Duración</h2>
                 <p>4 meses por nivel</p>
