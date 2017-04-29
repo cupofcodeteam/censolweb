@@ -46,9 +46,18 @@
   }(document, 'script', 'facebook-jssdk'));</script>
 
   <header id="navigation">
-    <nav>
-      
-    </nav>
+    @if ($active_menu == 'inicio')
+    <style media="screen">
+    .navbar.navbar-fixed-top:not(.top-nav-collapse) {
+        top: 30px;
+    }
+    </style>
+      <nav id="banner-pago">
+        <p> ¡Realiza tus pagos de la forma mas seguro en el mercado! Ofrecemos pago en línea con MercadoPago
+          <a href="/pagoenlinea" class="btn btn-primary"> Pagar </a>
+        </p>
+      </nav>
+    @endif
     <div class="navbar navbar-fixed-top" role="banner">
       <div class="container">
         <div class="row">
