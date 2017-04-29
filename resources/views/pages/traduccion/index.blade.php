@@ -30,12 +30,12 @@
           </ul>
         </div>
         <div class="col-md-6 hidden-xs">
-          <img class="img-responsive" src="/images/quienes-somos/write-2.jpg" alt="" width="500" height=auto>
+          <img class="img-responsive appear-right" src="/images/quienes-somos/write-2.jpg" alt="" width="500" height=auto>
         </div>
       </div>
       <div class="row padding-bottom">
         <div class="col-md-6 ">
-           <img class="img-responsive" src="/images/quienes-somos/write-1.jpg" alt="" width="500" height=auto>
+           <img class="img-responsive appear-left" src="/images/quienes-somos/write-1.jpg" alt="" width="500" height=auto>
         </div>
         <div class="col-md-6 ">
           <h3 class="text-center">Servicio Integral</h3>
