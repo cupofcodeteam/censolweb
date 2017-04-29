@@ -15,9 +15,12 @@
         <li class="breadcrumb-item active"> FAQS</li>
     </ol>
     <div class="container">
+      <a id="btnFaqs" href="#preguntas" class="btn-float">
+        <i class="glyphicon glyphicon-arrow-up"></i>
+      </a>
       <h3>Preguntas Frecuentes</h3>
       <div class="col-md-6 hidden-xs">
-        <div class="list-group">
+        <div id="faq-content" class="list-group">
           <a href="#q-1" class="list-group-item">¿Qué tipo de inglés enseñan en Censol Guayana?</a>
           <a href="#q-2" class="list-group-item">¿Se asignan tareas para la casa?</a>
           <a href="#q-3" class="list-group-item"> ¿Cómo puedo saber en qué nivel estoy?</a>
@@ -121,4 +124,19 @@
   </section>
 
 
+@endsection
+
+@section('scripts')
+  <script type="text/javascript">
+  $(document).scroll(function() {
+    if ($('#btnFaqs').offset().top > $('#faq-content').offset().top + $('#faq-content').height()){
+      $('#btnFaqs').css('transform','rotate(0deg)');
+      $('#btnFaqs').css('opacity','1');
+    }else{
+      $('#btnFaqs').css('transform','rotate(180deg)');
+      $('#btnFaqs').css('opacity','0');
+    }
+  });
+
+  </script>
 @endsection

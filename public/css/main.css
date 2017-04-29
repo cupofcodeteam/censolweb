@@ -59,7 +59,6 @@ h5 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
 	font-weight:normal;
 }
 
@@ -1982,4 +1981,42 @@ nav#banner-pago {
     font-size: 13px;
     text-align: center;
     color: #f5f8fa;
+}
+
+#feature-in .container {
+    padding-top: 60px;
+}
+
+.feature-logos {
+    margin-top: 60px;
+}
+
+.app-section-title {
+    color: #f4f4f4;
+    text-shadow: 2px 2px 6px #000;
+}
+
+a.btn-float {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    background-color: #f48119;
+    z-index: 555;
+    border-radius: 50%;
+    left: 5%;
+    bottom: 10%;
+    border: solid 2px #dc6902;
+    transform: rotate(180deg);
+    opacity: 0;
+    transition: all.4s ease-in-out;
+}
+
+a.btn-float:hover {
+    color: #fff;
+}
+
+i.glyphicon.glyphicon-arrow-up {
+    font-size: x-large;
+    left: 14px;
+    top: 14px;
 }
