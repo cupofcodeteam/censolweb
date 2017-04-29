@@ -123,8 +123,8 @@
                               <li><a href="/idiomas/ingles/tecnicos">Tecnicos Especializados</a></li>
                               <li><a href="/idiomas/ingles/corporativo">Ingles Corporativo</a></li>
                               <li><a href="/idiomas/ingles/en-linea">Ingles En Linea</a></li>
-                              <li><a href="#">TOFL</a></li>
-                              <li><a href="#">IELTS</a></li>
+                              <li><a href="/idiomas/ingles/tofl">TOFL</a></li>
+                              <li><a href="/idiomas/ingles/ielts">IELTS</a></li>
                             </ul>
                           </div>
                         </div>
