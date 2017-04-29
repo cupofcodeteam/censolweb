@@ -31,10 +31,12 @@
   <script type="text/javascript" src="/js/main.js"></script>
   <script src="/js/scrolling-nav.js"></script>
   <script src="/js/animatescroll.min.js"></script>
+  <script src="/js/appear.min.js"></script>
+  <script src="/js/jquery.easing.1.3.js"></script>
 
 </head><!--/head-->
-<body class="informacion-1" style="overflow: hidden;">
-  <div class="loading-modal"></div>
+<body class="informacion-1" style="overflow: hidden; overflow-x: hidden;">
+  <div class="loading-modal" style="display:none;"></div>
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -267,8 +269,90 @@
        setTimeout(function() {
           $('.loading-modal').fadeOut('600');
           $('body').css('overflow','auto');
+          $('body').css('overflow-x','hidden');
        },2000);
+
      });
+     appear({
+       elements: function elements() {
+         return $('.appear-top');
+       },
+       appear: function appear(el) {
+         $(el).css("transform","translateY(0)");
+         $(el).css('opacity','1');
+       }
+     });
+
+     appear({
+       elements: function elements() {
+         return $('.appear-random');
+       },
+       appear: function appear(el) {
+         var rand = Math.floor((Math.random() * 1000)+500);
+         $(el).animate(
+           { opacity:1 },{
+             duration: rand,
+             easing: 'easeInQuart'
+           }
+         );
+       }
+     });
+
+     appear({
+       elements: function elements() {
+         return $('.appear-left');
+       },
+       appear: function appear(el) {
+         $(el).css("transform","translateX(0)");
+         $(el).css('opacity','1');
+       },
+       bounds: -200
+     });
+
+     appear({
+       elements: function elements() {
+         return $('.appear-right');
+       },
+       appear: function appear(el) {
+         $(el).css("transform","translateX(0)");
+         $(el).css('opacity','1');
+       },
+       bounds: -200
+     });
+
+     appear({
+       elements: function elements() {
+         return $('.appear-zoom');
+       },
+       appear: function appear(el) {
+         $(el).css('opacity','1');
+         $(el).css("transform","scale(1)");
+       },
+       bounds: -200
+     });
+
+     appear({
+       elements: function elements() {
+         return $('.appear-tilt-l');
+       },
+       appear: function appear(el) {
+         $(el).css('opacity','1');
+         $(el).css("animation","tilt-l 1500ms");
+       },
+       bounds: -200
+     });
+
+     appear({
+       elements: function elements() {
+         return $('.appear-tilt-r');
+       },
+       appear: function appear(el) {
+         $(el).css('opacity','1');
+         $(el).css("animation","tilt-r 1500ms");
+       },
+       bounds: -200
+     });
+
    </script>
 </body>
 </html>

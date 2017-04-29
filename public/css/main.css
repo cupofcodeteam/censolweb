@@ -889,6 +889,7 @@ textarea.form-control {
 	padding-top: 45px;
 	padding-bottom: 45px;
   background-color: #f5f5f5;
+  width: 100%;
 }
 
 #payment .section-title{
@@ -2034,4 +2035,51 @@ i.glyphicon.glyphicon-arrow-up {
 	height: 100%;
 	z-index: 9999;
 	background: url('/images/loader.gif') center no-repeat #fff;
+}
+
+.appear-top{
+	transform: translateY(-60%);
+	opacity: 0;
+	transition: all 1500ms cubic-bezier(0.175, 0.885, 0.320, 1.275),opacity 1.2s ease-in-out;
+}
+
+.appear-left{
+	transform: translateX(-60%);
+	opacity: 0;
+	transition: all 1500ms cubic-bezier(0.175, 0.885, 0.320, 1.275),opacity 1.2s ease-in-out;
+}
+
+.appear-right{
+	transform: translateX(40%);
+	opacity: 0;
+	transition: all 1500ms cubic-bezier(0.175, 0.885, 0.320, 1.275),opacity 1.2s ease-in-out;
+}
+
+.appear-random{
+	opacity: 0;
+}
+
+.appear-zoom{
+	opacity: 0;
+	transform: scale(0.4);
+	transition: all 1500ms cubic-bezier(0.175, 0.885, 0.320, 1.275),opacity 1.2s ease-in-out;
+}
+
+@keyframes tilt-l {
+	0% {transform: rotate(0deg);}
+	33% {transform: rotate(-8deg);}
+	66% {transform: rotate(8deg);}
+	100% {transform: rotate(0deg);}
+}
+
+@keyframes tilt-r {
+	0% {transform: rotate(0deg);}
+	33% {transform: rotate(8deg);}
+	66% {transform: rotate(-8deg);}
+	100% {transform: rotate(0deg);}
+}
+
+.appear-tilt-l,.appear-tilt-r{
+	opacity: 0;
+	transition: opacity 1500ms cubic-bezier(0.175, 0.885, 0.320, 1.275),opacity 1.2s ease-in-out;
 }
