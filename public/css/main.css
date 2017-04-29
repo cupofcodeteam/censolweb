@@ -163,8 +163,9 @@ a.btn.btn-content {
     z-index: 1;
     border: 2px solid #ff7a00;
     border-radius: 6px;
-    background-color: transparent;
-    color: #ff7a00;
+		background-color: #ff7a00;
+	    color: #f4f4f4;
+	}
 }
 
 a.btn.btn-content:hover {
@@ -727,7 +728,7 @@ textarea.form-control {
 
 
 #home-top{
-	background-image: url(/images/home/bg/slider-bg.jpg);
+	background-image: url(../images/home/first.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -755,7 +756,7 @@ textarea.form-control {
 
  #about-us{
 	 padding-top: 40px;
-	 padding-bottom: 90px;
+	 padding-bottom: 135px;
 
  }
 
@@ -772,14 +773,14 @@ textarea.form-control {
 
 
 #about-us .image:after {
-    content: "";
+	content: "";
     position: absolute;
-    width: 300px;
-    height: 300px;
-    background-image: url(/images/home/about/aboutbg.jpg);
+    width: 515px;
+    height: 279px;
+    background-image: url(/images/home/censol2.jpg);
     background-size: cover;
-    bottom: -73px;
-    left: -15px;
+    bottom: -115px;
+    left: 15px;
     border-radius: 5px;
 }
 
@@ -792,7 +793,7 @@ textarea.form-control {
 }
 #projects {
 	padding-top: 45px !important;
-  padding-bottom: 140px !important;
+  padding-bottom: 85px !important;
   background-color: #f5f5f5;
 	position: relative;
 }
@@ -1891,11 +1892,11 @@ color: #f68118;
 }
 
 section#servicio2 {
-    padding-top: 2%;
+    padding-top: 5%;
 }
 
 div#S1 {
-    background: rgb(245, 245, 245);
+  background: rgba(128, 128, 117, 0.14);
     padding: 3%;
 
 }
@@ -1913,7 +1914,7 @@ div#S3 {
 }
 
 div#S4 {
-    background: rgba(128, 128, 117, 0.24);
+    background: rgb(245, 245, 245);
 		padding: 3%;
 
 }
@@ -1946,7 +1947,7 @@ div#S4 {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.43);
+  background-color: #eee;
 }
 
 .right-bg {
@@ -1955,7 +1956,7 @@ div#S4 {
     height: 100%;
     top: 0;
     right: 0;
-    background-color: rgba(136, 153, 166, 0.66);
+  background-color: #f5f5f5;
 }
 
 nav#banner-pago {
@@ -2083,3 +2084,15 @@ i.glyphicon.glyphicon-arrow-up {
 	opacity: 0;
 	transition: opacity 1500ms cubic-bezier(0.175, 0.885, 0.320, 1.275),opacity 1.2s ease-in-out;
 }
+
+.derecha {
+    background-image: url(/images/home/work2.jpg);
+    padding: 7%;
+}
+
+.img-index{
+	max-width: 136% !important;
+}
+ h2{
+	   font-family: 'PT Sans', sans-serif !important;
+ }

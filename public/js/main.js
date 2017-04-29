@@ -62,9 +62,9 @@ jQuery(function ($) {
     }());
 
     $("home-top").ready(function(){
-      $("#home-top").css('height',$(window).height()*0.80);
+      $("#home-top").css('height',$(window).height()*0.90);
       $(window).resize(function() {
-          $("#home-top").css('height',$(window).height()*0.80);
+          $("#home-top").css('height',$(window).height()*0.90);
       });
     });
 
