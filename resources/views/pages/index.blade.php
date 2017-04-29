@@ -41,7 +41,13 @@
   </section>
 
   <section id="projects" class="hidden-xs">
-    <div class="container text-center ">
+    <div class="left-bg">
+
+    </div>
+    <div class="right-bg">
+
+    </div>
+    <div class="text-center ">
       <div class="row">
         <div class="section-title">
           <h2>Nuestros Niveles<span> de Inglés</span></h2>
@@ -60,79 +66,79 @@
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <div class="description">
+              <div class="col-md-6">
+                <img src="../images/home/project/intro.jpg" alt="">
+              </div>
                 <div class="col-md-6">
                   <div class="content">
                     <h2> Intro</h2>
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <img src="../images/home/project/intro.jpg" alt="">
-                </div>
             </div>
           </div>
           <div class="item">
             <div class="description">
+              <div class="col-md-6">
+                <img src="../images/home/project/ic1.jpg" alt="">
+              </div>
                 <div class="col-md-6">
                   <div class="content">
                     <h2> Interchange I</h2>
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <img src="../images/home/project/ic1.jpg" alt="">
-                </div>
             </div>
           </div>
           <div class="item">
             <div class="description">
+              <div class="col-md-6">
+                <img src="../images/home/project/ic2.jpg" alt="">
+              </div>
                 <div class="col-md-6">
                   <div class="content">
                     <h2> Interchange II</h2>
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <img src="../images/home/project/ic2.jpg" alt="">
-                </div>
             </div>
           </div>
           <div class="item">
             <div class="description">
+              <div class="col-md-6">
+                <img src="../images/home/project/ic3.jpg" alt="">
+              </div>
                 <div class="col-md-6">
                   <div class="content">
                     <h2> Interchange III</h2>
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <img src="../images/home/project/ic3.jpg" alt="">
-                </div>
             </div>
           </div>
           <div class="item">
             <div class="description">
+              <div class="col-md-6">
+                <img src="../images/home/project/ps1.jpg" alt="">
+              </div>
                 <div class="col-md-6">
                   <div class="content">
                     <h2> Passages I</h2>
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <img src="../images/home/project/ps1.jpg" alt="">
-                </div>
             </div>
           </div>
           <div class="item">
             <div class="description">
+              <div class="col-md-6">
+                <img src="../images/home/project/ps2.jpg" alt="">
+              </div>
                 <div class="col-md-6">
                   <div class="content">
                     <h2> Passeges II</h2>
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </div>
-                </div>
-                <div class="col-md-6">
-                  <img src="../images/home/project/ps2.jpg" alt="">
                 </div>
             </div>
           </div>
@@ -140,7 +146,7 @@
       </div>
     </div>
   </section>
-  
+
   <section id="servicio2">
     <div class=" text-center beginner">
         <h1>Algo más que una Institución de Ingles</h1>
@@ -273,7 +279,7 @@
               <img src="../images/home/mercadopago.png" alt="">
               <figcaption>
                 <h3> Mercado Pago </h3>
-                <a class="btn btn-primary center-block"href="#"> Ver más</a>
+                <a class="btn btn-primary center-block"href="/pagoenlinea"> Ver más</a>
               </figcaption>
             </figure>
           </div>
@@ -330,4 +336,20 @@
       </div>
     </div>
   </section><!--/#clients-->
+@endsection
+
+@section('scripts')
+<script type="text/javascript">
+$(document).ready(function() {
+  var scale = 0.2;
+
+  setInterval(function () {
+      $('#projects .carousel-indicators li.active').css('transform','scale('+(1+scale)+')');
+    scale = -scale;
+  },700);
+});
+
+
+
+</script>
 @endsection
