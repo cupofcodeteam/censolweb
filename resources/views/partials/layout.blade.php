@@ -33,7 +33,8 @@
   <script src="/js/animatescroll.min.js"></script>
 
 </head><!--/head-->
-<body class="informacion-1">
+<body class="informacion-1" style="overflow: hidden;">
+  <div class="loading-modal"></div>
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -261,5 +262,11 @@
   </footer>
 
    @yield('scripts')
+   <script type="text/javascript">
+     $(document).ready(function() {
+       $('.loading-modal').fadeOut('600');
+       $('body').css('overflow','auto');
+     });
+   </script>
 </body>
 </html>

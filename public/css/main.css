@@ -2021,3 +2021,17 @@ i.glyphicon.glyphicon-arrow-up {
     left: 14px;
     top: 14px;
 }
+
+#projects > div.text-center > div.row{
+	margin-right: 0px;
+}
+
+.loading-modal{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('/images/loader.gif') center no-repeat #fff;
+}

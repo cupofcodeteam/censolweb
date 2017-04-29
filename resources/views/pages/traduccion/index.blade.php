@@ -34,7 +34,7 @@
         </div>
       </div>
       <div class="row padding-bottom">
-        <div class="col-md-6 ">4
+        <div class="col-md-6 ">
            <img class="img-responsive" src="/images/quienes-somos/write-1.jpg" alt="" width="500" height=auto>
         </div>
         <div class="col-md-6 ">
