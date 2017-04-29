@@ -19,10 +19,10 @@
 
         <div class="col-md-6 ">
           <p>CENSOL GUAYANA ofrece la asesoría y organización de eventos relacionados a cualquier índole en la ciudad, así como el patrocinio a eventos educativos y sociales que aportan al desarrollo integral de nuestra región.</p>
-          <a href="/nosotros/contacto" target="_blank" class="btn btn-primary section-btn">Contáctenos</a>
+          <a href="/nosotros/contacto" target="_blank" class="btn btn-primary section-btn appear-top">Contáctenos</a>
         </div>
         <div class="col-md-6">
-          <img class="" src="/images/ingles/Joven.jpg" alt="" width="500" height=auto>
+          <img class="appear-right" src="/images/ingles/Joven.jpg" alt="" width="500" height=auto>
         </div>
       </div>
     </div><!--/#main-blog-->
