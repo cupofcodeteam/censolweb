@@ -7,8 +7,8 @@
   <div id="portfolio-page">
     <div class="text-center page-breadcrumb">
       <div class="container">
-        <h1>Programa <span>Inglés</span></h1>
-        <p class="breadcrumb-text"></p>
+        <!-- <h1>Programa <span>Inglés</span></h1>
+        <p class="breadcrumb-text"></p> -->
       </div>
     </div><!--/.page-breadcrumb-->
 
