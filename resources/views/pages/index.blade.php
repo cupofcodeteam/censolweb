@@ -71,8 +71,8 @@
               </div>
                 <div class="col-md-6">
                   <div class="content">
-                    <h2> Intro</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2 style="color:#ff7900;font-weight: bold;"> Intro</h2>
+                    <p> El estudiante tendrá la capacidad para comprender y utilizar expresiones básicas y simples que le permitirán satisfacer necesidades concretas todos los días. Además podrán presentarse y a otros, preguntar y responder preguntas referentes a información personal, direcciones y sobre pertenencias. Podrán comunicarse e interactuar de modos siempre que el orador pronuncie claramente.</p>
                   </div>
                 </div>
             </div>
@@ -84,8 +84,8 @@
               </div>
                 <div class="col-md-6">
                   <div class="content">
-                    <h2> Interchange I</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2 style="color:#ff7900;font-weight: bold;"> Interchange I</h2>
+                    <p> El estudiante podrá comprender un rango común de expresiones utilizadas en referencias a información personal y familiar, compras, trabajo, geografía local, etc. Puede comunicarse y lidiar con tareas simples que ameritan interacción y cambio de información en una manera general y en términos directos, relevantes y asuntos cotidianos concretos.</p>
                   </div>
                 </div>
             </div>
@@ -97,8 +97,8 @@
               </div>
                 <div class="col-md-6">
                   <div class="content">
-                    <h2> Interchange II</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2 style="color:#ff7900;font-weight:bold;"> Interchange II</h2>
+                    <p>El estudiante está en su capacidad de comprender ideas principales e información específica sobre profesiones, escuelas, ocio y asuntos cotidianos en un lenguaje estándar, normal y claro. Puede lidiar con casi cualquier circunstancia en una atmosfera donde el objetivo lingüístico sea hablar. Pueden producir o elaborar ensayos simples con respecto a conocimiento general y contemporáneo o sobre temas personales. También puede describir experiencias, narrar eventos y sueños, expresar metas y ambiciones así como dar razones y explicaciones breves referentes a proyectos.</p>
                   </div>
                 </div>
             </div>
@@ -110,8 +110,8 @@
               </div>
                 <div class="col-md-6">
                   <div class="content">
-                    <h2> Interchange III</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2 style="color:#ff7900;font-weight: bold;" > Interchange III</h2>
+                    <p> El estudiante Podrá lidiar con casi cualquier circunstancia en una atmosfera donde el objetivo lingüístico sea hablar. Pueden producir o elaborar ensayos simples con respecto a conocimiento general y contemporáneo o sobre temas personales. También puede describir experiencias, narrar eventos y sueños, expresar metas y ambiciones así como dar razones y explicaciones breves referentes a proyectos.</p>
                   </div>
                 </div>
             </div>
@@ -123,8 +123,10 @@
               </div>
                 <div class="col-md-6">
                   <div class="content">
-                    <h2> Passages I</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2 style="color:#ff7900;font-weight: bold;"> Passages I</h2>
+                    <p> Los estudiantes serán capaces de comprender ideas principales de textos con cierto tipo de complejidad que hable sobre concretos y abstractos tópicos, incluyendo técnicas de debates especializado. Ellos pueden interactuar con un nivel de fluidez, precisión  y espontaneidad. <br>
+                    Por lo tanto, pueden interactuar con nativos de la lengua sin ningún tipo de presión o tensión.  También pueden producir claro, detallado y elaborado ensayos sobre una diversidad de tópicos así como explicar un punto de vista en particular, presentando ventajas y desventajas de una variedad de temas.
+                    </p>
                   </div>
                 </div>
             </div>
@@ -136,8 +138,10 @@
               </div>
                 <div class="col-md-6">
                   <div class="content">
-                    <h2> Passeges II</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2 style="color:#ff7900;font-weight: bold;" > Passeges II</h2>
+                    <p> Los estudiantes son capaces de comprender y debatir sobre una serie de temas mucho más largos y complejos, reconociendo e identificando sus contextos implícitos. Podrán interactuar y expresar pensamientos en una manera muy fluida y precisa sin tener que buscar expresiones o vocabularios en una forma detallada. Utilizaran un lenguaje objetivo con alta fluidez y de manera eficaz en lo social, académico y profesional.<br>
+                    Pueden producir ensayos muy claros, bien estructuradas, detallados y bien elaborados referentes a temas complejos mostrando una buena coherencia, cohesión y un uso del lenguaje equilibrado.
+                    </p>
                   </div>
                 </div>
             </div>
@@ -157,20 +161,21 @@
         <div class="row">
           <div  id="S1" class="col-md-6 appear-random">
             <div class="Middle ">
-              <img src="../images/home/icons/service-icon1.png" alt="" >
+              <i class="fa fa-suitcase fa-4x" aria-hidden="true"></i>
               <h3><strong>Comercialización</strong></h3>
               <p>Asesoramiento en todas las áreas y dar nuestra marca y nombre como franquicia,intercambio comercial o convenio por clases en nuestras instalaciones o a domicilio en sus oficinas y organización de eventos relacionados a cualquier índole en la ciudad...</p>
-                <a target="_blank" class="btn btn-content"href="/nosotros/contacto"> Contacto</a>
+              <a  class="btn btn-content"href="/comercial/franquicia"> Más Información</a>
             </div>
 
           </div>
 
           <div  id="S2" class="col-md-6 appear-random">
             <div class="Middle">
-              <img src="../images/home/icons/service-icon1.png" alt="" >
+              <i class="fa fa fa-pencil-square-o fa-4x" aria-hidden="true"></i>
+
               <h3><strong>Traducción</strong></h3>
               <p>Presentación de traducciones con apego al formato original: escaneo de sellos, firmas, logotipos, imágenes y planos, elaboración de cuadros y gráficos. Entrega de documentos en la presentación requerida por el cliente... </p>
-                <a target="_blank" class="btn btn-content"href="/nosotros/contacto"> Contacto</a>
+              <a class="btn btn-content"href="/traduccion"> Más Información</a>
 
             </div>
 
@@ -181,20 +186,24 @@
         <div class="row">
           <div  id="S3" class="col-md-6 appear-random">
             <div class="Middle">
-              <img src="../images/home/icons/service-icon1.png" alt="" >
+              <i class="fa fa-file-o fa-4x" aria-hidden="true"></i>
+
               <h3><strong>Edición de Documentos</strong></h3>
               <p>Servicios de redacción,corrección, edición y publicación de textos. De cualquier índole, así como su respectiva corrección, edición y publicación a través de nuestros socios editoriales...</p>
-                <a target="_blank" class="btn btn-content"href="/nosotros/contacto"> Contacto</a>
+              <a class="btn btn-content"href="/edicion/redaccion"> Más Información</a>
+
             </div>
 
           </div>
 
           <div id="S4" class="col-md-6 appear-random">
             <div class="Middle ">
-              <img src="../images/home/icons/service-icon1.png" alt="" >
+              <i class="fa fa-gavel fa-4x" aria-hidden="true"></i>
+
               <h3><strong>Legalización</strong></h3>
               <p>Gestoría para apostillamiento y legalización de documentos ante organismos nacionales e internacionales. Además de documentos ante el ministerio de relaciones exteriores en la ciudad de Caracas...</p>
-                <a target="_blank" class="btn btn-content "href="/nosotros/contacto"> Contacto</a>
+                <a  class="btn btn-content "href="/nosotros/contacto"> Más Información</a>
+
             </div>
           </div>
         </div>
@@ -232,7 +241,7 @@
           <div class="col-md-4">
             <div class="entry-content">
               <a href="blog-detail.html"><a class="twitter-timeline" data-width="300" data-height="365" href="https://twitter.com/censolguayana" target="_blank">Tweets por censolguayana</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-              <h2><a href="https://twitter.com/censolguayana">Twitter</a></h2>
+              <h2><a  target="_blank" href="https://twitter.com/censolguayana">Twitter</a></h2>
               <div class="entry-meta">
               </div>
               <i class="fa fa-chevron-up"></i></a>
@@ -247,7 +256,7 @@
     <div class="container">
       <div class="row">
         <div class="section-title text-center">
-          <h1>Metodos de<span> Pago</span></h1>
+          <h1>Métodos de<span> Pago</span></h1>
         </div>
       </div>
       <div class="row">
@@ -256,7 +265,7 @@
             <figure class="appear-left">
               <img src="../images/home/payment2.png" alt="">
               <figcaption>
-                <h3> Deposito </h3>
+                <h3> Depósito </h3>
                 <a target="_blank" class="btn btn-primary center-block"href="/nosotros/contacto"> Contacto</a>
               </figcaption>
             </figure>
@@ -299,8 +308,8 @@
 
         <div class="col-md-6 derecha">
           <div class="text appear-tilt-r">
-            <h2>Estudia en nuestro Instituto</h2>
-            <a target="_blank" href="/contacto" class="btn btn-primary">Formulario de PreInscripción</a>
+            <h2 style="color:white;">Estudia en nuestro Instituto</h2>
+            <a style="color:white;" href="http://www.123contactform.com/form-2322394/Encuesta" class="btn btn-primary">Formulario de PreInscripción</a>
           </div>
         </div>
 
