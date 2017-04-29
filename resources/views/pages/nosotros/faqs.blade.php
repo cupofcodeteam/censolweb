@@ -15,7 +15,7 @@
         <li class="breadcrumb-item active"> FAQS</li>
     </ol>
     <div class="container">
-      <a id="btnFaqs" href="#preguntas" class="btn-float">
+      <a id="btnFaqs" href="#" onclick="animScroll('#preguntas');" class="btn-float">
         <i class="glyphicon glyphicon-arrow-up"></i>
       </a>
       <h3>Preguntas Frecuentes</h3>
@@ -128,6 +128,7 @@
 
 @section('scripts')
   <script type="text/javascript">
+
   $(document).scroll(function() {
     if ($('#btnFaqs').offset().top > $('#faq-content').offset().top + $('#faq-content').height()){
       $('#btnFaqs').css('transform','rotate(0deg)');
@@ -138,5 +139,8 @@
     }
   });
 
+  function animScroll(elem) {
+    $(elem).animatescroll({easing:'easeInOutQuad',scrollSpeed:1500});
+  }
   </script>
 @endsection

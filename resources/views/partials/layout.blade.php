@@ -29,10 +29,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script type="text/javascript" src="/js/jquery.parallax.js"></script>
   <script type="text/javascript" src="/js/main.js"></script>
-  <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script> -->
-  <!-- <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script> -->
-  <script type="/text/javascript" src="/js/angularApp.js"></script>
   <script src="/js/scrolling-nav.js"></script>
+  <script src="/js/animatescroll.min.js"></script>
 
 </head><!--/head-->
 <body class="informacion-1">
