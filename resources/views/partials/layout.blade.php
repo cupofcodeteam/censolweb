@@ -264,8 +264,10 @@
    @yield('scripts')
    <script type="text/javascript">
      $(document).ready(function() {
-       $('.loading-modal').fadeOut('600');
-       $('body').css('overflow','auto');
+       setTimeout(function() {
+          $('.loading-modal').fadeOut('600');
+          $('body').css('overflow','auto');
+       },2000);
      });
    </script>
 </body>
