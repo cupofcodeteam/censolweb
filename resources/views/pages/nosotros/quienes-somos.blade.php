@@ -16,14 +16,14 @@
     <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
-            <div class="image">
+            <div class="image appear-top">
               <img class=" img-responsive center-block" src="/images/quienes-somos/teo.jpeg" alt="" width="400px" height="350px">
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
-            <div class="description text-center">
+            <div class="description text-center appear-tilt-l">
               <h3> Lic. Teodoro R. Castillo R.</h3>
               <p>
                   <strong>Gerente General</strong> <br>

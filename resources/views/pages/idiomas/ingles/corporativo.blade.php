@@ -18,7 +18,7 @@
       <div class="row padding-bottom">
         <div class="col-md-4 ">
 
-          <img class="img-responsive" src="/images/ingles/tecnico.jpg">
+          <img class="img-responsive appear-left" src="/images/ingles/tecnico.jpg">
 
         </div>
         <div class="col-md-8 ">
@@ -61,7 +61,7 @@
 
         </div>
         <div class="col-md-4 ">
-          <img class="img-responsive" src="/images/ingles/Mecanico.jpg">
+          <img class=" appear-right img-responsive" src="/images/ingles/Mecanico.jpg">
 
         </div>
       </div>
@@ -74,7 +74,7 @@
       <div class="row padding-bottom">
         <div class="col-md-4 ">
 
-          <img class="img-responsive" src="/images/ingles/manager.jpeg">
+          <img class="appear-left img-responsive" src="/images/ingles/manager.jpeg">
 
         </div>
         <div class="col-md-8 ">
@@ -117,7 +117,7 @@
         </div>
         <div class="col-md-4 ">
 
-          <img class="img-responsive" src="/images/ingles/medico.jpg">
+          <img class=" appear-right img-responsive" src="/images/ingles/medico.jpg">
 
         </div>
 
@@ -131,7 +131,7 @@
       <div class="row padding-bottom">
         <div class="col-md-4 ">
 
-          <img class="img-responsive" src="/images/ingles/aeromoza.jpg">
+          <img class="appear-left img-responsive" src="/images/ingles/aeromoza.jpg">
 
         </div>
         <div class="col-md-8 ">

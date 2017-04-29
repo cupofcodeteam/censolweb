@@ -26,13 +26,13 @@
       </div>
       <div class="row">
         <div class="col-md-5">
-          <div class="content">
+          <div class="content appear-top">
             <p>Somos una empresa consolidada en la formación y capacitación del idioma Inglés. Tres años de experiencia liderando los procesos de enseñanza, aprendizaje y evaluación del idioma, avalan nuestro compromiso académico en el logro de objetivos de manera eficiente.</p>
             <a class="btn btn-primary" target="_blank" href="/nosotros/quienes-somos"> Leer mas</a>
           </div>
         </div>
         <div class="col-md-7">
-          <div class="image">
+          <div class="image appear-top">
             <img class="img-responsive" src="../images/home/about/about.jpg" alt="">
           </div>
         </div>
@@ -155,7 +155,7 @@
     <div class="container">
       <div class="text-center mitad ">
         <div class="row">
-          <div  id="S1" class="col-md-6">
+          <div  id="S1" class="col-md-6 appear-random">
             <div class="Middle ">
               <img src="../images/home/icons/service-icon1.png" alt="" >
               <h3><strong>Comercialización</strong></h3>
@@ -165,7 +165,7 @@
 
           </div>
 
-          <div  id="S2" class="col-md-6">
+          <div  id="S2" class="col-md-6 appear-random">
             <div class="Middle">
               <img src="../images/home/icons/service-icon1.png" alt="" >
               <h3><strong>Traducción</strong></h3>
@@ -179,7 +179,7 @@
         </div>
 
         <div class="row">
-          <div  id="S3" class="col-md-6">
+          <div  id="S3" class="col-md-6 appear-random">
             <div class="Middle">
               <img src="../images/home/icons/service-icon1.png" alt="" >
               <h3><strong>Edición de Documentos</strong></h3>
@@ -189,7 +189,7 @@
 
           </div>
 
-          <div id="S4" class="col-md-6">
+          <div id="S4" class="col-md-6 appear-random">
             <div class="Middle ">
               <img src="../images/home/icons/service-icon1.png" alt="" >
               <h3><strong>Legalización</strong></h3>
@@ -253,7 +253,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="method">
-            <figure>
+            <figure class="appear-left">
               <img src="../images/home/payment2.png" alt="">
               <figcaption>
                 <h3> Deposito </h3>
@@ -264,7 +264,7 @@
         </div>
         <div class="col-md-4">
           <div class="method">
-            <figure>
+            <figure class="appear-zoom">
               <img src="../images/home/payment1.png" alt="">
               <figcaption>
                 <h3> Transferencia </h3>
@@ -275,7 +275,7 @@
         </div>
         <div class="col-md-4">
           <div class="method">
-            <figure>
+            <figure class="appear-right">
               <img src="../images/home/mercadopago.png" alt="">
               <figcaption>
                 <h3> Mercado Pago </h3>
@@ -291,16 +291,17 @@
   <div class="text-center footer-top">
 
         <div class="col-md-6 izquierda" >
-          <div class="texto">
+          <div class="texto appear-tilt-l">
             <h2>¿Quieres trabajar con nosotros?</h2>
             <a target="_blank" href="/contacto" class="btn btn-primary">Contáctenos</a>
           </div>
         </div>
 
         <div class="col-md-6 derecha">
-          <h2>Estudia en nuestro Instituto</h2>
-
-          <a target="_blank" href="/contacto" class="btn btn-primary">Formulario de PreInscripción</a>
+          <div class="text appear-tilt-r">
+            <h2>Estudia en nuestro Instituto</h2>
+            <a target="_blank" href="/contacto" class="btn btn-primary">Formulario de PreInscripción</a>
+          </div>
         </div>
 
 

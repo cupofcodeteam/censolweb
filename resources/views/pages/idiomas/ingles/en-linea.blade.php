@@ -21,27 +21,27 @@
             <p>El programa de Ingles en linea cuenta  con la Serie <strong> “INTERCHANGE” Y “PASSAGES”, </strong> de la Editorial de la UNIVERSIDAD DE CAMBRIDGE, de Jack C. Richards, cuarta edición, New York, 2013 de <strong> 6 niveles</strong> </p>
           </div>
             <div class="col-md-6 ">
-              <img class="img-responsive" src="/images/ingles/otros-paises.jpeg">
+              <img class="appear-right img-responsive" src="/images/ingles/otros-paises.jpeg">
 
             </div>
           </div>
 
           <div class="row">
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center appear-left">
               <img class="img-circle" src="/images/ingles/reloj-circular.png" alt="" width="140" height="140">
               <h2>Horario</h2>
               <p>A convenir con el estudiante</p>
 
               </div>
 
-              <div class="col-md-4 text-center">
+              <div class="col-md-4 text-center appear-zoom">
                 <img class="img-circle" src="/images/ingles/calendario.png" alt="" width="140" height="140">
                 <h2>Duración</h2>
                 <p>2 meses (8 semanas)</p>
 
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center appear-right">
                   <img class="img-circle" src="/images/ingles/certificado.png" alt="" width="140" height="140">
                   <h2>Metodologia</h2>
                   <p>Nuestra Metodologia de estudio esta certificados por la Universidad de Cambridge</p>

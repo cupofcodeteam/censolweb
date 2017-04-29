@@ -14,7 +14,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-4">
-            <div class="item-wrapper">
+            <div class="item-wrapper appear-left">
               <div class="item item-1 img-circle center-block">
                 <div class="item-image">
                 </div>
@@ -25,7 +25,7 @@
             </div>
           </div>
           <div class="col-xs-4">
-            <div class="item-wrapper">
+            <div class="item-wrapper appear-zoom">
               <div class="item item-2 img-circle center-block">
                 <div class="item-image">
                 </div>
@@ -38,7 +38,7 @@
             </div>
           </div>
           <div class="col-xs-4">
-            <div class="item-wrapper">
+            <div class="item-wrapper appear-right">
               <div class="item item-3 img-circle center-block">
                 <div class="item-image">
                 </div>
@@ -97,9 +97,11 @@
           <div class="container-fluid">
             <div class="row">
               <div class="promo text-center">
+                <div class="appear-tilt-l">
                   <h2> La oportunidad de aprender cualquier idioma en un click </h2>
                   <p> Rellene nuestro formulario de preinscripción</p>
                   <a class="btn btn-primary" target="_blank" href="http://www.123contactform.com/form-2322394/Encuesta"> Ir </a>
+                </div>
               </div>
             </div>
           </div>
