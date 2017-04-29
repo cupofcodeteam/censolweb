@@ -160,7 +160,7 @@
               <img src="../images/home/icons/service-icon1.png" alt="" >
               <h3><strong>Comercialización</strong></h3>
               <p>Asesoramiento en todas las áreas y dar nuestra marca y nombre como franquicia,intercambio comercial o convenio por clases en nuestras instalaciones o a domicilio en sus oficinas y organización de eventos relacionados a cualquier índole en la ciudad...</p>
-                <a class="btn btn-primary"href="/nosotros/contacto"> Contacto</a>
+                <a target="_blank" class="btn btn-content"href="/nosotros/contacto"> Contacto</a>
             </div>
 
           </div>
@@ -170,7 +170,7 @@
               <img src="../images/home/icons/service-icon1.png" alt="" >
               <h3><strong>Traducción</strong></h3>
               <p>Presentación de traducciones con apego al formato original: escaneo de sellos, firmas, logotipos, imágenes y planos, elaboración de cuadros y gráficos. Entrega de documentos en la presentación requerida por el cliente... </p>
-                <a class="btn btn-primary"href="/nosotros/contacto"> Contacto</a>
+                <a target="_blank" class="btn btn-content"href="/nosotros/contacto"> Contacto</a>
 
             </div>
 
@@ -184,7 +184,7 @@
               <img src="../images/home/icons/service-icon1.png" alt="" >
               <h3><strong>Edición de Documentos</strong></h3>
               <p>Servicios de redacción,corrección, edición y publicación de textos. De cualquier índole, así como su respectiva corrección, edición y publicación a través de nuestros socios editoriales...</p>
-                <a class="btn btn-primary"href="/nosotros/contacto"> Contacto</a>
+                <a target="_blank" class="btn btn-content"href="/nosotros/contacto"> Contacto</a>
             </div>
 
           </div>
@@ -194,7 +194,7 @@
               <img src="../images/home/icons/service-icon1.png" alt="" >
               <h3><strong>Legalización</strong></h3>
               <p>Gestoría para apostillamiento y legalización de documentos ante organismos nacionales e internacionales. Además de documentos ante el ministerio de relaciones exteriores en la ciudad de Caracas...</p>
-                <a class="btn btn-primary "href="/nosotros/contacto"> Contacto</a>
+                <a target="_blank" class="btn btn-content "href="/nosotros/contacto"> Contacto</a>
             </div>
           </div>
         </div>
@@ -257,7 +257,7 @@
               <img src="../images/home/payment2.png" alt="">
               <figcaption>
                 <h3> Deposito </h3>
-                <a class="btn btn-primary center-block"href="/nosotros/contacto"> Contacto</a>
+                <a target="_blank" class="btn btn-primary center-block"href="/nosotros/contacto"> Contacto</a>
               </figcaption>
             </figure>
           </div>
@@ -268,7 +268,7 @@
               <img src="../images/home/payment1.png" alt="">
               <figcaption>
                 <h3> Transferencia </h3>
-                <a class="btn btn-primary center-block"href="/nosotros/contacto"> Contacto</a>
+                <a target="_blank" class="btn btn-primary center-block"href="/nosotros/contacto"> Contacto</a>
               </figcaption>
             </figure>
           </div>
@@ -279,7 +279,7 @@
               <img src="../images/home/mercadopago.png" alt="">
               <figcaption>
                 <h3> Mercado Pago </h3>
-                <a class="btn btn-primary center-block"href="/pagoenlinea"> Ver más</a>
+                <a target="_blank" class="btn btn-primary center-block"href="/pagoenlinea"> Ver más</a>
               </figcaption>
             </figure>
           </div>
@@ -293,14 +293,14 @@
         <div class="col-md-6 izquierda" >
           <div class="texto">
             <h2>¿Quieres trabajar con nosotros?</h2>
-            <a href="contacto.html" class="btn btn-primary">Contáctenos</a>
+            <a target="_blank" href="/contacto" class="btn btn-primary">Contáctenos</a>
           </div>
         </div>
 
         <div class="col-md-6 derecha">
           <h2>Estudia en nuestro Instituto</h2>
 
-          <a href="contacto.html" class="btn btn-primary">Formulario de PreInscripción</a>
+          <a target="_blank" href="/contacto" class="btn btn-primary">Formulario de PreInscripción</a>
         </div>
 
 
@@ -349,7 +349,11 @@ $(document).ready(function() {
   },700);
 });
 
-
-
+  $('#projects .carousel-indicators li').click(function() {
+    console.log('hola');
+    $('#projects .carousel-indicators li').each(function() {
+      $(this).css('transform','scale(1)');
+    });
+  })
 </script>
 @endsection

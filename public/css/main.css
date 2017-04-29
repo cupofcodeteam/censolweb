@@ -59,7 +59,6 @@ h5 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
 	font-weight:normal;
 }
 
@@ -129,30 +128,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn.btn-primary {
-	background-color:transparent;
-	border-color:#fff;
-	text-transform:uppercase;
-	border-radius:0;
-	font-size:15px;
-	font-weight:700;
-	font-family: 'PT Sans', sans-serif;
-	padding:10px 27px;
-	position:relative;
-	overflow:hidden;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-	z-index:1;
-  border: 2px solid #ff8517;
+    border-color: #f4f4f4;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+    padding: 7px 21px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+    border: 0px solid #000;
+    border-radius: 6px;
+    background-color: #ffa04b;
+    border-bottom: solid 2px#FF7900;
+    color: #fff;
 }
 
-.btn.btn-primary:hover{
-	background-color: transparent !important;
-	color: #ff8517 !important;
-	border-radius: 2px;
+.btn.btn-primary:hover {
+    background-color: #ff8517 !important;
 }
+
+a.btn.btn-content {
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+    padding: 7px 21px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+    border: 2px solid #ff7a00;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #ff7a00;
+}
+
+a.btn.btn-content:hover {
+    background-color: #ff7a00;
+    color: #f4f4f4;
+}
+
 
 /*========================
 ========Home CSS==========
@@ -1962,4 +1981,57 @@ nav#banner-pago {
     font-size: 13px;
     text-align: center;
     color: #f5f8fa;
+}
+
+#feature-in .container {
+    padding-top: 60px;
+}
+
+.feature-logos {
+    margin-top: 60px;
+}
+
+.app-section-title {
+    color: #f4f4f4;
+    text-shadow: 2px 2px 6px #000;
+}
+
+a.btn-float {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    background-color: #f48119;
+    z-index: 555;
+    border-radius: 50%;
+    left: 5%;
+    bottom: 10%;
+    border: solid 2px #dc6902;
+    transform: rotate(180deg);
+    opacity: 0;
+    transition: all.4s ease-in-out;
+		color: #fff;
+}
+
+a.btn-float:hover {
+    color: #fff;
+}
+
+i.glyphicon.glyphicon-arrow-up {
+    font-size: x-large;
+    left: 14px;
+    top: 14px;
+}
+
+#projects > div.text-center > div.row{
+	margin-right: 0px;
+}
+
+.loading-modal{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('/images/loader.gif') center no-repeat #fff;
 }

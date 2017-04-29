@@ -29,13 +29,12 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script type="text/javascript" src="/js/jquery.parallax.js"></script>
   <script type="text/javascript" src="/js/main.js"></script>
-  <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script> -->
-  <!-- <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script> -->
-  <script type="/text/javascript" src="/js/angularApp.js"></script>
   <script src="/js/scrolling-nav.js"></script>
+  <script src="/js/animatescroll.min.js"></script>
 
 </head><!--/head-->
-<body class="informacion-1">
+<body class="informacion-1" style="overflow: hidden;">
+  <div class="loading-modal"></div>
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -124,8 +123,8 @@
                               <li><a href="/idiomas/ingles/tecnicos">Tecnicos Especializados</a></li>
                               <li><a href="/idiomas/ingles/corporativo">Ingles Corporativo</a></li>
                               <li><a href="/idiomas/ingles/en-linea">Ingles En Linea</a></li>
-                              <li><a href="#">TOFL</a></li>
-                              <li><a href="#">IELTS</a></li>
+                              <li><a href="/idiomas/ingles/tofl">TOFL</a></li>
+                              <li><a href="/idiomas/ingles/ielts">IELTS</a></li>
                             </ul>
                           </div>
                         </div>
@@ -263,5 +262,13 @@
   </footer>
 
    @yield('scripts')
+   <script type="text/javascript">
+     $(document).ready(function() {
+       setTimeout(function() {
+          $('.loading-modal').fadeOut('600');
+          $('body').css('overflow','auto');
+       },2000);
+     });
+   </script>
 </body>
 </html>

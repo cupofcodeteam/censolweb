@@ -59,6 +59,14 @@ Route::get('/idiomas/ingles/en-linea', function () {
     return view('pages.idiomas.ingles.en-linea',['active_menu' => 'idiomas']);
 });
 
+Route::get('/idiomas/ingles/tofl', function () {
+    return view('pages.idiomas.ingles.tofl',['active_menu' => 'idiomas']);
+});
+
+Route::get('/idiomas/ingles/ielts', function () {
+    return view('pages.idiomas.ingles.ielts',['active_menu' => 'idiomas']);
+});
+
 Route::get('/idiomas/otros-idiomas/aleman', function () {
     return view('pages.idiomas.otros-idiomas.aleman',['active_menu' => 'idiomas']);
 });
