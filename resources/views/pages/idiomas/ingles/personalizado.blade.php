@@ -24,20 +24,20 @@
           <p>Material a utilizar Serie <strong>“INTERCHANGE” Y “PASSAGES”</strong>, de la Editorial de la UNIVERSIDAD DE CAMBRIDGE, de Jack C. Richards, cuarta edición, New York, 2013. </p>
 
         </div>
-        <div class="col-md-4 ">
+        <div class="col-md-4 text-center ">
           <img class="appear-right" src="/images/ingles/AM.png" alt="" width="140" height="140">
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-4 text-center appear-left">
-          <img class="" src="/images/ingles/reloj-circular.png" alt="" width="140" height="140">
+          <img src="/images/ingles/reloj-circular.png" alt="" width="140" height="140">
           <h2>Horario</h2>
           <p> A convenir con el estudiante </p>
         </div>
 
         <div class="col-md-4 text-center appear-zoom">
-          <img class="" src="/images/ingles/certificado.png" alt="" width="140" height="140">
+          <img src="/images/ingles/certificado.png" alt="" width="140" height="140">
           <h2>Metodologia</h2>
           <p>Nuestra Metodologia de estudio esta certificados por la Universidad de Cambridge</p>
 

@@ -23,10 +23,10 @@
 
           <div class="row">
             <div class="col-md-6 ">
-              <p><img class="" src="/images/ingles/reloj-circular-p.png"> horario a convenir con el estudiante </p>
+              <p><img src="/images/ingles/reloj-circular-p.png"> horario a convenir con el estudiante </p>
             </div>
             <div class="col-md-6">
-              <p><img class="" src="/images/ingles/calendario-p.png"> 2 meses (8 semanas)</p>
+              <p><img src="/images/ingles/calendario-p.png"> 2 meses (8 semanas)</p>
             </div>
 
           </div>
@@ -55,10 +55,10 @@
 
           <div class="row">
             <div class="col-md-6 ">
-              <p><img class="" src="/images/ingles/reloj-circular-p.png"> horario a convenir con el estudiante </p>
+              <p><img src="/images/ingles/reloj-circular-p.png"> horario a convenir con el estudiante </p>
             </div>
             <div class="col-md-6">
-              <p><img class="" src="/images/ingles/calendario-p.png"> 2 meses (8 semanas)</p>
+              <p><img src="/images/ingles/calendario-p.png"> 2 meses (8 semanas)</p>
             </div>
 
           </div>
@@ -78,10 +78,10 @@
 
           <div class="row">
             <div class="col-md-6 ">
-              <p><img class="" src="/images/ingles/reloj-circular-p.png"> horario a convenir con el estudiante </p>
+              <p><img src="/images/ingles/reloj-circular-p.png"> horario a convenir con el estudiante </p>
             </div>
             <div class="col-md-6">
-              <p><img class="" src="/images/ingles/calendario-p.png"> 2 meses (8 semanas)</p>
+              <p><img src="/images/ingles/calendario-p.png"> 2 meses (8 semanas)</p>
             </div>
 
           </div>
@@ -112,10 +112,10 @@
 
           <div class="row">
             <div class="col-md-6 ">
-              <p><img class="" src="/images/ingles/reloj-circular-p.png"> horario a convenir con el estudiante </p>
+              <p><img src="/images/ingles/reloj-circular-p.png"> horario a convenir con el estudiante </p>
             </div>
             <div class="col-md-6">
-              <p><img class="" src="/images/ingles/calendario-p.png"> 2 meses (8 semanas)</p>
+              <p><img src="/images/ingles/calendario-p.png"> 2 meses (8 semanas)</p>
             </div>
 
           </div>
