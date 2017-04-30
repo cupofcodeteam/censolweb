@@ -308,7 +308,7 @@
 
         <div class="col-md-6 derecha">
           <div class="text appear-tilt-r">
-            <h2 style="color:white;">Estudia en nuestro Instituto</h2>
+            <h2 style="color:white;">¡Estudia en nuestro Instituto!"</h2>
             <a style="color:white;" href="http://www.123contactform.com/form-2322394/Encuesta" class="btn btn-primary">Formulario de PreInscripción</a>
           </div>
         </div>
