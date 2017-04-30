@@ -21,18 +21,6 @@
   <link rel="shortcut icon" href="/images/ico/favicon.png">
   <link rel="preload" as="image" href="/loader/rings.svg">
 
-  <!-- SCRIPTS CDN-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js"></script>
-  <script src="/js/appear.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-  <!-- SCRIPTS LOCAL -->
-  <script src="/js/scrolling-nav.js"></script>
-  <script src="/js/animatescroll.min.js"></script>
-  <script type="text/javascript" src="/js/main.js"></script>
-
 </head><!--/head-->
 <body class="informacion-1" style="overflow: hidden; overflow-x: hidden;">
   <div class="loading-modal" style="background: url('/loader/rings.svg') center no-repeat #000;"></div>
@@ -262,96 +250,109 @@
     </div>
   </footer>
 
+  <!-- SCRIPTS CDN-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <!-- SCRIPTS LOCAL -->
+  <script src="/js/scrolling-nav.js"></script>
+  <script src="/js/animatescroll.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+  <script src="/js/appear.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      setTimeout(function() {
+         $('.loading-modal').fadeOut('600');
+         $('body').css('overflow','auto');
+         $('body').css('overflow-x','hidden');
+      },2000);
+
+    });
+    appear({
+      elements: function elements() {
+        return $('.appear-top');
+      },
+      appear: function appear(el) {
+        $(el).css("transform","translateY(0)");
+        $(el).css('opacity','1');
+      }
+    });
+
+    appear({
+      elements: function elements() {
+        return $('.appear-random');
+      },
+      appear: function appear(el) {
+        var rand = Math.floor((Math.random() * 1000)+500);
+        $(el).animate(
+          { opacity:1 },{
+            duration: rand,
+            easing: 'easeInQuart'
+          }
+        );
+      }
+    });
+
+    appear({
+      elements: function elements() {
+        return $('.appear-left');
+      },
+      appear: function appear(el) {
+        $(el).css("transform","translateX(0)");
+        $(el).css('opacity','1');
+      },
+      bounds: -100
+    });
+
+    appear({
+      elements: function elements() {
+        return $('.appear-right');
+      },
+      appear: function appear(el) {
+        $(el).css("transform","translateX(0)");
+        $(el).css('opacity','1');
+      },
+      bounds: -100
+    });
+
+    appear({
+      elements: function elements() {
+        return $('.appear-zoom');
+      },
+      appear: function appear(el) {
+        $(el).css('opacity','1');
+        $(el).css("transform","scale(1)");
+      },
+      bounds: -100
+    });
+
+    appear({
+      elements: function elements() {
+        return $('.appear-tilt-l');
+      },
+      appear: function appear(el) {
+        $(el).css('opacity','1');
+        $(el).css("animation","tilt-l 1500ms");
+      },
+      bounds: -100
+    });
+
+    appear({
+      elements: function elements() {
+        return $('.appear-tilt-r');
+      },
+      appear: function appear(el) {
+        $(el).css('opacity','1');
+        $(el).css("animation","tilt-r 1500ms");
+      },
+      bounds: -100
+    });
+
+  </script>
+  
    @yield('scripts')
-   <script type="text/javascript">
-     $(document).ready(function() {
-       setTimeout(function() {
-          $('.loading-modal').fadeOut('600');
-          $('body').css('overflow','auto');
-          $('body').css('overflow-x','hidden');
-       },2000);
-
-     });
-     appear({
-       elements: function elements() {
-         return $('.appear-top');
-       },
-       appear: function appear(el) {
-         $(el).css("transform","translateY(0)");
-         $(el).css('opacity','1');
-       }
-     });
-
-     appear({
-       elements: function elements() {
-         return $('.appear-random');
-       },
-       appear: function appear(el) {
-         var rand = Math.floor((Math.random() * 1000)+500);
-         $(el).animate(
-           { opacity:1 },{
-             duration: rand,
-             easing: 'easeInQuart'
-           }
-         );
-       }
-     });
-
-     appear({
-       elements: function elements() {
-         return $('.appear-left');
-       },
-       appear: function appear(el) {
-         $(el).css("transform","translateX(0)");
-         $(el).css('opacity','1');
-       },
-       bounds: -100
-     });
-
-     appear({
-       elements: function elements() {
-         return $('.appear-right');
-       },
-       appear: function appear(el) {
-         $(el).css("transform","translateX(0)");
-         $(el).css('opacity','1');
-       },
-       bounds: -100
-     });
-
-     appear({
-       elements: function elements() {
-         return $('.appear-zoom');
-       },
-       appear: function appear(el) {
-         $(el).css('opacity','1');
-         $(el).css("transform","scale(1)");
-       },
-       bounds: -100
-     });
-
-     appear({
-       elements: function elements() {
-         return $('.appear-tilt-l');
-       },
-       appear: function appear(el) {
-         $(el).css('opacity','1');
-         $(el).css("animation","tilt-l 1500ms");
-       },
-       bounds: -100
-     });
-
-     appear({
-       elements: function elements() {
-         return $('.appear-tilt-r');
-       },
-       appear: function appear(el) {
-         $(el).css('opacity','1');
-         $(el).css("animation","tilt-r 1500ms");
-       },
-       bounds: -100
-     });
-
-   </script>
 </body>
 </html>
