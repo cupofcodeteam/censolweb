@@ -33,7 +33,7 @@
         </div>
         <div class="col-md-7">
           <div class="image appear-top">
-            <img class="img-responsive" src="../images/home/about/about.jpg" alt="">
+            <img class="img-responsive tope" src="../images/home/censol1.jpg" alt="">
           </div>
         </div>
       </div>
@@ -154,7 +154,7 @@
   <section id="servicio2">
     <div class=" text-center beginner">
         <h1>Algo más que una Institución de Ingles</h1>
-        <h4>Ofrecemos nuestros servicios en:</h4>
+        <h4>Ofrecemos servicios en:</h4>
     </div>
     <div class="container">
       <div class="text-center mitad ">

@@ -756,7 +756,7 @@ textarea.form-control {
 
  #about-us{
 	 padding-top: 40px;
-	 padding-bottom: 135px;
+	 padding-bottom: 190px;
 
  }
 
@@ -776,11 +776,11 @@ textarea.form-control {
 	content: "";
     position: absolute;
     width: 515px;
-    height: 279px;
+    height: 256px;
     background-image: url(/images/home/censol2.jpg);
     background-size: cover;
     bottom: -115px;
-    left: 15px;
+    left: -110px;
     border-radius: 5px;
 }
 
@@ -2096,3 +2096,7 @@ i.glyphicon.glyphicon-arrow-up {
  h2{
 	   font-family: 'PT Sans', sans-serif !important;
  }
+
+.tope{
+	max-width: 140% !important;
+}
