@@ -9,15 +9,18 @@
     </div><!--/.page-breadcrumb-->
   </div>
 
-  <section id="team">
-    <div class="welcome text-center">
-        <h1> Nuestro Equipo</h1>
+  <div class="welcome  text-center">
+      <h1> Centro de Soluciones Lingüísticas</h1>
     </div>
+
+
+
+  <section id="team">
     <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
             <div class="image appear-top">
-              <img class=" img-responsive center-block" src="/images/quienes-somos/teo.jpeg" alt="" width="400px" height="350px">
+              <img class=" img-responsive center-block" src="/images/home/teo1.png" alt="" width="400px" height="350px">
             </div>
           </div>
         </div>
@@ -36,6 +39,7 @@
         </div>
     </div>
   </section>
+
   <section id="about" class="hidden-xs">
     <div class="container">
       <div class="row">
@@ -88,7 +92,7 @@
 
   <section id="screenshots" class="padding-top padding-bottom">
     <div class="container text-center">
-      <div class="app-section-title">
+      <div class="app-section-title quienestitle">
         <h2>NUESTRAS INSTALACIONES</h2>
         <p></p>
       </div>

@@ -540,7 +540,13 @@ textarea.form-control {
 }
 
 #feature-in {
-	    background-color: #FFC403;
+	background-color: rgba(255, 196, 3, 0.72);
+
+}
+
+.quienestitle{
+	color: #ffd449 !important;
+    text-shadow: 1px 1px 2px #795548 !important;
 }
 
 #feature-in .overlay-bg {
@@ -1402,6 +1408,9 @@ padding-bottom: 155px;
     padding: 15px;
 }
 
+#about{
+	padding: 3% !important;
+}
 #team .welcome.text-center {
     background: rgba(245, 245, 245, 0.48);
     text-align: center;
