@@ -31,7 +31,7 @@
             <a class="btn btn-primary" target="_blank" href="/nosotros/quienes-somos"> Leer mas</a>
           </div>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7 hidden-xs">
           <div class="image appear-top">
             <img class="img-responsive tope" src="../images/home/censol1.jpg" alt="">
           </div>
