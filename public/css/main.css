@@ -1587,7 +1587,7 @@ padding-bottom: 155px;
 #pre-inscripcion .promo{
     padding-top: 40px !important;
     padding-bottom: 40px;
-    background-color: #ffce30;
+    background-color: rgba(255, 206, 48, 0.68);
 }
 
 #image-wrapper {

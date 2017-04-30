@@ -31,8 +31,7 @@
                 </div>
               </div>
               <div class="item-content">
-                <p>censolguayana@gmail.com
-                 <p>censoltraducciones@gmail.com<p>censolgerencia2016@gmail.com
+                <p>Censol@censolidiomas.com
                  </p>
               </div>
             </div>
@@ -52,11 +51,11 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="text-center">
-                <h2>Escríbenos</h2>
+                <h2>¡Nos encantaria saber de ti!</h2>
               </div>
               <div class="description">
                 <p>
-                  Para mas información, dudas o sugerencias, no dude en comunicarse con nosotros a traves del formulario de contacto. Nuestro Equipo de trabajo le respondera lo más pronto posible.
+                ¿Alguna duda o sugerencia? , no dude en comunicarse con nosotros a través del formulario de contacto. Nuestro Equipo de trabajo le responderá lo más pronto posible.
                 </p>
               </div>
             </div>
@@ -98,7 +97,7 @@
             <div class="row">
               <div class="promo text-center">
                 <div class="appear-tilt-l">
-                  <h2> La oportunidad de aprender cualquier idioma en un click </h2>
+                  <h2> La oportunidad de aprender cualquier idioma a solo un ¡click! </h2>
                   <p> Rellene nuestro formulario de preinscripción</p>
                   <a class="btn btn-primary" target="_blank" href="http://www.123contactform.com/form-2322394/Encuesta"> Ir </a>
                 </div>
