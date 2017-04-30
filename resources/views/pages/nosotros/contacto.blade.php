@@ -13,7 +13,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-xs-4">
+          <div class="col-md-4">
             <div class="item-wrapper appear-left">
               <div class="item item-1 img-circle center-block">
                 <div class="item-image">
@@ -24,7 +24,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-4">
+          <div class="col-md-4">
             <div class="item-wrapper appear-zoom">
               <div class="item item-2 img-circle center-block">
                 <div class="item-image">
@@ -37,7 +37,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-4">
+          <div class="col-md-4">
             <div class="item-wrapper appear-right">
               <div class="item item-3 img-circle center-block">
                 <div class="item-image">
