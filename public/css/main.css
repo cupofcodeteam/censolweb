@@ -2121,3 +2121,16 @@ img.img-responsive{
 .navbar-brand > img {
 	margin-top: 0px;
 }
+.texto-pequeño{
+	margin-top:80px;
+	font-size: 1.8rem;
+}
+
+ .toelfimg{
+	 margin-top: 76px !important;
+ }
+
+ #toefl .informacion-1 {
+ 	font-size: 1.6rem;
+	padding-bottom: 2%;
+ }

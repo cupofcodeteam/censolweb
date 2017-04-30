@@ -43,8 +43,8 @@
 
                 <div class="col-md-4 text-center appear-right">
                   <img class="img-circle" src="/images/ingles/certificado.png" alt="" width="140" height="140">
-                  <h2>Metodologia</h2>
-                  <p>Nuestra Metodologia de estudio esta certificados por la Universidad de Cambridge</p>
+                  <h2>Metodología</h2>
+                  <p>Nuestra metodología de estudio esta certificados por la Universidad de Cambridge</p>
 
 
                   </div>
