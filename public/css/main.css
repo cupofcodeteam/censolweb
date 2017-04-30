@@ -2113,3 +2113,11 @@ img.slide-img {
 #screenshots-carousel > ol > li:nth-child(4){
 	display: none;
 }
+
+img.img-responsive{
+	margin-top: 20px;
+}
+
+.navbar-brand > img {
+	margin-top: 0px;
+}
