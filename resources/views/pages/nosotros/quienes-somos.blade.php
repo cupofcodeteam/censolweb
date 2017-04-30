@@ -34,20 +34,9 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-md-offset-1 col-md-7">
-            <div class="team-right">
-              <img src="/images/home/about/about.jpg" alt="" width="200px">
-            </div>
-          <div class="team-left">
-            <h3> Lic. Teo :)</h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-        </div> -->
     </div>
   </section>
-  <section id="about">
+  <section id="about" class="hidden-xs">
     <div class="container">
       <div class="row">
         <div class="col-xs-5 wrapper">
@@ -104,7 +93,7 @@
         <p></p>
       </div>
     </div>
-    <div id="screenshots-carousel" class="container-fluid carousel slide" data-ride="carousel">
+    <div id="screenshots-carousel" class="container carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#screenshots-carousel" data-slide-to="0" class="active"></li>
         <li data-target="#screenshots-carousel" data-slide-to="1"></li>
@@ -115,64 +104,32 @@
         <div class="item active">
           <div class="row">
             <div class="col-sm-3">
-              <img class="#" alt="" />
+              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst1.jpg"/>
             </div>
             <div class="col-sm-3">
-              <img class="#" alt="" />
+              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst2.jpg"/>
             </div>
             <div class="col-sm-3">
-              <img class="#" alt="" />
+              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst3.jpg"/>
             </div>
             <div class="col-sm-3">
-              <img class="#" alt="" />
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="row">
-            <div class="col-sm-3">
-              <img class="#" alt="" />
-            </div>
-            <div class="col-sm-3">
-              <img class="#" alt="" />
-            </div>
-            <div class="col-sm-3">
-              <img class="#" alt="" />
-            </div>
-            <div class="col-sm-3">
-              <img class="#" alt="" />
+              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst4.jpg"/>
             </div>
           </div>
         </div>
         <div class="item">
           <div class="row">
             <div class="col-sm-3">
-              <img class="#" alt="" />
+              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst5.jpg" />
             </div>
             <div class="col-sm-3">
-              <img class="#" alt="" />
+              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst6.jpg" />
             </div>
             <div class="col-sm-3">
-              <img class="#" alt="" />
+              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst7.jpg" />
             </div>
             <div class="col-sm-3">
-              <img class="#" alt="" />
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="row">
-            <div class="col-sm-3">
-              <img class="#" alt="" />
-            </div>
-            <div class="col-sm-3">
-              <img class="#" alt="" />
-            </div>
-            <div class="col-sm-3">
-              <img class="#" alt="" />
-            </div>
-            <div class="col-sm-3">
-              <img class="#" alt="" />
+              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst8.jpg" />
             </div>
           </div>
         </div>
