@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-  if (isBreakPoint('xs')){
+  if (isBreakPoint('xs') || isBreakPoint('md')){
     $('.appear-right').addClass('appear-left');
     $('.appear-right').toggleClass('appear-right');
 
