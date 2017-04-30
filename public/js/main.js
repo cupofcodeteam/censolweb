@@ -15,6 +15,26 @@ $(document).ready(function() {
   }
 });
 
+$(window).resize(function() {
+  if (isBreakPoint('xs') || isBreakPoint('md') || isBreakPoint('sm')){
+    $('.appear-right').addClass('appear-left');
+    $('.appear-right').toggleClass('appear-right');
+
+    $('.appear-zoom').addClass('appear-left');
+    $('.appear-zoom').toggleClass('appear-zoom');
+  }else {
+    scrollingNav();
+  }
+
+  if (isBreakPoint('md') || isBreakPoint('sm')) {
+    scrollingNav();
+  }
+
+  if (isBreakPoint('xs')) {
+    unbindScrollingNav();
+  }
+});
+
 function parallaxInit() {
   $("#promotion").parallax("50%", 0.3);
   $("#twitter").parallax("50%", 0.3);

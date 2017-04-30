@@ -19,3 +19,8 @@ function scrollingNav() {
       });
   });
 }
+
+function unbindScrollingNav() {
+  $(window).unbind('scroll');
+  $(".navbar-fixed-top").removeClass("top-nav-collapse");
+}
