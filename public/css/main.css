@@ -537,6 +537,7 @@ textarea.form-control {
 
 #screenshots-carousel {
 	padding-bottom:50px;
+  margin-top: 40px;
 }
 
 #feature-in {
@@ -2099,4 +2100,17 @@ i.glyphicon.glyphicon-arrow-up {
 
 .tope{
 	max-width: 140% !important;
+}
+
+img.slide-img {
+    width: 100%;
+    border-radius: 2px;
+    border: solid 1px rgba(157, 157, 157, 0.78);
+    padding: 1px;
+		height: 150px;
+}
+
+#screenshots-carousel > ol > li:nth-child(3),
+#screenshots-carousel > ol > li:nth-child(4){
+	display: none;
 }
