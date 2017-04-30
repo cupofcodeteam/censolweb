@@ -23,7 +23,14 @@
 
 </head><!--/head-->
 <body class="informacion-1" style="overflow: hidden; overflow-x: hidden;">
-  <div class="loading-modal" style="background: url('/loader/rings.svg') center no-repeat #000;"></div>
+  <div class="loading-modal">
+    <div class="sk-folding-cube">
+      <div class="sk-cube1 sk-cube"></div>
+      <div class="sk-cube2 sk-cube"></div>
+      <div class="sk-cube4 sk-cube"></div>
+      <div class="sk-cube3 sk-cube"></div>
+    </div>
+  </div>
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -352,7 +359,7 @@
     });
 
   </script>
-  
+
    @yield('scripts')
 </body>
 </html>
