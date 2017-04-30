@@ -28,7 +28,7 @@ Contáctenos y visítenos en nuestra sede en el C.C. Biblos Center de Puerto Ord
           <a href="/nosotros/contacto" target="_blank" class="btn btn-primary section-btn appear-top">Contáctenos</a>
         </div>
         <div class="col-md-6">
-          <img class="appear-right" src="/images/quienes-somos/gestoria.jpg" alt="" width="500" height=auto>
+          <img class="appear-right img-responsive" src="/images/quienes-somos/gestoria.jpg" alt="" width="500" height=auto>
         </div>
       </div>
     </div><!--/#main-blog-->
