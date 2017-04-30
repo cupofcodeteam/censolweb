@@ -90,13 +90,13 @@
                   <ul class="dropdown-menu" role="menu">
                     <div class="drop-item">
                       <div class="row">
-                        <div class="col-xs-8">
+                        <div class="col-md-8">
                           <div class="drop-content">
                             <h3> Nosotros</h3>
                             <p> Somos una empresa consolidada en la formación y capacitación del idioma Inglés. 3 años de experiencia liderando los procesos de enseñanza, aprendizaje y evaluación del idioma, avalan nuestro compromiso académico. </p>
                           </div>
                         </div>
-                        <div class="col-xs-4">
+                        <div class="col-md-4">
                           <ul class="drop-link">
                             <li><a href="/nosotros/quienes-somos">¿Quienes somos?</a></li>
                             <li><a href="/nosotros/galeria">Galeria</a></li>
@@ -115,7 +115,7 @@
                   <ul class="dropdown-menu">
                     <div class="drop-item">
                       <div class="row">
-                        <div class="col-xs-3">
+                        <div class="col-md-3">
                           <div class="drop-section">
                             <ul>
                               <li><a class="title" href="/idiomas/ingles">Ingles</a></li>
@@ -130,7 +130,7 @@
                             </ul>
                           </div>
                         </div>
-                        <div class="col-xs-3">
+                        <div class="col-md-3">
                           <div class="drop-section">
                             <ul>
                               <li><a class="title" href="/idiomas/espanol">Español</a></li>
@@ -139,7 +139,7 @@
                             </ul>
                           </div>
                         </div>
-                        <div class="col-xs-3">
+                        <div class="col-md-3">
                           <div class="drop-section">
                             <ul>
                               <li><h3>Otros</h3> </li>
@@ -153,7 +153,7 @@
                             </ul>
                           </div>
                         </div>
-                        <div class="col-xs-3">
+                        <div class="col-md-3">
                           <div class="drop-section">
                             <ul>
                               <li><h3>Intercambio</h3> </li>
@@ -180,13 +180,13 @@
                   <ul class="dropdown-menu" role="menu">
                     <div class="drop-item">
                       <div class="row">
-                        <div class="col-xs-8">
+                        <div class="col-md-8">
                           <div class="drop-content">
                             <h3> Legalización</h3>
                             <p> Gestoría para apostillamiento y legalización de documentos ante organismos nacionales e internacionales. </p>
                           </div>
                         </div>
-                        <div class="col-xs-4">
+                        <div class="col-md-4">
                           <ul class="drop-link">
                             <li><a href="/legal/apostilla">APOSTILLA</a></li>
                             <li><a href="/legal/gestoria">LEGALIZACION DE DOCUMENTOS</a></li>
@@ -209,13 +209,13 @@
                   <ul class="dropdown-menu" role="menu">
                     <div class="row">
                       <div class="drop-item">
-                        <div class="col-xs-8">
+                        <div class="col-md-8">
                           <div class="drop-content">
                             <h3> Comercialización</h3>
                             <p> Asesoramiento en todas las áreas y dar nuestra marca y nombre como franquicia,intercambio comercial o convenio por clases en nuestras instalaciones o a domicilio en sus oficinas y organización de eventos relacionados a cualquier índole en la ciudad. </p>
                           </div>
                         </div>
-                        <div class="col-xs-4">
+                        <div class="col-md-4">
                           <ul class="drop-link">
                             <li><a href="/comercial/franquicia">FRANQUICIA</a></li>
                             <li><a href="/comercial/intercambio">INTERCAMBIO COMERCIAL</a></li>

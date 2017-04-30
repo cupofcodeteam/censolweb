@@ -1,12 +1,16 @@
 
 $(document).ready(function() {
-  if (isBreakPoint('xs') || isBreakPoint('md')){
+  if (isBreakPoint('xs') || isBreakPoint('md') || isBreakPoint('sm')){
     $('.appear-right').addClass('appear-left');
     $('.appear-right').toggleClass('appear-right');
 
     $('.appear-zoom').addClass('appear-left');
     $('.appear-zoom').toggleClass('appear-zoom');
   }else {
+    scrollingNav();
+  }
+
+  if (isBreakPoint('md') || isBreakPoint('sm')) {
     scrollingNav();
   }
 });
