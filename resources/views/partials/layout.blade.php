@@ -19,7 +19,6 @@
 
   <!-- IMAGES -->
   <link rel="shortcut icon" href="/images/ico/favicon.png">
-  <link rel="preload" as="image" href="/loader/rings.svg">
 
 </head><!--/head-->
 <body class="informacion-1" style="overflow: hidden; overflow-x: hidden;">

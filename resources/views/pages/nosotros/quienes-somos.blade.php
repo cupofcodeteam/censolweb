@@ -104,32 +104,32 @@
         <div class="item active">
           <div class="row">
             <div class="col-sm-3">
-              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst1.jpg"/>
+              <img id="#img1" class="image slide-img" alt="" src="/images/about/instalaciones-slider/inst1.jpg"/>
             </div>
             <div class="col-sm-3">
-              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst2.jpg"/>
+              <img id="#img1" class="image slide-img" alt="" src="/images/about/instalaciones-slider/inst2.jpg"/>
             </div>
             <div class="col-sm-3">
-              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst3.jpg"/>
+              <img id="#img1" class="image slide-img" alt="" src="/images/about/instalaciones-slider/inst3.jpg"/>
             </div>
             <div class="col-sm-3">
-              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst4.jpg"/>
+              <img id="#img1" class="image slide-img" alt="" src="/images/about/instalaciones-slider/inst4.jpg"/>
             </div>
           </div>
         </div>
         <div class="item">
           <div class="row">
             <div class="col-sm-3">
-              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst5.jpg" />
+              <img id="#img1" class="image slide-img" alt="" src="/images/about/instalaciones-slider/inst5.jpg" />
             </div>
             <div class="col-sm-3">
-              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst6.jpg" />
+              <img id="#img1" class="image slide-img" alt="" src="/images/about/instalaciones-slider/inst6.jpg" />
             </div>
             <div class="col-sm-3">
-              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst7.jpg" />
+              <img id="#img1" class="image slide-img" alt="" src="/images/about/instalaciones-slider/inst7.jpg" />
             </div>
             <div class="col-sm-3">
-              <img class="slide-img" alt="" src="/images/about/instalaciones-slider/inst8.jpg" />
+              <img id="#img1" class="image slide-img" alt="" src="/images/about/instalaciones-slider/inst8.jpg" />
             </div>
           </div>
         </div>
@@ -154,6 +154,14 @@
           <li><img class="img-responsive" src="/images/landing/feature5.png" alt="" /></li>
         </ul>
       </div>
+    </div>
+
+    <div id="img-modal" class="modal">
+      <span class="close" onclick="$(#img-modal).css('display':'none')"> &times; </span>
+
+      <img class="modal-content" id="img01">
+
+      <div id="caption"></div>
     </div>
   </div><!--/#feature-in-->
 
