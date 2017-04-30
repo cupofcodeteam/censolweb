@@ -53,7 +53,7 @@
         top: 30px;
     }
     </style>
-      <nav id="banner-pago">
+      <nav id="banner-pago" class="hidden-xs">
         <p> ¡Realiza tus pagos de la forma mas seguro en el mercado! Ofrecemos pago en línea con MercadoPago
           <a href="/pagoenlinea" class="btn btn-primary"> Pagar </a>
         </p>
