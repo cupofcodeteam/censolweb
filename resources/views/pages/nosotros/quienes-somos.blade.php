@@ -47,7 +47,10 @@
           <div class="about-left">
             <div class="content-left">
               <h1> Quienes <span>Somos</span></h1>
-              <p> Somos una empresa consolidada en la formación y capacitación del idioma Inglés. 3 años de experiencia liderando los procesos de enseñanza, aprendizaje y evaluación del idioma, avalan nuestro compromiso académico en el logro de objetivos de manera eficiente y eficaz; gracias a una metodología 100% garantizada que respalda nuestro plan educativo, lo que nos permite brindarle un servicio de primer nivel.</p>
+              <p> Somos una empresa consolidada en la formación y capacitación del idioma Inglés. 3 años de experiencia liderando los procesos de enseñanza, aprendizaje y evaluación del idioma, avalan nuestro compromiso académico en el logro de objetivos de manera eficiente y eficaz; gracias a una metodología 100% garantizada que respalda nuestro plan educativo, lo que nos permite brindarle un servicio de primer nivel.
+
+            </p>
+              <h5 class="slogan-footer">Jeremias 29:11</h5>
             </div>
           </div>
         </div>

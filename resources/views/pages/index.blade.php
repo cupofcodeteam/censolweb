@@ -22,6 +22,7 @@
       <div class="row">
         <div class="welcome">
           <h1 class="text-center"> CENSOL - Instituto de idiomas</h1>
+          <h3 class="slogan-index">Jeremias 29:11</h3>
         </div>
       </div>
       <div class="row">

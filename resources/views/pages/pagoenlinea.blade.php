@@ -358,8 +358,8 @@
         <div class="content">
           <div class="container">
             <div class="row">
-              <div class="col-md-3">
-                <div class="item">
+              <div class="col-md-3 ">
+                <div class="item pagoderecha">
                   <h2> Programa Grupal</h2>
                   <p class="type" style="text-align:center"> Crédito</p>
                   <div class="methods">
@@ -405,8 +405,8 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class="item">
+              <div class="col-md-3 ">
+                <div class="item pagoderecha">
                   <h2> Programa Personalizado</h2>
                   <p class="type" style="text-align:center"> Crédito</p>
                   <div class="methods">
@@ -532,7 +532,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-3">
-                <div class="item">
+                <div class="item ">
                   <h2> Programa Grupal</h2>
                   <p class="type" style="text-align:center"> Crédito</p>
                   <div class="methods">
@@ -616,8 +616,8 @@
         <div class="content">
           <div class="container">
             <div class="row">
-              <div class="col-md-3">
-                <div class="item">
+              <div class="col-md-3 ">
+                <div class="item pagoderecha">
                   <h2> Programa Grupal</h2>
                   <p class="type" style="text-align:center"> Crédito</p>
                   <div class="methods">
@@ -664,7 +664,7 @@
                 </div>
               </div>
               <div class="col-md-3">
-                <div class="item">
+                <div class="item pagoderecha">
                   <h2> Programa Personalizado</h2>
                   <p class="type" style="text-align:center"> Crédito</p>
                   <div class="methods">
@@ -705,7 +705,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-3">
-                <div class="item">
+                <div class="item pagoderecha">
                   <h2> Programa Grupal</h2>
                   <p class="type" style="text-align:center"> Crédito</p>
                   <div class="methods">
@@ -734,7 +734,7 @@
                 </div>
               </div>
               <div class="col-md-3">
-                <div class="item">
+                <div class="item pagoderecha">
                   <h2> Programa Personalizado</h2>
                   <p class="type" style="text-align:center"> Crédito</p>
                   <div class="methods">
