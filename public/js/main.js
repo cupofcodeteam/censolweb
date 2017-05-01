@@ -68,24 +68,6 @@ $("intercambio-Vnzla").ready(function(){
 });
 
 
-var modal = $("#img-modal");
-
-var img = $(".image");
-var modalImg = $("#img01");
-var captionText = $("#caption");
-
-img.click(function(){
-  modal.css('display','block');
-  modalImg.attr('src',this.src);
-  captionText.html(this.alt);
-});
-
-var span = $(".close");
-
-span.click(function() {
-  modal.css('display','none');
-});
-
 function isBreakPoint(bp) {
   var w = $(window).width();
   switch (bp) {
