@@ -22,6 +22,17 @@
 
 </head><!--/head-->
 <body class="informacion-1" style="overflow: hidden; overflow-x: hidden;">
+  @if ($active_menu != 'inicio')
+  <div class="social-fixed hidden-xs">
+    <div class="toggle"></div>
+    <ul>
+      <li> <a target="_blank" href="https://www.facebook.com/censol.guayana"><img src="/images/ico/facebook-logo.png" width="32" height="32 "alt=""></a></li>
+      <li> <a target="_blank" href="https://www.instagram.com/censolguayana"><img src="/images/ico/instagram-logo.png" width="32" height="32 "alt=""></a></li>
+      <li> <a target="_blank" href="https://twitter.com/censolguayana"><img src="/images/ico/twitter-logo.png" width="32" height="32 "alt=""></a></li>
+      <li> <a href="/pagoenlinea"><img src="/images/ico/mercadopago-logo.png" width="32" height="32 "alt=""></a></li>
+    </ul>
+  </div>
+  @endif
   <div class="loading-modal">
     <div class="sk-folding-cube">
       <div class="sk-cube1 sk-cube"></div>
@@ -356,6 +367,21 @@
         $(el).css("animation","tilt-r 1500ms");
       },
       bounds: -100
+    });
+
+    var opened = true;
+
+    $('.toggle').click(function() {
+      if (opened == true){
+        $('.social-fixed').css('transform','translateX(-85%)');
+        $('.toggle').css('background-image','url(/images/ico/next.png)');
+        opened = false;
+      }else{
+        $('.social-fixed').css('transform','translateX(0)');
+        $('.toggle').css('background-image','url(/images/ico/back.png)');
+        opened = true;
+      }
+
     });
 
   </script>

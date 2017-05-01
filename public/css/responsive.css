@@ -33,6 +33,9 @@
 
 /* xs */
 @media (max-width: 767px) {
+	.breadcrumb{
+		display: none;
+	}
 	#payment .method:after{
 		display: none;
 	}
@@ -82,7 +85,7 @@
 	}
 
 	.navbar-brand a {
-		width: 80%;
+		width: 79%;
 	}
 	.navbar-toggle .icon-bar {
 		background-color: #ff8517;

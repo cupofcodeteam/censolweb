@@ -22,20 +22,20 @@
       <h3>Preguntas Frecuentes</h3>
       <div class="col-md-6 hidden-xs">
         <div id="faq-content" class="list-group">
-          <a href="#q-1" class="list-group-item">¿Qué tipo de inglés enseñan en Censol Guayana?</a>
-          <a href="#q-2" class="list-group-item">¿Se asignan tareas para la casa?</a>
-          <a href="#q-3" class="list-group-item"> ¿Cómo puedo saber en qué nivel estoy?</a>
-          <a href="#q-4" class="list-group-item"> ¿Cuál es la duración de cada nivel?</a>
-          <a href="#q-5" class="list-group-item"> ¿Cuál es su metodología?</a>
-          <a href="#q-6" class="list-group-item"> ¿Cuál es el material de estudio que utilizan?</a>
-          <a href="#q-7" class="list-group-item"> ¿Cuál es su horario?</a>
-          <a href="#q-8" class="list-group-item"> ¿Cuánto es la duración de una clase?</a>
-          <a href="#q-10" class="list-group-item"> ¿Cuantos niveles me ofrece Censol Guayana?</a>
-          <a href="#q-11" class="list-group-item"> ¿Cuentan con laboratorios?</a>
-          <a href="#q-12" class="list-group-item"> ¿De dónde son sus profesores?</a>
-          <a href="#q-13" class="list-group-item"> ¿En cuánto tiempo estaré preparado para comunicarme en Inglés?</a>
-          <a href="#q-14" class="list-group-item"> ¿Puedo tomar las clases en mi oficina?</a>
-          <a href="#q-15" class="list-group-item">¿Qué tipo de certificación tienen en Censol Guayana?</a>
+          <a href="#" onclick="animScroll('#q-1');" class="list-group-item">¿Qué tipo de inglés enseñan en Censol Guayana?</a>
+          <a href="#" onclick="animScroll('#q-2');" class="list-group-item">¿Se asignan tareas para la casa?</a>
+          <a href="#" onclick="animScroll('#q-3');" class="list-group-item"> ¿Cómo puedo saber en qué nivel estoy?</a>
+          <a href="#" onclick="animScroll('#q-4');" class="list-group-item"> ¿Cuál es la duración de cada nivel?</a>
+          <a href="#" onclick="animScroll('#q-5');" class="list-group-item"> ¿Cuál es su metodología?</a>
+          <a href="#" onclick="animScroll('#q-6');" class="list-group-item"> ¿Cuál es el material de estudio que utilizan?</a>
+          <a href="#" onclick="animScroll('#q-7');" class="list-group-item"> ¿Cuál es su horario?</a>
+          <a href="#" onclick="animScroll('#q-8');" class="list-group-item"> ¿Cuánto es la duración de una clase?</a>
+          <a href="#" onclick="animScroll('#q-10');" class="list-group-item"> ¿Cuantos niveles me ofrece Censol Guayana?</a>
+          <a href="#" onclick="animScroll('#q-11');" class="list-group-item"> ¿Cuentan con laboratorios?</a>
+          <a href="#" onclick="animScroll('#q-12');" class="list-group-item"> ¿De dónde son sus profesores?</a>
+          <a href="#" onclick="animScroll('#q-13');" class="list-group-item"> ¿En cuánto tiempo estaré preparado para comunicarme en Inglés?</a>
+          <a href="#" onclick="animScroll('#q-14');" class="list-group-item"> ¿Puedo tomar las clases en mi oficina?</a>
+          <a href="#" onclick="animScroll('#q-15');" class="list-group-item">¿Qué tipo de certificación tienen en Censol Guayana?</a>
 
         </div>
       </div>
@@ -141,7 +141,7 @@
   });
 
   function animScroll(elem) {
-    $(elem).animatescroll({easing:'easeInOutQuad',scrollSpeed:1500});
+    $(elem).animatescroll({easing:'easeInOutQuad',scrollSpeed:1500,padding:150});
   }
   </script>
 @endsection

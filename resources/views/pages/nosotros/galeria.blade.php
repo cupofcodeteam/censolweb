@@ -51,18 +51,18 @@
     </div>
 
     <div id="img-modal" class="modal">
-      <span class="close" onclick="$(#img-modal).css('display','none');"> &times; </span>
+      <span class="close" onclick="$('#img-modal').css('display','none');"> &times; </span>
 
       <img class="modal-content" id="img01">
 
       <div id="caption"></div>
 
-      <div class="slide-control slide-control-left" >
+      <div class="slide-control slide-control-left" style="left: 0;" >
         <a href="#" style="color:#fff">
           <i class="glyphicon glyphicon-chevron-left" aria-hidden="true"></i>
         </a>
       </div>
-      <div class="slide-control slide-control-right" >
+      <div class="slide-control slide-control-right"  style="right: 0;" >
         <a href="#" style="color:#fff">
           <i class="glyphicon glyphicon-chevron-right" aria-hidden="true"></i>
         </a>

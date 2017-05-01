@@ -2243,3 +2243,35 @@ img.img-responsive{
     border-radius: 5px;
     margin-top: 25px;
 }
+
+
+.social-fixed {
+    border-radius: 0px 10px 10px 0px;
+    z-index: 9999;
+    position: fixed;
+    top: 25%;
+    padding: 10px;
+    background-color: rgba(255, 120, 0, 0.75);
+		transition: all .7s ease-in-out;
+}
+
+.toggle {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 43%;
+    height: 15%;
+    width: 12px;
+    background-image: url(/images/ico/back.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #333;
+    border-radius: 1px 5px 5px 1px;
+    cursor: pointer;
+}
+
+.social-fixed li {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
