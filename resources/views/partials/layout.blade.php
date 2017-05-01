@@ -250,6 +250,7 @@
         <div class="row">
           <h5 class="slogan-footer">Jeremias 29:11</h5>
           <h4>© 2016 Censol Guayana. Todos los derechos reservados.</h4>
+          <h6>Rif: J-40375055-6</h6>
 
 
         </div>
