@@ -126,9 +126,8 @@
                         <div class="col-md-3">
                           <div class="drop-section">
                             <ul>
-                              <li><a class="title" href="/idiomas/espanol">Español</a></li>
-                              <li><a href="/idiomas/ingles/corporativo">Corporativo</a></li>
-                              <li><a href="/idiomas/ingles/en-sede">En sede</a></li>
+                              <li><a class="title" href="#">Español</a></li>
+                              <li><a href="/idiomas/espanol">En sede</a></li>
                             </ul>
                           </div>
                         </div>
