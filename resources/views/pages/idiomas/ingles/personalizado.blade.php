@@ -25,7 +25,7 @@
 
         </div>
         <div class="col-md-4 text-center ">
-          <img class="appear-right" src="/images/ingles/AM.png" alt="" width="140" height="140">
+          <img class=" img-responsive appear-right" src="/images/ingles/personalizado.jpeg" alt="">
         </div>
       </div>
 
@@ -59,7 +59,7 @@
         <div class="container">
 
         <h1>Contactános</h1>
-        <p> Conoce más de nuestro Instituto de idiomas, aprende y divertete con nosostros </p>
+        <p> Conoce más de nuestro Instituto de idiomas, aprende y divertete con nosotros </p>
         <p><a class="btn btn-primary btn-lg" href="/nosotros/contacto" role="button">Más Información</a></p>
       </div>
     </div>

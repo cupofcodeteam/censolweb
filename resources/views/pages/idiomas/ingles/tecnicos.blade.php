@@ -133,7 +133,7 @@
         <div class="container">
 
         <h1>Contactános</h1>
-        <p> Conoce más de nuestro Instituto de idiomas, aprende y divertete con nosostros </p>
+        <p> Conoce más de nuestro Instituto de idiomas, aprende y divertete con nosotros </p>
         <p><a class="btn btn-primary btn-lg" href="/nosotros/contacto" role="button">Más Información</a></p>
       </div>
     </div>
