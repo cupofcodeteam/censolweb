@@ -33,6 +33,9 @@
 
 /* xs */
 @media (max-width: 767px) {
+	.breadcrumb{
+		display: none;
+	}
 	#payment .method:after{
 		display: none;
 	}
