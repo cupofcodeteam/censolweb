@@ -3,74 +3,78 @@
 @section('title','CENSOL | Nosotros')
 
 @section('content')
-  <div id="about-us-page">
-    <div class="text-center page-breadcrumb">
+<div id="about-us-page">
+  <div class="text-center page-breadcrumb">
 
-    </div><!--/.page-breadcrumb-->
+  </div><!--/.page-breadcrumb-->
+
+</div>
+
+<div class="welcome  text-center">
+  <h1> Centro de Soluciones Lingüísticas</h1>
+</div>
+
+<section id="team">
+  <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/"> Inicio</a></li>
+      <li class="breadcrumb-item"> Nosotros </li>
+      <li class="breadcrumb-item active"> Quienes Somos</li>
+  </ol>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="image appear-top">
+          <img class=" img-responsive center-block" src="/images/home/teo1.png" alt="" width="400px" height="350px">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="description text-center appear-tilt-l">
+          <h3> Lic. Teodoro R. Castillo R.</h3>
+          <p>
+            <strong>Gerente General</strong> <br>
+            Licenciado En Idiomas Modernos, Universidad De Los Andes - Merida, Venezuela. Mención Traducción Ingles-Español-Ingles.<br>
+            Prof. Internacional Celta – University Of Cambridge<br>
+            Profesor, Traductor e Interprete De Español, Ingles Y Frances.<br>
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
+</section>
 
-  <div class="welcome  text-center">
-      <h1> Centro de Soluciones Lingüísticas</h1>
-    </div>
-
-
-
-  <section id="team">
-    <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="image appear-top">
-              <img class=" img-responsive center-block" src="/images/home/teo1.png" alt="" width="400px" height="350px">
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="description text-center appear-tilt-l">
-              <h3> Lic. Teodoro R. Castillo R.</h3>
-              <p>
-                  <strong>Gerente General</strong> <br>
-                  Licenciado En Idiomas Modernos, Universidad De Los Andes - Merida, Venezuela. Mención Traducción Ingles-Español-Ingles.<br>
-                  Prof. Internacional Celta – University Of Cambridge<br>
-                  Profesor, Traductor e Interprete De Español, Ingles Y Frances.<br>
-                  </p>
-            </div>
-          </div>
-        </div>
-    </div>
-  </section>
-
-  <section id="about" class="hidden-xs">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-5 wrapper">
-          <div class="about-left">
-            <div class="content-left">
-              <h1> Quienes <span>Somos</span></h1>
-              <p> Somos una empresa consolidada en la formación y capacitación del idioma Inglés. 3 años de experiencia liderando los procesos de enseñanza, aprendizaje y evaluación del idioma, avalan nuestro compromiso académico en el logro de objetivos de manera eficiente y eficaz; gracias a una metodología 100% garantizada que respalda nuestro plan educativo, lo que nos permite brindarle un servicio de primer nivel.
+<section id="about" class="hidden-xs">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-5 wrapper">
+        <div class="about-left">
+          <div class="content-left">
+            <h1> Quienes <span>Somos</span></h1>
+            <p> Somos una empresa consolidada en la formación y capacitación del idioma Inglés. 3 años de experiencia liderando los procesos de enseñanza, aprendizaje y evaluación del idioma, avalan nuestro compromiso académico en el logro de objetivos de manera eficiente y eficaz; gracias a una metodología 100% garantizada que respalda nuestro plan educativo, lo que nos permite brindarle un servicio de primer nivel.
 
             </p>
-              <h5 class="slogan-footer">Jeremias 29:11</h5>
-            </div>
+            <h5 class="slogan-footer">Jeremias 29:11</h5>
           </div>
         </div>
-        <div class="col-xs-7 wrapper">
-          <div class="about-right">
-            <div class="content-right">
-              <div class="col-md-6">
-                <ul class="feature-left">
+      </div>
+      <div class="col-xs-7 wrapper">
+        <div class="about-right">
+          <div class="content-right">
+            <div class="col-md-6">
+              <ul class="feature-left">
+                <li>
+                  <h3>MISIÓN</h3>
+                  <p>Es la misión del Centro de Soluciones Lingüísticas de Guayana impartir programas de estudios de idiomas en un ambiente divertido, dinámico y metódico; caracterizada a su vez por su fuerte compromiso en la formación espiritual, personal y profesional del individuo.
+
+                    A su vez, CENSOL ofrece servicios de traducción e interpretación de idiomas en sus distintas ramas y aplicaciones, convirtiéndose de este modo en un centro de asesoría y soluciones a las diferentes necesidades lingüísticas del cliente</p>
+                  </li>
                   <li>
-                    <h3>MISIÓN</h3>
-                    <p>Es la misión del Centro de Soluciones Lingüísticas de Guayana impartir programas de estudios de idiomas en un ambiente divertido, dinámico y metódico; caracterizada a su vez por su fuerte compromiso en la formación espiritual, personal y profesional del individuo.
+                    <h3>VISIÓN</h3>
+                    <p>Es la visión del Centro de Soluciones Lingüísticas de Guayana ser la primera y mejor opción de la ciudad entre los centros de idiomas que conviven en ella, brindando la mejor calidad en una amplia gama de servicios de índole lingüísticos, a saber: enseñanza, traducción, interpretación y asesoría en los diferentes idiomas modernos de los que necesite el cliente; teniendo siempre en cuenta que la educación de calidad es primordial para un desarrollo personal y profesional sostenible, y que cualquier otro servicio adicional es ganancia para la empresa en vista de su vocación humana y de la responsabilidad social que esta conlleva.</p>
+                  </li>
 
-                      A su vez, CENSOL ofrece servicios de traducción e interpretación de idiomas en sus distintas ramas y aplicaciones, convirtiéndose de este modo en un centro de asesoría y soluciones a las diferentes necesidades lingüísticas del cliente</p>
-                    </li>
-                    <li>
-                      <h3>VISIÓN</h3>
-                      <p>Es la visión del Centro de Soluciones Lingüísticas de Guayana ser la primera y mejor opción de la ciudad entre los centros de idiomas que conviven en ella, brindando la mejor calidad en una amplia gama de servicios de índole lingüísticos, a saber: enseñanza, traducción, interpretación y asesoría en los diferentes idiomas modernos de los que necesite el cliente; teniendo siempre en cuenta que la educación de calidad es primordial para un desarrollo personal y profesional sostenible, y que cualquier otro servicio adicional es ganancia para la empresa en vista de su vocación humana y de la responsabilidad social que esta conlleva.</p>
-                    </li>
-
-                  </ul>
+                </ul>
               </div>
               <div class="col-md-6">
                 <ul class="feature-right">
@@ -184,9 +188,9 @@
     </div>
   </div><!--/#feature-in-->
 
-@endsection
+  @endsection
 
-@section('scripts')
+  @section('scripts')
   <script type="text/javascript">
   var modal = $("#img-modal");
 
@@ -229,7 +233,7 @@
       modalImg.css('opacity','0');
       setTimeout(function() {
         modalImg.attr('src',$(image_array[index]).prop('src'));
-         captionText.html($(image_array[index]).prop('alt'));
+        captionText.html($(image_array[index]).prop('alt'));
         modalImg.prop("style","");
         modalImg.css('opacity','0');
         modalImg.css('transform','translateX(60%)');
@@ -253,7 +257,7 @@
       modalImg.css('opacity','0');
       setTimeout(function() {
         modalImg.attr('src',$(image_array[index]).prop('src'));
-         captionText.html($(image_array[index]).prop('alt'));
+        captionText.html($(image_array[index]).prop('alt'));
         modalImg.prop("style","");
         modalImg.css('opacity','0');
         modalImg.css('transform','translateX(-60%)');
@@ -266,4 +270,4 @@
     }
   });
   </script>
-@endsection
+  @endsection

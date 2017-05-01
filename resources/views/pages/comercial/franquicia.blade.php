@@ -13,6 +13,11 @@
     <div class="welcome  text-center">
       <h1> FRANQUICIA </h1>
     </div>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/"> Inicio</a></li>
+      <li class="breadcrumb-item"> Comercialización </li>
+      <li class="breadcrumb-item active"> Franquicia </li>
+    </ol>
     <div class="container">
       <div class="row padding-bottom">
 

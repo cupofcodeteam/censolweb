@@ -14,6 +14,11 @@
     <div class="welcome  text-center">
       <h1> GESTORIA</h1>
     </div>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/"> Inicio</a></li>
+      <li class="breadcrumb-item"> Legalización </li>
+      <li class="breadcrumb-item active"> Gestoría </li>
+    </ol>
     <div class="container">
       <div class="row padding-bottom">
 

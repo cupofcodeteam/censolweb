@@ -4,26 +4,31 @@
 
 @section('content')
 
-  <div id="blog-breadcrumb" class="text-center page-breadcrumb">
-    <div class="container">
+<div id="blog-breadcrumb" class="text-center page-breadcrumb">
+  <div class="container">
 
-    </div>
-  </div><!--/.page-breadcrumb-->
+  </div>
+</div><!--/.page-breadcrumb-->
 
-  <div id="apostilla" class="informacion-1">
-    <div class="welcome  text-center">
-      <h1> APOSTILLA</h1>
-    </div>
-    <div class="container">
-      <div class="row padding-bottom">
+<div id="apostilla" class="informacion-1">
+  <div class="welcome  text-center">
+    <h1> APOSTILLA</h1>
+  </div>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/"> Inicio</a></li>
+    <li class="breadcrumb-item"> Legalización </li>
+    <li class="breadcrumb-item active"> Traducción e interpretación </li>
+  </ol>
+  <div class="container">
+    <div class="row padding-bottom">
 
-        <div class="col-md-6 ">
-          <p>Gestoría para apostillamiento de documentos ante organismos <strong>nacionales </strong> e <strong>internacionales.</strong> </p>
-          <p> Realizamos el proceso de asesoría y gestoría para apostillamiento de documentos ante el ministerio de relaciones exteriores en la ciudad de Caracas.
+      <div class="col-md-6 ">
+        <p>Gestoría para apostillamiento de documentos ante organismos <strong>nacionales </strong> e <strong>internacionales.</strong> </p>
+        <p> Realizamos el proceso de asesoría y gestoría para apostillamiento de documentos ante el ministerio de relaciones exteriores en la ciudad de Caracas.
 
-Contáctenos y visítenos en nuestra sede en el C.C. Biblos Center de Puerto Ordaz. La atención es en persona por parte de nuestro gerente general.
+          Contáctenos y visítenos en nuestra sede en el C.C. Biblos Center de Puerto Ordaz. La atención es en persona por parte de nuestro gerente general.
 
- <strong> Provéanos sus datos personales y escribanos sobre su caso.</strong></p>
+          <strong> Provéanos sus datos personales y escribanos sobre su caso.</strong></p>
           <a href="/nosotros/contacto" target="_blank" class="btn btn-primary section-btn appear-top">Contáctenos</a>
         </div>
         <div class="col-md-6">
@@ -33,4 +38,4 @@ Contáctenos y visítenos en nuestra sede en el C.C. Biblos Center de Puerto Ord
     </div><!--/#main-blog-->
   </div>
 
-@endsection
+  @endsection

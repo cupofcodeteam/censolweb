@@ -11,6 +11,11 @@
       <div class="welcome text-center">
           <h1> Contacto</h1>
       </div>
+      <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/"> Inicio</a></li>
+          <li class="breadcrumb-item"> Nosotros </li>
+          <li class="breadcrumb-item active"> Contacto</li>
+      </ol>
       <div class="container">
         <div class="row">
           <div class="col-md-4">

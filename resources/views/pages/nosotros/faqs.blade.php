@@ -12,6 +12,7 @@
   <section id="preguntas">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/"> Inicio</a></li>
+        <li class="breadcrumb-item"> Nosotros </li>
         <li class="breadcrumb-item active"> FAQS</li>
     </ol>
     <div class="container">

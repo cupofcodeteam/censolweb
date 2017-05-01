@@ -14,6 +14,11 @@
     <div class="welcome text-center">
         <h1> Galeria</h1>
     </div>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/"> Inicio</a></li>
+        <li class="breadcrumb-item"> Nosotros </li>
+        <li class="breadcrumb-item active"> Galeria</li>
+    </ol>
     <div class="container">
         <div class="row">
           <div class="col-md-3 wrapper">
