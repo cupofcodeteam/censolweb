@@ -40,7 +40,7 @@
 		font-size: 14px;
 	}
 	h1 {
-		font-size: 20px;
+		font-size: 23px;
 	}
 	h2 {
 		font-size: 18px;
@@ -49,6 +49,9 @@
 		font-size: 17px;
 	}
 
+#payment h1{
+	font-size: 33px;
+}
 	/*===Home Page====*/
 
 	/*Navigation*/
@@ -78,7 +81,7 @@
 	}
 
 	.navbar-brand a {
-    width: 80%;
+    width: 79%;
 }
 .navbar-toggle .icon-bar {
     background-color: #ff8517;
@@ -98,7 +101,21 @@
     display: inline-block;
     margin: 0 5px 0 5px;
 }
+.slide-control.slide-control-left {
+    left: -19px;
+}
 
+.slide-control.slide-control-right {
+    right: 54px;
+}
+
+.jumbotron h1 {
+	font-size: 41px;
+}
+.jumbotron p {
+	font-size: 16px;
+
+}
 }
 
 /* XS Portrait */

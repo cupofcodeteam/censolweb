@@ -41,7 +41,7 @@
     </div>
   </section>
 
-  <section id="projects" class="hidden-xs">
+  <section id="projects" class="hidden-xs ">
     <div class="left-bg">
 
     </div>
