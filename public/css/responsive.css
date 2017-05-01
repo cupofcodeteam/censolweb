@@ -13,8 +13,8 @@
 	}
 
 	.nav>li {
-    margin-right: -5px;
-}
+		margin-right: -5px;
+	}
 }
 
 /* sm */
@@ -27,8 +27,8 @@
 	}
 
 	.nav>li {
-    margin-right: -5px;
-}
+		margin-right: -5px;
+	}
 }
 
 /* xs */
@@ -53,17 +53,21 @@
 
 	/*Navigation*/
 
+	#navigation .drop-section {
+		height: auto !important;
+	}
+
 	#navigation > div > div > div:nth-child(2) > div > nav > ul > li.dropdown.open > ul > div > div > div:nth-child(1) > div, #navigation > div > div > div:nth-child(2) > div > nav > ul > li.dropdown.open > ul > div > div > div:nth-child(2) > div, #navigation > div > div > div:nth-child(2) > div > nav > ul > li.dropdown.open > ul > div > div > div:nth-child(3) > div {
-	    border-right: none;
+		border-right: none;
 	}
 	#navigation .drop-item .drop-link {
-    margin: 35px 35px 35px 0px;
-    text-align: center;
-}
+		margin: 35px 35px 35px 0px;
+		text-align: center;
+	}
 
-#navigation .drop-item .drop-content {
-    margin: 35px !important;
-}
+	#navigation .drop-item .drop-content {
+		margin: 35px !important;
+	}
 
 	.navbar.navbar-fixed-top:not(.top-nav-collapse) {
 		top: 0px !important;
@@ -78,26 +82,26 @@
 	}
 
 	.navbar-brand a {
-    width: 80%;
-}
-.navbar-toggle .icon-bar {
-    background-color: #ff8517;
-}
+		width: 80%;
+	}
+	.navbar-toggle .icon-bar {
+		background-color: #ff8517;
+	}
 
-#navigation .navbar-fixed-top .navbar-right {
-    margin-top: 13% !important;
-    background-color: #ff8517;
-}
+	#navigation .navbar-fixed-top .navbar-right {
+		margin-top: 13% !important;
+		background-color: #ff8517;
+	}
 
-#navigation .navbar-right li a.active, #navigation .navbar-right li a:hover, #navigation .navbar-right li.active> a, .bottom-socials ul li a:hover, #navigation .navbar-right li i:hover, #navigation .topbar-icons span i:hover {
-    color: #ffce30;
-}
+	#navigation .navbar-right li a.active, #navigation .navbar-right li a:hover, #navigation .navbar-right li.active> a, .bottom-socials ul li a:hover, #navigation .navbar-right li i:hover, #navigation .topbar-icons span i:hover {
+		color: #ffce30;
+	}
 
-.client-content ul li {
-    width: 28% !important;
-    display: inline-block;
-    margin: 0 5px 0 5px;
-}
+	.client-content ul li {
+		width: 28% !important;
+		display: inline-block;
+		margin: 0 5px 0 5px;
+	}
 
 }
 
