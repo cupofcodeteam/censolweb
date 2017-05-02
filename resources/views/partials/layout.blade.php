@@ -286,6 +286,8 @@
          $('.loading-modal').fadeOut('600');
          $('body').css('overflow','auto');
          $('body').css('overflow-x','hidden');
+         $('.social-fixed').css('transform','translateX(0%)');
+         $('.toggle').css('background-image','url(/images/ico/back.png)');
       },2000);
 
     });

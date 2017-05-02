@@ -2252,8 +2252,9 @@ img.img-responsive{
     position: fixed;
     top: 25%;
     padding: 10px;
-    background-color: rgba(255, 120, 0, 0.75);
+    background-color: rgba(158, 158, 158, 0.68);
 		transition: all .7s ease-in-out;
+		transform: translateX(-85%);
 }
 
 .toggle {
