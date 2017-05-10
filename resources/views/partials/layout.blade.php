@@ -29,7 +29,6 @@
       <li> <a target="_blank" href="https://www.facebook.com/censol.guayana"><img src="/images/ico/facebook-logo.png" width="32" height="32 "alt=""></a></li>
       <li> <a target="_blank" href="https://www.instagram.com/censolguayana"><img src="/images/ico/instagram-logo.png" width="32" height="32 "alt=""></a></li>
       <li> <a target="_blank" href="https://twitter.com/censolguayana"><img src="/images/ico/twitter-logo.png" width="32" height="32 "alt=""></a></li>
-      <li> <a href="/pagoenlinea"><img src="/images/ico/mercadopago-logo.png" width="32" height="32 "alt=""></a></li>
     </ul>
   </div>
   @endif
@@ -51,18 +50,6 @@
   }(document, 'script', 'facebook-jssdk'));</script>
 
   <header id="navigation">
-    @if ($active_menu == 'inicio')
-    <style media="screen">
-    .navbar.navbar-fixed-top:not(.top-nav-collapse) {
-        top: 30px;
-    }
-    </style>
-      <nav id="banner-pago" class="hidden-xs">
-        <p> ¡Realiza tus pagos de la forma mas seguro en el mercado! Ofrecemos pago en línea con MercadoPago
-          <a href="/pagoenlinea" class="btn btn-primary"> Pagar </a>
-        </p>
-      </nav>
-    @endif
     <div class="navbar navbar-fixed-top" role="banner">
       <div class="container">
         <div class="row">
@@ -282,13 +269,11 @@
 
   <script type="text/javascript">
     $(document).ready(function() {
-      setTimeout(function() {
          $('.loading-modal').fadeOut('600');
          $('body').css('overflow','auto');
          $('body').css('overflow-x','hidden');
          $('.social-fixed').css('transform','translateX(0%)');
          $('.toggle').css('background-image','url(/images/ico/back.png)');
-      },2000);
 
     });
     appear({

@@ -2278,3 +2278,7 @@ img.img-responsive{
     margin-bottom: 8px;
     margin-top: 8px;
 }
+
+#payment > div > div:nth-child(2) > div:nth-child(2) > div::after{
+	display: none;
+}
