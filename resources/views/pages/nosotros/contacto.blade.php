@@ -48,7 +48,7 @@
                 </div>
               </div>
               <div class="item-content">
-                <p> +58 286 952 6636 OFICINA<p>+58 424 9070166<p>0414 8579185</p>
+                <p> +58 286 952 6636 OFICINA<p>+58 424 9070166<p>0414 1919464</p>
               </div>
             </div>
           </div>

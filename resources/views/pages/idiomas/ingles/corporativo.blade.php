@@ -28,7 +28,7 @@
 
       </div>
       <div class="col-md-8 ">
-        <h2>Programa de Ingles Corporativo Conversacional</h2>
+        <h2>Programa de ingles corporativo conversacional</h2>
 
         <p>Aprende Inglés con los mejores profesores de la ciudad en el idioma, desarrollando tus aptitudes, habilidades y conocimiento para dominar el idioma inglés de manera eficiente y eficaz.  Ofrecemos la opción de ver clases en tu empresa o en el instituto . Este programa cuenta con el Material de <strong> Serie “INTERCHANGE” Y “PASSAGES”,</strong> de la Editorial de la UNIVERSIDAD DE CAMBRIDGE, de Jack C. Richards, cuarta edición, New York, 2013.</p>
 
@@ -52,7 +52,7 @@
     <div class="row padding-bottom">
 
       <div class="col-md-8 ">
-        <h2>Programa de Ingles Tecnico Especializado para Ingenieros Mecanicos</h2>
+        <h2>Programa de ingles tecnico especializado para ingenieros mecanicos</h2>
         <p> Aprende un nuevo Idioma con los mejores profesores de la zona , desarrollando tus aptitudes, habilidades y conocimiento para dominar el idioma inglés de manera eficiente y eficaz.  Ofrecemos la opción de ver clases en tu empresa o en el instituto . Este programa cuenta con el Material <strong> “ENGLISH FOR MECHANICAL ENGINEERING”, de la Editorial GARNET EDUCATION,</strong> de Terry Phillips, Gran Bretaña, 2010.</p>
 
         <div class="row">
@@ -84,7 +84,7 @@
 
       </div>
       <div class="col-md-8 ">
-        <h2>Programa de Ingles Tecnico Especializado para Gerentes</h2>
+        <h2>Programa de ingles tecnico especializado para gerentes</h2>
         <p>Aprende a desenvolverte en un nuevo idioma desarrollando tus aptitudes, habilidades y conocimiento para dominar el inglés de manera eficiente y eficaz. Ofrecemos la opción de ver clases en tu empresa o en el instituto . Este programa cuenta con el Material  de <strong> ENGLISH FOR MANAGEMENT STUDIES”, de la Editorial GARNET EDUCATION, </strong> de Tony Corballis y Wayne Jennings, Gran Bretaña, 2009.</p>
 
         <div class="row">
@@ -107,7 +107,7 @@
   <div class="container">
     <div class="row padding-bottom">
       <div class="col-md-8 ">
-        <h2>Programa de Ingles Tecnico Especializado para Personal Medico y Paramedicos</h2>
+        <h2>Programa de ingles tecnico especializado para personal medico y paramedicos</h2>
         <p>Aprende Inglés a través de un entorno personalizado <strong>100%</strong> en el idioma, desarrollando tus aptitudes, habilidades y conocimiento para dominar el idioma inglés de manera eficiente y eficaz. Ofrecemos la opción de ver clases en tu empresa o en el instituto . Este programa cuenta con el Material  de <strong> ENGLISH FOR HEALTH SCIENCES”, de la Editorial HEINLE CENGAGE LEARNING,</strong> de Martin Milner, USA, 2006.</p>
 
         <div class="row">
@@ -141,7 +141,7 @@
 
       </div>
       <div class="col-md-8 ">
-        <h2>Programa de Ingles Tecnico Especializado para Tripulantes de Cabina</h2>
+        <h2>Programa de ingles tecnico especializado para tripulantes de cabina</h2>
         <p>Aprende Inglés a través de un entorno personalizado <strong>100%</strong> en el idioma, desarrollando tus aptitudes, habilidades y conocimiento para dominar el idioma inglés de manera eficiente y eficaz.Ofrecemos la opcion de ver clases en tu empresa o en el instituto . Este programa cuenta  con el Material de <strong> “ENGLISH FOR CABIN CREW”, de la Editorial HEINLE CENGAGE LEARNING</strong>, de Terence Gerighty, Gran Bretaña, 2011.</p>
 
         <div class="row">

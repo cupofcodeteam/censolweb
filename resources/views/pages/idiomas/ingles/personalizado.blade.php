@@ -25,9 +25,9 @@
     <div class="row padding-bottom">
 
       <div class="col-md-8 ">
-        <p>Aprende Inglés a través de un entorno <strong>100%</strong> en el idioma, desarrollando tus aptitudes, habilidades y conocimiento para dominar el idioma inglés de manera eficiente y eficaz. Donde contaras con dvds y cds de videos, audios y textos para facilitar el aprendizaje continuo y garantizar el dominio completo del idioma de ingles al finalizar los programas de estudios</p>
+        <p>Aprende inglés a través de un entorno <strong>100%</strong> en el idioma, desarrollando tus aptitudes, habilidades y conocimiento para dominar el idioma inglés de manera eficiente y eficaz. Donde contaras con dvds y cds de videos, audios y textos para facilitar el aprendizaje continuo y garantizar el dominio completo del idioma de ingles al finalizar los programas de estudios</p>
 
-        <p>Material a utilizar Serie <strong>“INTERCHANGE” Y “PASSAGES”</strong>, de la Editorial de la UNIVERSIDAD DE CAMBRIDGE, de Jack C. Richards, cuarta edición, New York, 2013. </p>
+        <p>Material a utilizar Serie <strong>“INTERCHANGE” Y “PASSAGES”</strong>, de la editorial de la UNIVERSIDAD DE CAMBRIDGE, de Jack C. Richards, cuarta edición, New York, 2013. </p>
 
       </div>
       <div class="col-md-4 text-center ">
@@ -45,7 +45,7 @@
       <div class="col-md-4 text-center appear-zoom">
         <img src="/images/ingles/certificado.png" alt="" width="140" height="140">
         <h2>Metodología</h2>
-        <p>Nuestra metodología de estudio esta certificados por la Universidad de Cambridge</p>
+        <p>Nuestra metodología de estudios está certificada por la Universidad de Cambridge</p>
 
       </div>
 

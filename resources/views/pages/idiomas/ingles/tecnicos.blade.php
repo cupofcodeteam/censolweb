@@ -24,7 +24,7 @@
     <div class="row padding-bottom">
 
       <div class="col-md-8 ">
-        <h2>Programa de Ingles Tecnico Especializado para Ingenieros Mecanicos</h2>
+        <h2>Programa de ingles tecnico especializado para ingenieros mecanicos</h2>
         <p> Implementa tus conocimientos en un nuevo idioma, desarrollando tus aptitudes, habilidades y conocimiento para dominar el idioma inglés de manera eficiente y eficaz. Donde contaras con el Material de <strong> “ENGLISH FOR MECHANICAL ENGINEERING”, de la Editorial GARNET EDUCATION,</strong> de Terry Phillips, Gran Bretaña, 2010.</p>
 
         <div class="row">
@@ -56,7 +56,7 @@
 
       </div>
       <div class="col-md-8 ">
-        <h2>Programa de Ingles Tecnico Especializado para Gerentes</h2>
+        <h2>Programa de ingles tecnico especializado para gerentes</h2>
         <p>Aprende desenvolverte en un nuevo idioma, desarrollando tus aptitudes, habilidades y conocimiento para dominar el idioma inglés de manera eficiente y eficaz. Donde contaras con el Material de <strong> ENGLISH FOR MANAGEMENT STUDIES”, de la Editorial GARNET EDUCATION, </strong> de Tony Corballis y Wayne Jennings, Gran Bretaña, 2009.</p>
 
         <div class="row">
@@ -79,7 +79,7 @@
   <div class="container">
     <div class="row padding-bottom">
       <div class="col-md-8 ">
-        <h2>Programa de Ingles Tecnico Especializado para Personal Medico y Paramedicos</h2>
+        <h2>Programa de ingles tecnico especializado para personal medico y paramedicos</h2>
         <p>Aprende Inglés a través de un entorno personalizado <strong>100%</strong> en el idioma, desarrollando tus aptitudes, habilidades y conocimiento para dominar el idioma inglés de manera eficiente y eficaz. Donde contaras con el Material de <strong> ENGLISH FOR HEALTH SCIENCES”, de la Editorial HEINLE CENGAGE LEARNING,</strong> de Martin Milner, USA, 2006.</p>
 
         <div class="row">
@@ -113,7 +113,7 @@
 
       </div>
       <div class="col-md-8 ">
-        <h2>Programa de Ingles Tecnico Especializado para Tripulantes de Cabina</h2>
+        <h2>Programa de ingles tecnico especializado para tripulantes de cabina</h2>
         <p> Estudia un nuevo idioma desarrollando tus aptitudes, habilidades y conocimiento para dominar el idioma inglés de manera eficiente y eficaz. Donde contarás con el Material de <strong> “ENGLISH FOR CABIN CREW”, de la Editorial HEINLE CENGAGE LEARNING</strong>, de Terence Gerighty, Gran Bretaña, 2011.</p>
 
         <div class="row">

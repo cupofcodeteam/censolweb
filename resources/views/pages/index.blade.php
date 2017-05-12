@@ -73,7 +73,7 @@
                 <div class="col-md-6">
                   <div class="content">
                     <h2 style="color:#ff7900;font-weight: bold;"> Intro</h2>
-                    <p> El estudiante tendrá la capacidad para comprender y utilizar expresiones básicas y simples que le permitirán satisfacer necesidades concretas todos los días. Además podrán presentarse y a otros, preguntar y responder preguntas referentes a información personal, direcciones y sobre pertenencias. Podrán comunicarse e interactuar de modos siempre que el orador pronuncie claramente.</p>
+                    <p> El estudiante tendrá la capacidad para comprender y utilizar expresiones básicas y simples que le permitirán satisfacer necesidades concretas todos los días. Además podrán presentarse a otros, preguntar y responder preguntas referentes a información personal, direcciones y sobre pertenencias. Podrán comunicarse e interactuar de modos siempre que el orador pronuncie claramente.</p>
                   </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@
               </div>
                 <div class="col-md-6">
                   <div class="content">
-                    <h2 style="color:#ff7900;font-weight: bold;"> Passages I</h2>
+                    <h2 style="color:#ff7900;font-weight: bold;"> Passages  I</h2>
                     <p> Los estudiantes serán capaces de comprender ideas principales de textos con cierto tipo de complejidad que hable sobre concretos y abstractos tópicos, incluyendo técnicas de debates especializado. Ellos pueden interactuar con un nivel de fluidez, precisión  y espontaneidad. <br>
                     Por lo tanto, pueden interactuar con nativos de la lengua sin ningún tipo de presión o tensión.  También pueden producir claro, detallado y elaborado ensayos sobre una diversidad de tópicos así como explicar un punto de vista en particular, presentando ventajas y desventajas de una variedad de temas.
                     </p>
@@ -139,7 +139,7 @@
               </div>
                 <div class="col-md-6">
                   <div class="content">
-                    <h2 style="color:#ff7900;font-weight: bold;" > Passeges II</h2>
+                    <h2 style="color:#ff7900;font-weight: bold;" > Passages  II</h2>
                     <p> Los estudiantes son capaces de comprender y debatir sobre una serie de temas mucho más largos y complejos, reconociendo e identificando sus contextos implícitos. Podrán interactuar y expresar pensamientos en una manera muy fluida y precisa sin tener que buscar expresiones o vocabularios en una forma detallada. Utilizaran un lenguaje objetivo con alta fluidez y de manera eficaz en lo social, académico y profesional.<br>
                     Pueden producir ensayos muy claros, bien estructuradas, detallados y bien elaborados referentes a temas complejos mostrando una buena coherencia, cohesión y un uso del lenguaje equilibrado.
                     </p>
@@ -223,7 +223,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="entry-content">
-              <a href="blog-detail.html"><div class="fb-page" data-href="https://www.facebook.com/censolidiomas/?fref=ts" data-tabs="timeline" data-width="300" data-height="365" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/censolidiomas/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/censolidiomas/?fref=ts" target="_blank">Censol Guayana </a></blockquote></div></a>
+              <a href="blog-detail.html"><div class="fb-page" data-href="https://www.facebook.com/censol.guayana" data-tabs="timeline" data-width="300" data-height="365" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/censol.guayana" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/censol.guayana" target="_blank">Censol Guayana </a></blockquote></div></a>
               <h2><a href="https://www.facebook.com/censol.guayana" target="_blank" ><i class="fa fa-facebook fa-3x fa-fw"></i></a></h2>
               <div class="entry-meta">
               </div>
@@ -261,9 +261,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="method">
-            <figure class="appear-zoom">
+            <figure class="appear-left">
               <img src="../images/home/payment2.png" alt="">
               <figcaption>
                 <h3> Depósito </h3>
@@ -272,13 +272,24 @@
             </figure>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="method">
             <figure class="appear-zoom">
               <img src="../images/home/payment1.png" alt="">
               <figcaption>
                 <h3> Transferencia </h3>
                 <a target="_blank" class="btn btn-primary center-block"href="/nosotros/contacto"> Contacto</a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="method">
+            <figure class="appear-right">
+              <img src="../images/home/mercadopago.png" alt="">
+              <figcaption>
+                <h3> Mercado Pago </h3>
+                <a target="_blank" class="btn btn-primary center-block"href="/pagoenlinea"> Ver más</a>
               </figcaption>
             </figure>
           </div>

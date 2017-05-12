@@ -35,16 +35,14 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3 wrapper">
+          <div class="col-md-4 wrapper">
             <img id="#img5" class="image" data-index="4" src="/images/about/instalaciones-slider/inst5.jpg" alt="Nuestras Instalaciones">
           </div>
-          <div class="col-md-3 wrapper">
+          <div class="col-md-4 wrapper">
             <img id="#img6" class="image" data-index="5" src="/images/about/instalaciones-slider/inst6.jpg" alt="Nuestras Instalaciones">
           </div>
-          <div class="col-md-3 wrapper">
-            <img id="#img7" class="image" data-index="6" src="/images/about/instalaciones-slider/inst7.jpg" alt="Nuestras Instalaciones">
-          </div>
-          <div class="col-md-3 wrapper">
+
+          <div class="col-md-4 wrapper">
             <img id="#img8" class="image" data-index="7" src="/images/about/instalaciones-slider/inst8.jpg" alt="Alt">
           </div>
         </div>
