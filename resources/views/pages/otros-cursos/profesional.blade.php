@@ -46,7 +46,7 @@
         </div>
       </div>
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/Mecanico.jpg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/periodismo.jpeg">
       </div>
     </div>
   </div>
@@ -56,7 +56,7 @@
   <div class="container">
     <div class="row padding-bottom">
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/manager.jpeg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/sonido-basico.jpeg">
       </div>
       <div class="col-md-8 ">
         <h2 style="margin-bottom:40px">Sonido Básico</h2>
@@ -114,7 +114,7 @@
         </div>
       </div>
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/Mecanico.jpg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/sonido.jpeg">
       </div>
     </div>
   </div>
@@ -124,7 +124,7 @@
   <div class="container">
     <div class="row padding-bottom">
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/manager.jpeg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/fotografo.jpeg">
       </div>
       <div class="col-md-8 ">
         <h2 style="margin-bottom:40px">Taller de fotografía (Nivel Básico)</h2>
@@ -192,7 +192,7 @@
         </div>
       </div>
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/Mecanico.jpg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/produccion-cine.jpeg">
       </div>
     </div>
   </div>
@@ -202,7 +202,7 @@
   <div class="container">
     <div class="row padding-bottom">
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/manager.jpeg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/eventos.jpeg">
       </div>
       <div class="col-md-8 ">
         <h2 style="margin-bottom:40px">Taller de producción eventos</h2>
@@ -260,7 +260,7 @@
         </div>
       </div>
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/Mecanico.jpg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/festival.jpeg">
       </div>
     </div>
   </div>
@@ -270,7 +270,7 @@
   <div class="container">
     <div class="row padding-bottom">
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/manager.jpeg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/cm.jpeg">
       </div>
       <div class="col-md-8 ">
         <h2 style="margin-bottom:40px">Taller de iniciación al community manager</h2>
@@ -337,7 +337,7 @@
         </div>
       </div>
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/Mecanico.jpg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/cliente.jpeg">
       </div>
     </div>
   </div>
@@ -347,7 +347,7 @@
   <div class="container">
     <div class="row padding-bottom">
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/manager.jpeg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/diseno.jpeg">
       </div>
       <div class="col-md-8 ">
         <h2 style="margin-bottom:40px">Diseño gráfico básico y Photoshop</h2>

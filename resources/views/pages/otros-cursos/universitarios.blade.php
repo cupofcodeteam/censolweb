@@ -39,7 +39,7 @@
         </div>
       </div>
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/Mecanico.jpg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/matematica.jpeg">
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@
   <div class="container">
     <div class="row padding-bottom">
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/manager.jpeg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/fisica.jpeg">
       </div>
       <div class="col-md-8 ">
         <h2 style="margin-bottom:40px">Física I</h2>
@@ -97,7 +97,7 @@
         </div>
       </div>
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/Mecanico.jpg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/quimica.jpeg">
       </div>
     </div>
   </div>
@@ -107,7 +107,7 @@
   <div class="container">
     <div class="row padding-bottom">
       <div class="col-md-4 ">
-        <img class="img-responsive appear-left" src="/images/ingles/manager.jpeg">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/ingles.jpeg">
       </div>
       <div class="col-md-8 ">
         <h2 style="margin-bottom:40px">Ingles Técnico I</h2>
