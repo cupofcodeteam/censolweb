@@ -157,7 +157,29 @@
                     </div>
                   </ul>
                 </li>
-
+                <li class="{{$active_menu == 'otros-cursos' ? 'active' : ''}} dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Otros cursos<span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <div class="drop-item">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <div class="drop-content">
+                            <h3> Otros Cursos</h3>
+                            <p> Somos una empresa consolidada en la formación y capacitación del idioma Inglés. 3 años de experiencia liderando los procesos de enseñanza, aprendizaje y evaluación del idioma, avalan nuestro compromiso académico. </p>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <ul class="drop-link">
+                            <li><a href="/otros-cursos/universitarios">Cursos Universitarios</a></li>
+                            <li><a href="/otros-cursos/profesional">Cursos Profesionales</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
                 <li class="{{$active_menu == 'traduccion' ? 'active' : ''}} dropdown">
                   <a href="/traduccion">
                     Traducción

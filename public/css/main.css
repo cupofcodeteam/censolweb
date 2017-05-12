@@ -729,12 +729,9 @@ textarea.form-control {
 	    color: rgba(255, 133, 23, 0.94);
 }
 
-#navigation > div > div > div:nth-child(2) > div > nav > ul > li.dropdown.open > ul > div > div > div:nth-child(1) > div,
-#navigation > div > div > div:nth-child(2) > div > nav > ul > li.dropdown.open > ul > div > div > div:nth-child(2) > div,
-#navigation > div > div > div:nth-child(2) > div > nav > ul > li.dropdown.open > ul > div > div > div:nth-child(3) > div{
-	border-right: solid rgba(51, 51, 51, 0.55) 2px;
+#navigation div:not(:last-child) .drop-section {
+    border-right: solid rgba(51, 51, 51, 0.55) 2px;
 }
-
 
 #home-top{
 	background-image: url(../images/home/first.jpg);

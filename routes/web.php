@@ -135,6 +135,10 @@ Route::get('/comercial/intercambio', function () {
     return view('pages.comercial.intercambio',['active_menu' => 'comercial']);
 });
 
-Route::get('/pagoenlinea', function () {
-    return view('pages.pagoenlinea',['active_menu' => 'none']);
+Route::get('/otros-cursos/universitarios', function () {
+    return view('pages.otros-cursos.universitarios',['active_menu' => 'otros-cursos']);
+});
+
+Route::get('/otros-cursos/profesional', function () {
+    return view('pages.otros-cursos.profesional',['active_menu' => 'otros-cursos']);
 });
