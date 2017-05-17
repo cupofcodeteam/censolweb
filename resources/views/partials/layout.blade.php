@@ -18,7 +18,7 @@
   <link href="/css/scrolling-nav.css" rel="stylesheet">
 
   <!-- IMAGES -->
-  <link rel="shortcut icon" href="/images/ico/favicon.png">
+  <link rel="shortcut icon"  type="image/x-icon" href="/images/ico/favicon.ico">
 
 </head><!--/head-->
 <body class="informacion-1" style="overflow: hidden; overflow-x: hidden;">
@@ -116,7 +116,7 @@
                               <li><a href="/idiomas/ingles/tecnicos">Tecnicos Especializados</a></li>
                               <li><a href="/idiomas/ingles/corporativo">Ingles Corporativo</a></li>
                               <li><a href="/idiomas/ingles/en-linea">Ingles En Linea</a></li>
-                              <li><a href="/idiomas/ingles/tofl">TOFL</a></li>
+                              <li><a href="/idiomas/ingles/tofl">TOEFL</a></li>
                               <li><a href="/idiomas/ingles/ielts">IELTS</a></li>
                             </ul>
                           </div>
@@ -157,6 +157,7 @@
                     </div>
                   </ul>
                 </li>
+
                 <li class="{{$active_menu == 'otros-cursos' ? 'active' : ''}} dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     Otros cursos<span class="caret"></span>
@@ -180,6 +181,7 @@
                     </div>
                   </ul>
                 </li>
+
                 <li class="{{$active_menu == 'traduccion' ? 'active' : ''}} dropdown">
                   <a href="/traduccion">
                     Traducción
@@ -224,7 +226,7 @@
                         <div class="col-md-8">
                           <div class="drop-content">
                             <h3> Comercialización</h3>
-                            <p> Asesoramiento en todas las áreas y dar nuestra marca y nombre como franquicia,intercambio comercial o convenio por clases en nuestras instalaciones o a domicilio en sus oficinas y organización de eventos relacionados a cualquier índole en la ciudad. </p>
+                            <p> Asesoramiento en todas las áreas para dar nuestra marca y nombre como franquicia, intercambio comercial, convenio por clases en nuestras instalaciones o a domicilio en su oficina; además de organización de eventos relacionados a cualquier índole en nuestra ciudad y otras ciudades del país. </p>
                           </div>
                         </div>
                         <div class="col-md-4">

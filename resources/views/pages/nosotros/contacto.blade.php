@@ -73,13 +73,13 @@
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
-                        <input type="text" class="form-control" required="required" placeholder="Nombre">
+                        <input name="name" type="text" class="form-control" required="required" placeholder="Nombre">
                       </div>
                       <div class="form-group">
-                        <input type="email" class="form-control" required="required" placeholder="Email">
+                        <input name="email" type="email" class="form-control" required="required" placeholder="Email">
                       </div>
                       <div class="form-group">
-                        <input type="text" class="form-control" required="required" placeholder="Asunto">
+                        <input name="cc" type="text" class="form-control" required="required" placeholder="Asunto">
                       </div>
                     </div>
                     <div class="col-sm-6">
@@ -119,4 +119,41 @@
         </div><!--/.container-->
     </div>  <!--/contact-page-two -->
 
+@endsection
+
+@section('scripts')
+  <script type="text/javascript">
+  $(document).ready(function() {
+
+    // process the form
+    $('form').submit(function(event) {
+      event.preventDefault();
+        var formData = {
+            "_token": "{{ csrf_token() }}",
+            'name'              : $("input[name='name']").val(),
+            'email'             : $("input[name='email']").val(),
+            'message'           : $("textarea[name='message']").val(),
+            'phone'             : $("input[name='phone']").val(),
+            'cc'                : $("input[name='cc']").val()
+        };
+
+        // process the form
+        $.ajax({
+            type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
+            url         : '/sendMail', // the url where we want to POST
+            data        : formData, // our data object
+            encode      : true
+        })
+            .done(function(data) {
+              alert("Mensaje Enviado Con Exito!");
+            })
+            .fail(function(data) {
+              alert(" Error al enviar Mensaje!");
+            });
+
+        // stop the form from submitting the normal way and refreshing the page
+
+    });
+  });
+  </script>
 @endsection

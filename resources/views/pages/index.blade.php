@@ -261,7 +261,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
           <div class="method">
             <figure class="appear-left">
               <img src="../images/home/payment2.png" alt="">
@@ -272,24 +272,13 @@
             </figure>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
           <div class="method">
             <figure class="appear-zoom">
               <img src="../images/home/payment1.png" alt="">
               <figcaption>
                 <h3> Transferencia </h3>
                 <a target="_blank" class="btn btn-primary center-block"href="/nosotros/contacto"> Contacto</a>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="method">
-            <figure class="appear-right">
-              <img src="../images/home/mercadopago.png" alt="">
-              <figcaption>
-                <h3> Mercado Pago </h3>
-                <a target="_blank" class="btn btn-primary center-block"href="/pagoenlinea"> Ver más</a>
               </figcaption>
             </figure>
           </div>

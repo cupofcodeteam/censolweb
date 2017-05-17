@@ -921,7 +921,7 @@ textarea.form-control {
 	color: #fff;
 }
 
-#payment .method:after {
+#payment div:not(:last-child) .method:after {
     content: "";
     height: 182px;
     position: absolute;
@@ -2274,8 +2274,4 @@ img.img-responsive{
 .social-fixed li {
     margin-bottom: 8px;
     margin-top: 8px;
-}
-
-#payment > div > div:nth-child(2) > div:nth-child(2) > div::after{
-	display: none;
 }

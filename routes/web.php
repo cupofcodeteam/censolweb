@@ -142,3 +142,5 @@ Route::get('/otros-cursos/universitarios', function () {
 Route::get('/otros-cursos/profesional', function () {
     return view('pages.otros-cursos.profesional',['active_menu' => 'otros-cursos']);
 });
+
+Route::post("/sendMail","MailController@sendMail");
