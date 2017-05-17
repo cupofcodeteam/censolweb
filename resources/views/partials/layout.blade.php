@@ -29,6 +29,7 @@
       <li> <a target="_blank" href="https://www.facebook.com/censol.guayana"><img src="/images/ico/facebook-logo.png" width="32" height="32 "alt=""></a></li>
       <li> <a target="_blank" href="https://www.instagram.com/censolguayana"><img src="/images/ico/instagram-logo.png" width="32" height="32 "alt=""></a></li>
       <li> <a target="_blank" href="https://twitter.com/censolguayana"><img src="/images/ico/twitter-logo.png" width="32" height="32 "alt=""></a></li>
+      <li> <a target="_blank" href="https://www.youtube.com/channel/UCORYkez6CepZ0JkjVMwC1Lg"><img src="/images/ico/youtube.png" width="32" height="32 "alt=""></a></li>
     </ul>
   </div>
   @endif

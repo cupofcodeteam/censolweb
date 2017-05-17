@@ -36,7 +36,7 @@
                 </div>
               </div>
               <div class="item-content">
-                <p>Censol@censolidiomas.com
+                <p>gerenciageneral@censolidiomas.com
                  </p>
               </div>
             </div>
@@ -48,11 +48,16 @@
                 </div>
               </div>
               <div class="item-content">
-                <p> +58 286 952 6636 OFICINA<p>+58 424 9070166<p>0414 1919464</p>
+                <p> +58 286 952 6636 OFICINA
+                <p>+58 424 9070166 </p>
+                <p>0414 1919464</p>
               </div>
             </div>
           </div>
         </div>
+
+
+
           <div class="row">
             <div class="col-sm-12">
               <div class="text-center">
@@ -96,6 +101,54 @@
             </div>
           </div>
         </div>
+
+        <div class="container extra">
+          <div class="row">
+              <div class="col-md-6">
+                <div class="informacion-1 text-center ">
+                  <h3> <strong>CUENTAS BANCARIAS DE CENSOL GUAYANA C.A.</strong></h3>
+                    <p>
+                       <strong> BANPLUS </strong> <br>
+                      Cta Ctte;    0174 0135 1513 5412 3224 <br>
+                      A nombre de CENTRO DE SOLUCIONES LINGUISTICAS C.A.<br>
+                      RIF: J - 40375055 - 6 <br>
+                      administración@censolidiomas.com </p>
+
+                      <p>
+                      <strong>BANCO OCCIDENTAL DE DESCUENTO</strong> <br>
+                      Cta Ctte,    0116 0094 8600 2019 2339 <br>
+                      A nombre de CENTRO DE SOLUCIONES LINGÜÍSTICAS C.A. <br>
+                      RIF: J - 40375055 - 6 <br>
+                      administración@censolidiomas.com
+                    </p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="informacion-1 text-center">
+                  <h3> <strong>CUENTAS DE CORREOS</strong></h3>
+                  <strong>GERENCIA GENERAL:</strong>
+                  gerenciageneral@censolidiomas.com <br>
+
+                  <strong>ADMINISTRACION:</strong>
+                  administracion@censolidiomas.com <br>
+
+                  <strong>INFORMACIÓN DE IDIOMAS:</strong>
+                  infoidiomas@censolidiomas.com <br>
+
+                  <strong>INFORMACION TRADUCCIONES Y LEGALIZACIONES:</strong>
+                  infotraducciones@censolidiomas.com <br>
+
+                  <strong>INFORMACION CURSOS UNIVERSITARIOS, PROFESIONALES E INDUSTRIALES:</strong>
+                  infocursos@censolidiomas.com
+                </div>
+
+              </div>
+
+          </div>
+
+        </div>
+
 
         <div id="pre-inscripcion">
           <div class="container-fluid">

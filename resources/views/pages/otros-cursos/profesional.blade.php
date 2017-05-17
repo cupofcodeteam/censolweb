@@ -35,9 +35,9 @@
           <div class="col-md-6">
             <img src="/images/ingles/reloj-circular-p.png" align="left" style="margin-right:10px">
             <ul>
-              <li> VIERNES 9:00AM - 12:00PM</li>
-              <li> VIERNES 1:00PM - 4:00PM</li>
-              <li> VIERNES 5:00PM - 8:00PM</li>
+              <li> Viernes 9:00AM - 12:00PM</li>
+              <li> Viernes 1:00PM - 4:00PM</li>
+              <li> Viernes 5:00PM - 8:00PM</li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -72,9 +72,9 @@
           <div class="col-md-6 ">
             <img src="/images/ingles/reloj-circular-p.png" align="left" style="margin-right:10px">
             <ul>
-              <li> VIERNES 9:00AM - 12:00PM</li>
-              <li> VIERNES 1:00PM - 4:00PM</li>
-              <li> VIERNES 5:00PM - 8:00PM</li>
+              <li> Viernes 9:00AM - 12:00PM</li>
+              <li> Viernes 1:00PM - 4:00PM</li>
+              <li> Viernes 5:00PM - 8:00PM</li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -103,9 +103,9 @@
           <div class="col-md-6">
             <img src="/images/ingles/reloj-circular-p.png" align="left" style="margin-right:10px">
             <ul>
-              <li> VIERNES 9:00AM - 12:00PM</li>
-              <li> VIERNES 1:00PM - 4:00PM</li>
-              <li> VIERNES 5:00PM - 8:00PM</li>
+              <li> Viernes 9:00AM - 12:00PM</li>
+              <li> Viernes 1:00PM - 4:00PM</li>
+              <li> Viernes 5:00PM - 8:00PM</li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -150,9 +150,9 @@
           <div class="col-md-6">
             <img src="/images/ingles/reloj-circular-p.png" align="left" style="margin-right:10px">
             <ul>
-              <li> VIERNES 9:00AM - 12:00PM</li>
-              <li> VIERNES 1:00PM - 4:00PM</li>
-              <li> VIERNES 5:00PM - 8:00PM</li>
+              <li> Viernes 9:00AM - 12:00PM</li>
+              <li> Viernes 1:00PM - 4:00PM</li>
+              <li> Viernes 5:00PM - 8:00PM</li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -181,9 +181,9 @@
           <div class="col-md-6">
             <img src="/images/ingles/reloj-circular-p.png" align="left" style="margin-right:10px">
             <ul>
-              <li> VIERNES 9:00AM - 12:00PM</li>
-              <li> VIERNES 1:00PM - 4:00PM</li>
-              <li> VIERNES 5:00PM - 8:00PM</li>
+              <li> Viernes 9:00AM - 12:00PM</li>
+              <li> Viernes 1:00PM - 4:00PM</li>
+              <li> Viernes 5:00PM - 8:00PM</li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -218,9 +218,9 @@
           <div class="col-md-6 ">
             <img src="/images/ingles/reloj-circular-p.png" align="left" style="margin-right:10px">
             <ul>
-              <li> VIERNES 9:00AM - 12:00PM</li>
-              <li> VIERNES 1:00PM - 4:00PM</li>
-              <li> VIERNES 5:00PM - 8:00PM</li>
+              <li> Viernes 9:00AM - 12:00PM</li>
+              <li> Viernes 1:00PM - 4:00PM</li>
+              <li> Viernes 5:00PM - 8:00PM</li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -249,9 +249,9 @@
           <div class="col-md-6">
             <img src="/images/ingles/reloj-circular-p.png" align="left" style="margin-right:10px">
             <ul>
-              <li> VIERNES 9:00AM - 12:00PM</li>
-              <li> VIERNES 1:00PM - 4:00PM</li>
-              <li> VIERNES 5:00PM - 8:00PM</li>
+              <li> Viernes 9:00AM - 12:00PM</li>
+              <li> Viernes 1:00PM - 4:00PM</li>
+              <li> Viernes 5:00PM - 8:00PM</li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -296,9 +296,9 @@
           <div class="col-md-6">
             <img src="/images/ingles/reloj-circular-p.png" align="left" style="margin-right:10px">
             <ul>
-              <li> VIERNES 9:00AM - 12:00PM</li>
-              <li> VIERNES 1:00PM - 4:00PM</li>
-              <li> VIERNES 5:00PM - 8:00PM</li>
+              <li> Viernes 9:00AM - 12:00PM</li>
+              <li> Viernes 1:00PM - 4:00PM</li>
+              <li> Viernes 5:00PM - 8:00PM</li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -326,9 +326,9 @@
           <div class="col-md-6">
             <img src="/images/ingles/reloj-circular-p.png" align="left" style="margin-right:10px">
             <ul>
-              <li> VIERNES 9:00AM - 12:00PM</li>
-              <li> VIERNES 1:00PM - 4:00PM</li>
-              <li> VIERNES 5:00PM - 8:00PM</li>
+              <li> Viernes 9:00AM - 12:00PM</li>
+              <li> Viernes 1:00PM - 4:00PM</li>
+              <li> Viernes 5:00PM - 8:00PM</li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -363,15 +363,48 @@
           <div class="col-md-6 ">
             <img src="/images/ingles/reloj-circular-p.png" align="left" style="margin-right:10px">
             <ul>
-              <li> VIERNES 9:00AM - 12:00PM</li>
-              <li> VIERNES 1:00PM - 4:00PM</li>
-              <li> VIERNES 5:00PM - 8:00PM</li>
+              <li> Viernes 9:00AM - 12:00PM</li>
+              <li> Viernes 1:00PM - 4:00PM</li>
+              <li> Viernes 5:00PM - 8:00PM</li>
             </ul>
           </div>
           <div class="col-md-6">
             <p><img src="/images/ingles/calendario-p.png"align="left" style="margin-right:10px" > 8 semanas (48 horas)</p>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="informacion-1" class="">
+  <div class="container">
+    <div class="row padding-bottom">
+      <div class="col-md-8 ">
+        <h2 style="margin-bottom:40px">Administración de Proyectos</h2>
+        <!-- <ul>
+          <li> <strong>TEMA 1:</strong> ¿Qué es servicio de excelencia?</li>
+          <li> <strong>TEMA 2:</strong> Servicio al Cliente</li>
+          <li> <strong>TEMA 3:</strong> Los diez mandamientos de la atención al cliente</li>
+          <li> <strong>TEMA 4:</strong> Nuestros roles y responsabilidades</li>
+          <li> <strong>TEMA 5:</strong> 6 claves para lograr el éxito mediante el servicio al cliente</li>
+        </ul> -->
+        <div class="row" style="margin-top:20px">
+          <div class="col-md-6">
+            <img src="/images/ingles/reloj-circular-p.png" align="left" style="margin-right:10px">
+            <ul>
+              <li> Horario nocturno </li>
+              <!-- <li> Viernes 1:00PM - 4:00PM</li>
+              <li> Viernes 5:00PM - 8:00PM</li> -->
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <p><img src="/images/ingles/calendario-p.png"align="left" style="margin-right:10px" > Dos veces por semana  (16 horas)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <img class="img-responsive appear-left" src="/images/otros-cursos/administacion.jpg">
       </div>
     </div>
   </div>

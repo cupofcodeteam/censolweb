@@ -125,7 +125,7 @@
                 <div class="col-md-6">
                   <div class="content">
                     <h2 style="color:#ff7900;font-weight: bold;"> Passages  I</h2>
-                    <p> Los estudiantes serán capaces de comprender ideas principales de textos con cierto tipo de complejidad que hable sobre concretos y abstractos tópicos, incluyendo técnicas de debates especializado. Ellos pueden interactuar con un nivel de fluidez, precisión  y espontaneidad. <br>
+                    <p> Los estudiantes serán capaces de comprender ideas principales de textos con cierto tipo de complejidad que hable sobre temas concretos y abstractos tópicos, incluyendo técnicas de debates especializado. Ellos pueden interactuar con un nivel de fluidez, precisión  y espontaneidad. <br>
                     Por lo tanto, pueden interactuar con nativos de la lengua sin ningún tipo de presión o tensión.  También pueden producir claro, detallado y elaborado ensayos sobre una diversidad de tópicos así como explicar un punto de vista en particular, presentando ventajas y desventajas de una variedad de temas.
                     </p>
                   </div>
@@ -291,8 +291,8 @@
 
         <div class="col-md-6 izquierda" >
           <div class="texto appear-tilt-l">
-            <h2>¿Quieres trabajar con nosotros?</h2>
-            <a target="_blank" href="/contacto" class="btn btn-primary">Contáctenos</a>
+            <h2>¡Contacta con Nosotros! </h2>
+            <a target="_blank" href="/contacto" class="btn btn-primary">Ir</a>
           </div>
         </div>
 
